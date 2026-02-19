@@ -1,0 +1,21 @@
+modLoader="lowcodefml"
+showAsResourcePack = false
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="dark_soldier_armor"
+version="1.0.0"
+logoFile = "logo.png"
+logoBlur = false
+displayName="Dark soldier armor"
+description='''
+Adds a Dark soldier armor to a Satsu's iron man addon
+'''
+
+[[dependencies.dark_soldier_armor]]
+modId = "palladium"
+mandatory = true
+versionRange = "[4.4.1,)"
+ordering = "NONE"
+side = "BOTH"

@@ -1,0 +1,13 @@
+{
+    "pack": {
+        "id": "dark_soldier_armor",
+        "pack_format": 15,
+        "description": "Adds a Dark soldier armor to a Satsu's iron man addon",
+        "version": "1.0.0"
+    },
+    "dependencies": {
+        "common": {},
+        "fabric": {},
+        "forge": {}
+    }
+}

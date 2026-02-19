@@ -1,0 +1,13 @@
+{
+    "schemaVersion": 1,
+    "authors": [
+        "Satsu's"
+    ],
+    "environment": "*",
+    "id": "dark_soldier_armor",
+    "version": "1.0.0",
+    "name": "Dark soldier armor",
+    "description": "Adds a Dark soldier armor to a Satsu's iron man addon",
+    "icon": "logo.png",
+    "license": "All rights reserved"
+}
