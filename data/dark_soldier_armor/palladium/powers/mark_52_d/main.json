@@ -7228,8 +7228,8 @@
       "type": "satsu_iron_man_addon:add_power_per_tick",
       "hidden": true,
       "hidden_in_bar": true,
-      "power_path": "satsu_iron_man_addon",
-      "powerid": "iron_man/marks/mark_52_d/beams/hands/energy_beams_hands",
+      "power_path": "dark_soldier_armor",
+      "powerid": "mark_52_d/beams/hands/energy_beams_hands",
       "conditions": {
         "enabling": [
           {
@@ -7264,8 +7264,8 @@
       "type": "satsu_iron_man_addon:add_power_per_tick",
       "hidden": true,
       "hidden_in_bar": true,
-      "power_path": "satsu_iron_man_addon",
-      "powerid": "iron_man/marks/mark_52_d/beams/hands/energy_beams_hands_powerfull_1",
+      "power_path": "dark_soldier_armor",
+      "powerid": "mark_52_d/beams/hands/energy_beams_hands_powerfull_1",
       "conditions": {
         "enabling": [
           {
@@ -7295,8 +7295,8 @@
       "type": "satsu_iron_man_addon:add_power_per_tick",
       "hidden": true,
       "hidden_in_bar": true,
-      "power_path": "satsu_iron_man_addon",
-      "powerid": "iron_man/marks/mark_52_d/beams/hands/energy_beams_hands_powerfull_2",
+      "power_path": "dark_soldier_armor",
+      "powerid": "mark_52_d/beams/hands/energy_beams_hands_powerfull_2",
       "conditions": {
         "enabling": [
           {
@@ -8087,8 +8087,8 @@
       "type": "satsu_iron_man_addon:add_power_per_tick",
       "hidden": true,
       "hidden_in_bar": true,
-      "power_path": "satsu_iron_man_addon",
-      "powerid": "iron_man/marks/mark_52_d/beams/hands/red/energy_beams_hands",
+      "power_path": "dark_soldier_armor",
+      "powerid": "mark_52_d/beams/hands/red/energy_beams_hands",
       "conditions": {
         "enabling": [
           {
@@ -8134,7 +8134,7 @@
         "Appearances": [
           {
             "Type": "trail",
-            "Trail": "satsu_iron_man_addon:blast/yellow/yellow"
+            "Trail": "satsu_iron_man_addon:blast/blue/blue"
           }
         ]
       },
@@ -8175,7 +8175,7 @@
         "Appearances": [
           {
             "Type": "trail",
-            "Trail": "satsu_iron_man_addon:blast/yellow/yellow"
+            "Trail": "satsu_iron_man_addon:blast/blue/blue"
           }
         ]
       },
@@ -8747,7 +8747,7 @@
             "conditions": [
               {
                 "type": "palladium:ability_integer_property",
-                "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
+                "power": "dark_soldier_armor:mark_52_d/main",
                 "ability": "bones_colocation_left_arm",
                 "property": "value",
                 "min": 1,
@@ -8989,8 +8989,8 @@
       "type": "satsu_iron_man_addon:add_power_per_tick",
       "hidden": true,
       "hidden_in_bar": true,
-      "power_path": "satsu_iron_man_addon",
-      "powerid": "iron_man/marks/mark_52_d/beams/chest/beam",
+      "power_path": "dark_soldier_armor",
+      "powerid": "mark_52_d/beams/chest/beam",
       "conditions": {
         "enabling": [
           {
@@ -9029,8 +9029,8 @@
       "type": "satsu_iron_man_addon:add_power_per_tick",
       "hidden": true,
       "hidden_in_bar": true,
-      "power_path": "satsu_iron_man_addon",
-      "powerid": "iron_man/marks/mark_52_d/beams/chest/energy_beams_powerfull_1",
+      "power_path": "dark_soldier_armor",
+      "powerid": "mark_52_d/beams/chest/energy_beams_powerfull_1",
       "conditions": {
         "enabling": [
           {
@@ -9054,8 +9054,8 @@
       "type": "satsu_iron_man_addon:add_power_per_tick",
       "hidden": true,
       "hidden_in_bar": true,
-      "power_path": "satsu_iron_man_addon",
-      "powerid": "iron_man/marks/mark_52_d/beams/chest/energy_beams_powerfull_2",
+      "power_path": "dark_soldier_armor",
+      "powerid": "mark_52_d/beams/chest/energy_beams_powerfull_2",
       "conditions": {
         "enabling": [
           {
