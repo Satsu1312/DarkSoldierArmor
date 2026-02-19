@@ -9,14 +9,14 @@
         "transformers": [
           {
             "type": "palladium:alpha_mask",
-            "mask": "satsu_iron_man_addon:textures/models/alpha_masks/armors/helmet/parts_ensamble/#TIMER.png"
+            "mask": "satsu_iron_man_addon:textures/models/alpha_masks/armors/helmet/nano_mask_new_model/nano_mask_#TIMER.png"
           }
         ],
         "variables": {
           "TIMER": {
             "type": "palladium:ability_integer_property",
             "power": "dark_soldier_armor:mark_52_d/main",
-            "ability": "head_animation",
+            "ability": "mask_animation_timer",
             "property": "value",
             "min": 0,
             "max": 17
@@ -25,7 +25,13 @@
             "type": "palladium:objective_score",
             "objective": "satsu.iron.man.armor",
             "min": 0,
-            "max": 54
+            "max": 59
+          },
+          "Y": {
+            "type": "palladium:integer_property",
+            "property": "satsu_mask_value",
+            "min": 0,
+            "max": 1
           }
         },
         "output": "dark_soldier_armor:textures/models/addon_armor/no_light/mask/mark_52_d_#TIMER"
@@ -37,36 +43,11 @@
           "transition_tick_time": 10,
           "triggers": {
             "mask.up": "open",
-            "mask.on": "close",
-            "call.part.head": "animation.minecraft:call.head",
-            "call.part.front": "animation.minecraft:call.front"
+            "mask.on": "close"
           }
         }
       ],
-      "conditions": [
-        {
-          "type": "palladium:or",
-          "conditions": [
-            {
-              "type": "palladium:ability_integer_property",
-              "power": "dark_soldier_armor:mark_52_d/main",
-              "ability": "head_animation",
-              "property": "value",
-              "min": 0,
-              "max": 19
-            },
-            {
-              "type": "satsu_iron_man_addon:has_property",
-              "property": "satsu_iron_man_addon.head",
-              "property_value": "on"
-            },
-            {
-              "type": "palladium:entity_type_tag",
-              "entity_type_tag": "satsu_iron_man_addon:player"
-            }
-          ]
-        }
-      ]
+      "conditions": []
     },
     {
       "type": "geckolib:default",
@@ -76,14 +57,14 @@
         "transformers": [
           {
             "type": "palladium:alpha_mask",
-            "mask": "satsu_iron_man_addon:textures/models/alpha_masks/armors/helmet/parts_ensamble/#TIMER.png"
+            "mask": "satsu_iron_man_addon:textures/models/alpha_masks/armors/helmet/nano_mask_new_model/nano_mask_#TIMER.png"
           }
         ],
         "variables": {
           "TIMER": {
             "type": "palladium:ability_integer_property",
             "power": "dark_soldier_armor:mark_52_d/main",
-            "ability": "head_animation",
+            "ability": "mask_animation_timer",
             "property": "value",
             "min": 0,
             "max": 17
@@ -105,35 +86,11 @@
           "transition_tick_time": 10,
           "triggers": {
             "mask.up": "open",
-            "mask.on": "close",
-            "call.part.head": "animation.minecraft:call.head",
-            "call.part.front": "animation.minecraft:call.front"
+            "mask.on": "close"
           }
         }
       ],
       "conditions": [
-        {
-          "type": "palladium:or",
-          "conditions": [
-            {
-              "type": "palladium:ability_integer_property",
-              "power": "dark_soldier_armor:mark_52_d/main",
-              "ability": "head_animation",
-              "property": "value",
-              "min": 0,
-              "max": 19
-            },
-            {
-              "type": "satsu_iron_man_addon:has_property",
-              "property": "satsu_iron_man_addon.head",
-              "property_value": "on"
-            },
-            {
-              "type": "palladium:entity_type_tag",
-              "entity_type_tag": "satsu_iron_man_addon:player"
-            }
-          ]
-        },
         {
           "type": "palladium:or",
           "conditions": [

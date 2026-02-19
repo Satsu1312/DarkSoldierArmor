@@ -54,10 +54,10 @@
                 "conditions": [
                   {
                     "type": "palladium:ability_integer_property",
-                    "ability": "head_animation",
+                    "ability": "mask_animation_timer",
                     "property": "value",
-                    "min": 19,
-                    "max": 19
+                    "min": 17,
+                    "max": 17
                   },
                   {
                     "type": "gravestone:perspective",
@@ -86,10 +86,10 @@
                 "conditions": [
                   {
                     "type": "palladium:ability_integer_property",
-                    "ability": "head_animation",
+                    "ability": "mask_animation_timer",
                     "property": "value",
-                    "min": 19,
-                    "max": 19
+                    "min": 17,
+                    "max": 17
                   },
                   {
                     "type": "palladium:not",
@@ -459,10 +459,10 @@
           },
           {
             "type": "palladium:ability_integer_property",
-            "ability": "head_animation",
+            "ability": "mask_animation_timer",
             "property": "value",
-            "min": 19,
-            "max": 19
+            "min": 17,
+            "max": 17
           }
         ],
         "unlocking": []
@@ -1384,8 +1384,7 @@
             ]
           }
         ],
-        "unlocking": [
-        ]
+        "unlocking": []
       }
     },
     "durability.left.leg": {
@@ -1461,8 +1460,7 @@
             ]
           }
         ],
-        "unlocking": [
-        ]
+        "unlocking": []
       }
     },
     "durability.right.leg": {
@@ -1538,8 +1536,7 @@
             ]
           }
         ],
-        "unlocking": [
-        ]
+        "unlocking": []
       }
     },
     "durability.left.shoulder": {
@@ -1615,8 +1612,7 @@
             ]
           }
         ],
-        "unlocking": [
-        ]
+        "unlocking": []
       }
     },
     "durability.right.shoulder": {
@@ -1692,8 +1688,7 @@
             ]
           }
         ],
-        "unlocking": [
-        ]
+        "unlocking": []
       }
     },
     "durability.chest": {
@@ -1769,8 +1764,7 @@
             ]
           }
         ],
-        "unlocking": [
-        ]
+        "unlocking": []
       }
     },
     "durability.head": {
@@ -1927,8 +1921,7 @@
             "max_score": 1
           }
         ],
-        "unlocking": [
-        ]
+        "unlocking": []
       }
     },
     "armor_toughness": {
@@ -1994,8 +1987,7 @@
             ]
           }
         ],
-        "unlocking": [
-        ]
+        "unlocking": []
       }
     },
     "strength.right.arm": {
@@ -2740,10 +2732,10 @@
               },
               {
                 "type": "palladium:ability_integer_property",
-                "ability": "head_animation",
+                "ability": "mask_animation_timer",
                 "property": "value",
                 "min": 1,
-                "max": 19
+                "max": 17
               }
             ]
           }
@@ -2759,7 +2751,7 @@
         "unlocking": [
           {
             "type": "palladium:ability_integer_property",
-            "ability": "head_animation",
+            "ability": "mask_animation_timer",
             "property": "value",
             "min": 4,
             "max": 20
@@ -2884,11 +2876,6 @@
             "conditions": [
               {
                 "type": "satsu_iron_man_addon:has_property",
-                "property": "satsu_iron_man_addon.head",
-                "property_value": "on"
-              },
-              {
-                "type": "satsu_iron_man_addon:has_property",
                 "property": "satsu_iron_man_addon.chest",
                 "property_value": "on"
               },
@@ -2941,6 +2928,84 @@
             ]
           }
         ]
+      }
+    },
+    "mask_animation_timer": {
+      "type": "palladium:animation_timer",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "start_value": 0,
+      "max_value": 17,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "chest_animation",
+            "property": "value",
+            "min": 16,
+            "max": 16
+          },
+          {
+            "type": "palladium:or",
+            "conditions": [
+              {
+                "type": "palladium:and",
+                "conditions": [
+                  {
+                    "type": "satsu_iron_man_addon:has_property",
+                    "property": "satsu_iron_man_addon_armor_activated",
+                    "property_value": "on"
+                  },
+                  {
+                    "type": "palladium:and",
+                    "conditions": [
+                      {
+                        "type": "satsu_iron_man_addon:has_property",
+                        "property": "satsu_iron_man_addon.head",
+                        "property_value": "on"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "palladium:not",
+                    "conditions": [
+                      {
+                        "type": "palladium:ability_enabled",
+                        "ability": "all_pieces"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "palladium:and",
+                "conditions": [
+                  {
+                    "type": "satsu_iron_man_addon:has_property",
+                    "property": "satsu_iron_man_addon_armor_activated",
+                    "property_value": "on"
+                  },
+                  {
+                    "type": "satsu_iron_man_addon:has_property",
+                    "property": "satsu_iron_man_addon.head",
+                    "property_value": "on"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "palladium:not",
+            "conditions": [
+              {
+                "type": "palladium:ability_enabled",
+                "power": "satsu_iron_man_addon:iron_man/marks/mark_85/repair_self/main",
+                "ability": "modify"
+              }
+            ]
+          }
+        ],
+        "unlocking": []
       }
     },
     "left_shoulder_animation": {
@@ -3407,85 +3472,6 @@
         ]
       }
     },
-    "head_animation": {
-      "type": "palladium:animation_timer",
-      "hidden": true,
-      "hidden_in_bar": true,
-      "start_value": 0,
-      "max_value": 19,
-      "conditions": {
-        "enabling": [
-          {
-            "type": "palladium:or",
-            "conditions": [
-              {
-                "type": "palladium:and",
-                "conditions": [
-                  {
-                    "type": "palladium:integer_property",
-                    "property": "satsu_animation_armor",
-                    "min": 1,
-                    "max": 1
-                  },
-                  {
-                    "type": "palladium:and",
-                    "conditions": [
-                      {
-                        "type": "satsu_iron_man_addon:has_property",
-                        "property": "satsu_iron_man_addon.head",
-                        "property_value": "on"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "palladium:not",
-                    "conditions": [
-                      {
-                        "type": "palladium:ability_enabled",
-                        "ability": "armor_activate.animation_timer.mark.41-42"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "palladium:and",
-                "conditions": [
-                  {
-                    "type": "palladium:ability_integer_property",
-                    "ability": "armor_activate.animation_timer.mark.41-42",
-                    "property": "value",
-                    "min": 45,
-                    "max": 64
-                  },
-                  {
-                    "type": "satsu_iron_man_addon:has_property",
-                    "property": "satsu_iron_man_addon.head",
-                    "property_value": "on"
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "unlocking": [
-          {
-            "type": "palladium:or",
-            "conditions": [
-              {
-                "type": "palladium:ability_unlocked",
-                "ability": "armor"
-              },
-              {
-                "type": "palladium:ability_enabled",
-                "power": "satsu_iron_man_addon:iron_man/main_power/main",
-                "ability": "enable_armor"
-              }
-            ]
-          }
-        ]
-      }
-    },
     "chest_animation": {
       "type": "palladium:animation_timer",
       "hidden": true,
@@ -3584,7 +3570,7 @@
             "conditions": [
               {
                 "type": "palladium:ability_enabled",
-                "ability": "head_animation",
+                "ability": "mask_animation_timer",
                 "property": "value",
                 "min": 1,
                 "max": 31
@@ -4054,124 +4040,6 @@
         ]
       }
     },
-    "head_animation.trigger": {
-      "type": "geckolib:render_layer_animation",
-      "hidden": true,
-      "hidden_in_bar": true,
-      "render_layer": "dark_soldier_armor:addon_armor/mark_52_d/mask/main",
-      "controller": "mask.up",
-      "animation_trigger": "call.part.head",
-      "conditions": {
-        "enabling": [
-          {
-            "type": "palladium:or",
-            "conditions": [
-              {
-                "type": "palladium:and",
-                "conditions": [
-                  {
-                    "type": "palladium:ability_integer_property",
-                    "ability": "head_animation",
-                    "property": "value",
-                    "min": 1,
-                    "max": 1
-                  },
-                  {
-                    "type": "palladium:ability_enabled",
-                    "ability": "head_animation"
-                  },
-                  {
-                    "type": "satsu_iron_man_addon:has_property",
-                    "property": "satsu_iron_man_addon.head",
-                    "property_value": "on"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "head_animation_front.trigger": {
-      "type": "geckolib:render_layer_animation",
-      "hidden": true,
-      "hidden_in_bar": true,
-      "render_layer": "dark_soldier_armor:addon_armor/mark_52_d/mask/main",
-      "controller": "mask.up",
-      "animation_trigger": "call.part.front",
-      "conditions": {
-        "enabling": [
-          {
-            "type": "palladium:or",
-            "conditions": [
-              {
-                "type": "palladium:and",
-                "conditions": [
-                  {
-                    "type": "palladium:ability_integer_property",
-                    "ability": "head_animation",
-                    "property": "value",
-                    "min": 16,
-                    "max": 17
-                  },
-                  {
-                    "type": "satsu_iron_man_addon:has_property",
-                    "property": "satsu_iron_man_addon_armor_activated",
-                    "property_value": "on"
-                  },
-                  {
-                    "type": "satsu_iron_man_addon:has_property",
-                    "property": "satsu_iron_man_addon.head",
-                    "property_value": "on"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "sound.call_mask": {
-      "type": "palladium:play_sound",
-      "hidden": true,
-      "hidden_in_bar": true,
-      "sound": "satsu_iron_man_addon:call_parts_mask",
-      "volume": 1,
-      "pitch": 1,
-      "looping": true,
-      "play_self": true,
-      "conditions": {
-        "enabling": [
-          {
-            "type": "palladium:or",
-            "conditions": [
-              {
-                "type": "palladium:and",
-                "conditions": [
-                  {
-                    "type": "palladium:ability_integer_property",
-                    "ability": "head_animation",
-                    "property": "value",
-                    "min": 15,
-                    "max": 17
-                  },
-                  {
-                    "type": "satsu_iron_man_addon:has_property",
-                    "property": "satsu_iron_man_addon_armor_activated",
-                    "property_value": "on"
-                  },
-                  {
-                    "type": "satsu_iron_man_addon:has_property",
-                    "property": "satsu_iron_man_addon.head",
-                    "property_value": "on"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    },
     "sound.call_arms": {
       "type": "palladium:command",
       "hidden": true,
@@ -4373,47 +4241,6 @@
                   {
                     "type": "satsu_iron_man_addon:has_property",
                     "property": "satsu_iron_man_addon.chest",
-                    "property_value": "on"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "sound.call_head": {
-      "type": "palladium:play_sound",
-      "hidden": true,
-      "hidden_in_bar": true,
-      "sound": "satsu_iron_man_addon:call_parts_head",
-      "volume": 1,
-      "pitch": 1,
-      "looping": true,
-      "play_self": true,
-      "conditions": {
-        "enabling": [
-          {
-            "type": "palladium:or",
-            "conditions": [
-              {
-                "type": "palladium:and",
-                "conditions": [
-                  {
-                    "type": "palladium:ability_integer_property",
-                    "ability": "head_animation",
-                    "property": "value",
-                    "min": 1,
-                    "max": 5
-                  },
-                  {
-                    "type": "satsu_iron_man_addon:has_property",
-                    "property": "satsu_iron_man_addon_armor_activated",
-                    "property_value": "on"
-                  },
-                  {
-                    "type": "satsu_iron_man_addon:has_property",
-                    "property": "satsu_iron_man_addon.head",
                     "property_value": "on"
                   }
                 ]
@@ -4951,100 +4778,6 @@
         ]
       }
     },
-    "mask.up.animation_timer": {
-      "type": "palladium:animation_timer",
-      "hidden": true,
-      "hidden_in_bar": true,
-      "start_value": 0,
-      "max_value": 1,
-      "conditions": {
-        "enabling": [
-          {
-            "type": "palladium:integer_property",
-            "property": "satsu_mask_value",
-            "min": 0,
-            "max": 0
-          }
-        ]
-      }
-    },
-    "mask.up.trigger": {
-      "type": "geckolib:render_layer_animation",
-      "hidden": true,
-      "hidden_in_bar": true,
-      "render_layer": "dark_soldier_armor:addon_armor/mark_52_d/mask/main",
-      "controller": "mask.up",
-      "animation_trigger": "mask.up",
-      "conditions": {
-        "enabling": [
-          {
-            "type": "palladium:integer_property",
-            "property": "satsu_mask_value",
-            "min": 0,
-            "max": 0
-          },
-          {
-            "type": "palladium:ability_integer_property",
-            "ability": "mask.up.animation_timer",
-            "property": "value",
-            "min": 1,
-            "max": 1
-          }
-        ]
-      }
-    },
-    "mask.on.trigger": {
-      "type": "geckolib:render_layer_animation",
-      "hidden": true,
-      "hidden_in_bar": true,
-      "render_layer": "dark_soldier_armor:addon_armor/mark_52_d/mask/main",
-      "controller": "mask.up",
-      "animation_trigger": "mask.on",
-      "conditions": {
-        "enabling": [
-          {
-            "type": "palladium:or",
-            "conditions": [
-              {
-                "type": "palladium:and",
-                "conditions": [
-                  {
-                    "type": "palladium:integer_property",
-                    "property": "satsu_mask_value",
-                    "min": 1,
-                    "max": 1
-                  },
-                  {
-                    "type": "palladium:ability_enabled",
-                    "ability": "mask_activate"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "mask_sound": {
-      "type": "palladium:play_sound",
-      "hidden": true,
-      "hidden_in_bar": true,
-      "sound": "satsu_iron_man_addon:new_mask_sound",
-      "volume": 1,
-      "pitch": 1,
-      "looping": false,
-      "play_self": false,
-      "play_others": false,
-      "conditions": {
-        "enabling": [
-          {
-            "type": "palladium:ability_enabled",
-            "ability": "mask_activate"
-          }
-        ],
-        "unlocking": []
-      }
-    },
     "particles.right_hand.left_hand": {
       "type": "palladium:particles",
       "hidden": true,
@@ -5197,7 +4930,6 @@
       "abilities": [
         "call.all",
         "call.chest",
-        "call.head",
         "call.right_leg",
         "call.right_arm",
         "call.right_shoulder",
@@ -5273,30 +5005,6 @@
       "power": "satsu_iron_man_addon:armor/parts/throw/chest",
       "hidden": true,
       "hidden_in_bar": false,
-      "capacity": "add",
-      "conditions": {
-        "enabling": [
-          {
-            "type": "palladium:ability_wheel",
-            "cooldown": 0
-          }
-        ],
-        "unlocking": [
-          {
-            "type": "palladium:ability_enabled",
-            "ability": "call"
-          }
-        ]
-      }
-    },
-    "call.head": {
-      "type": "satsu_iron_man_addon:superpower",
-      "icon": "satsu_iron_man_addon:textures/gui/armors/marks_abilities/call/head.png",
-      "title": { "translate": "ability.title.satsu.part.head" },
-      "description": { "translate": "description.satsu.part.head" },
-      "hidden": true,
-      "hidden_in_bar": false,
-      "power": "satsu_iron_man_addon:armor/parts/throw/head",
       "capacity": "add",
       "conditions": {
         "enabling": [
@@ -5457,93 +5165,6 @@
         ]
       }
     },
-    "call.sentinel": {
-      "type": "palladium:command",
-      "icon": "satsu_iron_man_addon:textures/gui/armors/ia/abilities/sentinel.png",
-      "title": { "translate": "ability.title.satsu.enable.sentinel" },
-      "description": { "translate": "description.satsu.enable.sentinel" },
-      "hidden": true,
-      "hidden_in_bar": false,
-      "first_tick_commands": [
-        "superpower add satsu_iron_man_addon:armor/parts/throw/all",
-        "function satsu_iron_man_addon:sentinels/spawn_false_sentinel"
-      ],
-      "commands": [""],
-      "conditions": {
-        "enabling": [
-          {
-            "type": "palladium:ability_wheel",
-            "cooldown": 0
-          }
-        ],
-        "unlocking": [
-          {
-            "type": "palladium:ability_enabled",
-            "ability": "call"
-          },
-          {
-            "type": "palladium:not",
-            "conditions": [
-              {
-                "type": "palladium:ability_enabled",
-                "power": "satsu_iron_man_addon:ia_stuff/ia_voice_commands",
-                "ability": "enabled_remote.dummy"
-              }
-            ]
-          },
-          {
-            "type": "palladium:or",
-            "conditions": [
-              {
-                "type": "palladium:and",
-                "conditions": [
-                  {
-                    "type": "satsu_iron_man_addon:has_property",
-                    "property": "satsu_iron_man_addon.head",
-                    "property_value": "on"
-                  },
-                  {
-                    "type": "satsu_iron_man_addon:has_property",
-                    "property": "satsu_iron_man_addon.chest",
-                    "property_value": "on"
-                  },
-                  {
-                    "type": "satsu_iron_man_addon:has_property",
-                    "property": "satsu_iron_man_addon.right_arm",
-                    "property_value": "on"
-                  },
-                  {
-                    "type": "satsu_iron_man_addon:has_property",
-                    "property": "satsu_iron_man_addon.left_arm",
-                    "property_value": "on"
-                  },
-                  {
-                    "type": "satsu_iron_man_addon:has_property",
-                    "property": "satsu_iron_man_addon.right_shoulder",
-                    "property_value": "on"
-                  },
-                  {
-                    "type": "satsu_iron_man_addon:has_property",
-                    "property": "satsu_iron_man_addon.left_shoulder",
-                    "property_value": "on"
-                  },
-                  {
-                    "type": "satsu_iron_man_addon:has_property",
-                    "property": "satsu_iron_man_addon.right_leg",
-                    "property_value": "on"
-                  },
-                  {
-                    "type": "satsu_iron_man_addon:has_property",
-                    "property": "satsu_iron_man_addon.left_leg",
-                    "property_value": "on"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    },
     "remove_sentinel.normal.method": {
       "type": "palladium:command",
       "icon": "#satsu_iron_man_addon:enable_armor_icon",
@@ -5674,10 +5295,79 @@
         ]
       }
     },
-    "mask_activate": {
+    "mask_wheel": {
+      "type": "palladium:ability_wheel",
+      "icon": "satsu_iron_man_addon:textures/gui/armors/marks_abilities/85/mask/front_up.png",
+      "title": { "translate": "ability.title.satsu.mark.85.front.up" },
+      "description": { "translate": "description.armor_skill_bar" },
+      "hidden": true,
+      "hidden_in_bar": false,
+      "list_index": 1,
+      "abilities": ["collapse_mask", "mask_activate_old"],
+      "texture": "null",
+      "disable_mouse_scrolling": false,
+      "disable_center_icon": false,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:held"
+          }
+        ],
+        "unlocking": [
+          {
+            "type": "palladium:ability_unlocked",
+            "ability": "armor"
+          },
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "chest_animation",
+            "property": "value",
+            "min": 16,
+            "max": 16
+          },
+          {
+            "type": "palladium:integer_property",
+            "property": "satsu_iron_man_iron_man_energy",
+            "min": 1,
+            "max": 2147483647
+          }
+        ]
+      }
+    },
+    "collapse_mask": {
+      "type": "satsu_iron_man_addon:superpower",
+      "icon": "satsu_iron_man_addon:textures/gui/armors/marks_abilities/call/head.png",
+      "title": { "translate": "ability.title.satsu.part.head" },
+      "description": { "translate": "description.satsu.part.head" },
+      "hidden": true,
+      "hidden_in_bar": false,
+      "power": "satsu_iron_man_addon:armor/parts/throw/head",
+      "capacity": "add",
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_wheel",
+            "cooldown": 0
+          }
+        ],
+        "unlocking": [
+          {
+            "type": "palladium:ability_unlocked",
+            "ability": "armor"
+          },
+          {
+            "type": "palladium:integer_property",
+            "property": "satsu_iron_man_iron_man_energy",
+            "min": 1,
+            "max": 2147483647
+          }
+        ]
+      }
+    },
+    "mask_activate_old": {
       "type": "palladium:dummy",
-      "icon": "#satsu_iron_man_addon:mask_icon",
-      "title": { "translate": "ability.title.satsu.enable_mask" },
+      "icon": "satsu_iron_man_addon:textures/gui/armors/marks_abilities/85/mask/front_up.png",
+      "title": { "translate": "ability.title.satsu.mark.85.front.up" },
       "description": { "translate": "description.armor_skill_bar" },
       "hidden": true,
       "hidden_in_bar": false,
@@ -5685,82 +5375,42 @@
       "conditions": {
         "enabling": [
           {
-            "type": "palladium:action",
+            "type": "palladium:ability_wheel",
             "cooldown": 0
           }
         ],
         "unlocking": [
           {
-            "type": "palladium:ability_integer_property",
-            "ability": "head_animation",
-            "property": "value",
-            "min": 19,
-            "max": 19
+            "type": "palladium:ability_unlocked",
+            "ability": "armor"
           },
           {
-            "type": "satsu_iron_man_addon:has_property",
-            "property": "satsu_iron_man_addon.head",
-            "property_value": "on"
+            "type": "palladium:ability_integer_property",
+            "ability": "mask_animation_timer",
+            "property": "value",
+            "min": 17,
+            "max": 17
           },
           {
             "type": "palladium:integer_property",
             "property": "satsu_iron_man_iron_man_energy",
             "min": 1,
             "max": 2147483647
-          },
-          {
-            "type": "palladium:ability_unlocked",
-            "ability": "armor"
-          },
-          {
-            "type": "satsu_iron_man_addon:has_property",
-            "property": "satsu_iron_man_addon_armor_activated",
-            "property_value": "on"
           }
         ]
       }
     },
-    "mask_set.0": {
+    "mask_old.1": {
       "type": "satsu_iron_man_addon:set_property",
       "hidden": true,
-      "hidden_in_bar": true,
-      "name": "satsu_mask_value",
-      "number": 0,
-      "conditions": {
-        "enabling": [
-          {
-            "type": "palladium:ability_enabled",
-            "ability": "mask_activate"
-          },
-          {
-            "type": "palladium:integer_property",
-            "property": "satsu_mask_value",
-            "min": 1,
-            "max": 1
-          },
-          {
-            "type": "palladium:not",
-            "conditions": [
-              {
-                "type": "palladium:ability_enabled",
-                "ability": "mask_set.1"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "mask_set.1": {
-      "type": "satsu_iron_man_addon:set_property",
-      "hidden": true,
-      "hidden_in_bar": true,
+      "hidden_in_bar": false,
       "name": "satsu_mask_value",
       "number": 1,
       "conditions": {
         "enabling": [
           {
             "type": "palladium:ability_enabled",
-            "ability": "mask_activate"
+            "ability": "mask_activate_old"
           },
           {
             "type": "palladium:integer_property",
@@ -5773,11 +5423,81 @@
             "conditions": [
               {
                 "type": "palladium:ability_enabled",
-                "ability": "mask_set.0"
+                "ability": "mask_old.0"
               }
             ]
           }
         ]
+      }
+    },
+    "mask_old.0": {
+      "type": "satsu_iron_man_addon:set_property",
+      "hidden": true,
+      "hidden_in_bar": false,
+      "name": "satsu_mask_value",
+      "number": 0,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_enabled",
+            "ability": "mask_activate_old"
+          },
+          {
+            "type": "palladium:integer_property",
+            "property": "satsu_mask_value",
+            "min": 1,
+            "max": 1
+          }
+        ]
+      }
+    },
+    "mask_sound": {
+      "type": "palladium:play_sound",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "sound": "satsu_iron_man_addon:new_mask_sound",
+      "volume": 1,
+      "pitch": 1,
+      "looping": false,
+      "play_self": false,
+      "play_others": false,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_enabled",
+            "ability": "mask_activate_old"
+          }
+        ],
+        "unlocking": []
+      }
+    },
+    "mask_sound_46": {
+      "type": "palladium:play_sound",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "sound": "satsu_iron_man_addon:entity.armor.mark.46.mask.1",
+      "volume": 1,
+      "pitch": 1,
+      "looping": false,
+      "play_self": false,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "chest_animation",
+            "property": "value",
+            "min": 16,
+            "max": 16
+          },
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "mask_animation_timer",
+            "property": "value",
+            "min": 8,
+            "max": 16
+          }
+        ],
+        "unlocking": []
       }
     },
     "energy_beam": {
@@ -9277,7 +8997,7 @@
             "type": "palladium:integer_property",
             "property": "satsu_iron_man_iron_man_energy",
             "min": -2147483647,
-            "max": 42501
+            "max": 95201
           }
         ],
         "unlocking": []
@@ -9307,38 +9027,38 @@
             "type": "palladium:integer_property",
             "property": "satsu_iron_man_iron_man_energy",
             "min": -2147483647,
-            "max": 42501
+            "max": 95201
           }
         ],
         "unlocking": []
       }
     },
-    "set_energy_42500..": {
+    "set_energy_95200..": {
       "type": "satsu_iron_man_addon:palladium_property_modifier",
       "hidden": true,
       "hidden_in_bar": true,
       "property_name": "satsu_iron_man_iron_man_energy",
       "adjustment_type": "set",
-      "adjustment_amount": 42500,
+      "adjustment_amount": 95200,
       "conditions": {
         "enabling": [
           {
             "type": "palladium:integer_property",
             "property": "satsu_iron_man_iron_man_energy",
-            "min": 42501,
+            "min": 95201,
             "max": 2147483647
           }
         ],
         "unlocking": []
       }
     },
-    "set_energy_42500..max": {
+    "set_energy_95200..max": {
       "type": "satsu_iron_man_addon:palladium_property_modifier",
       "hidden": true,
       "hidden_in_bar": true,
       "property_name": "satsu_iron_man_iron_man_energy_max",
       "adjustment_type": "set",
-      "adjustment_amount": 42500,
+      "adjustment_amount": 95200,
       "conditions": {
         "enabling": [
           {
