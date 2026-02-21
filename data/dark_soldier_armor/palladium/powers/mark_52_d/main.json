@@ -424,6 +424,34 @@
         ]
       }
     },
+    "class": {
+      "type": "palladium:dummy",
+      "icon": "dark_soldier_armor:textures/icons/armors/class/hybrid_class_icon.png",
+      "title": { "translate": "ability.title.class.hybrid_class" },
+      "description": { "translate": "description.iron.man.class.hybrid_class" },
+      "hidden": false,
+      "hidden_in_bar": true,
+      "gui_position": [0, 0.5],
+      "conditions": {
+        "enabling": [],
+        "unlocking": [
+          {
+            "type": "palladium:or",
+            "conditions": [
+              {
+                "type": "palladium:ability_unlocked",
+                "ability": "armor"
+              },
+              {
+                "type": "palladium:ability_enabled",
+                "power": "satsu_iron_man_addon:iron_man/main_power/main",
+                "ability": "enable_armor"
+              }
+            ]
+          }
+        ]
+      }
+    },
     "puting": {
       "type": "palladium:dummy",
       "icon": "satsu_iron_man_addon:textures/gui/armors/placeholder.png",
