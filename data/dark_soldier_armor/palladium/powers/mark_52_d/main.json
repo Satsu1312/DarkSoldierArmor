@@ -3,7 +3,7 @@
   "allow_bar_shrinking": true,
   "ability_bar_texture": "#satsu_iron_man_addon:armor_hud/ability_bar",
   "background": "satsu_iron_man_addon:textures/block/crafting_table_top.png",
-  "icon": "satsu_iron_man_addon:textures/gui/armors/armadura_completa/mark_head_icon_43.png",
+  "icon": "dark_soldier_armor:textures/gui/armors/armadura_completa/mark_head_icon_52_d.png",
   "gui_display_type": "tree",
   "energy_bars": {
     "pym_particle": {
@@ -426,7 +426,7 @@
     },
     "class": {
       "type": "palladium:dummy",
-      "icon": "dark_soldier_armor:textures/icons/armors/class/hybrid_class_icon.png",
+      "icon": "dark_soldier_armor:textures/gui/armors/class/hybrid_class_icon.png",
       "title": { "translate": "ability.title.class.hybrid_class" },
       "description": { "translate": "description.iron.man.class.hybrid_class" },
       "hidden": false,
