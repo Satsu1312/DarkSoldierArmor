@@ -3,7 +3,7 @@
   "layers": [
     {
       "type": "geckolib:default",
-      "model": "dark_soldier_armor:geo/armor_models/each_part/head.geo.json",
+      "model": "dark_soldier_armor:geo/armor_models/iron_man/mark_52_d/each_part/head.geo.json",
       "texture": {
         "base": "dark_soldier_armor:textures/models/addon_armor/no_light/mark_52_d.png",
         "transformers": [
@@ -38,7 +38,7 @@
     },
     {
       "type": "geckolib:default",
-      "model": "dark_soldier_armor:geo/armor_models/each_part/head.geo.json",
+      "model": "dark_soldier_armor:geo/armor_models/iron_man/mark_52_d/each_part/head.geo.json",
       "texture": {
         "base": "dark_soldier_armor:textures/models/addon_armor/light/mark_52_d.png",
         "transformers": [
