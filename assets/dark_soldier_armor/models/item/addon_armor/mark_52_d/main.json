@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dark_soldier_armor:item/mark_52_d"
+  }
+}
