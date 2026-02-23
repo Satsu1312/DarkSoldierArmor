@@ -1,10 +1,15 @@
 {
     "pack.dark_soldier_armor.name": "Dark soldier armor",
+    "itemGroup.satsu_iron_man_addon.dark_soldier": "DS-Expansion",
     "item.satsu_iron_man_addon.blue_print_holder_dark_tech": "Dark tech blueprint holder",
     "item.satsu_iron_man_addon.arc_core": "Arc core",
     "item.satsu_iron_man_addon.nanopolymer_d_52": "NP-D52 Unit",
     "item.satsu_iron_man_addon.nanopolymer_d_52_raw_unit": "Raw NP-D52 unit",
-    "item.satsu_iron_man_addon.marks.mark_52_d.main": "Mark 52-D"
+    "item.satsu_iron_man_addon.marks.mark_52_d.main": "Mark 52-D",
+    "ability.title.satsu.mark.52_d": "Mark 52-D",
+    "ability.title.class.hybrid_class": "Class: Hybrid",
+    "description.iron.man.mark.52_d": "The Mark 52‑D is designed to excel in any environment, combining solid durability, extreme adaptability, and limited nano capabilities.",
+    "description.iron.man.class.hybrid_class": "This type of armor is characterized by combining nano-systems and weaponry with conventional armor systems and a chassis. Nanotechnology plays a reinforcing role in all the systems of the classic armor, allowing the creation of certain nano-weaponry supported by a solid, classical structure."
 
 
 
