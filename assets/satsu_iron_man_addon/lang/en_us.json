@@ -1,3 +1,12 @@
 {
-    "pack.dark_soldier_armor.name": "Dark soldier armor"
+    "pack.dark_soldier_armor.name": "Dark soldier armor",
+    "item.satsu_iron_man_addon.blue_print_holder_dark_tech": "Dark tech blueprint holder",
+    "item.satsu_iron_man_addon.arc_core": "Arc core",
+    "item.satsu_iron_man_addon.nanopolymer_d_52": "NP-D52 Unit",
+    "item.satsu_iron_man_addon.nanopolymer_d_52_raw_unit": "Raw NP-D52 unit",
+    "item.satsu_iron_man_addon.marks.mark_52_d.main": "Mark 52-D"
+
+
+
+
 }
