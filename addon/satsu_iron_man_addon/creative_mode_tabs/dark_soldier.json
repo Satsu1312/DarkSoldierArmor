@@ -1,8 +1,10 @@
 {
   "icon": "satsu_iron_man_addon:mark_03_head",
   "items": [
+    "satsu_iron_man_addon:blue_print_holder_dark_tech",
     "marks/mark_52_d/main",
     "satsu_iron_man_addon:arc_core",
-    "satsu_iron_man_addon:nanopolymer_d_52"
+    "satsu_iron_man_addon:nanopolymer_d_52",
+    "satsu_iron_man_addon:nanopolymer_d_52_raw_unit"
   ]
 }

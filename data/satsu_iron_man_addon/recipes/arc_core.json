@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "iron_man",
+    "pattern": [
+        "aaa",
+        "ana",
+        "aaa"
+    ],
+    "key": {
+        "a": {
+            "item": "satsu_iron_man_addon:steel_ingot"
+        },
+        "n": {
+            "item": "satsu_iron_man_addon:arc_reactor"
+        }
+    },
+    "result": {
+        "item": "satsu_iron_man_addon:arc_core",
+        "count": 1
+    }
+  }
