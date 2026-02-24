@@ -4,6 +4,30 @@
   "ingredients": [
     {
       "ingredient": {
+        "item": "satsu_iron_man_addon:nanopolymer_d_52"
+      },
+      "count": 20
+    },
+    {
+      "ingredient": {
+        "item": "satsu_iron_man_addon:arc_core"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "satsu_iron_man_addon:clothes/quantum_suit"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "satsu_iron_man_addon:prehensyle_suit/main"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
         "item": "satsu_iron_man_addon:nanoparticle"
       },
       "count": 32
@@ -34,10 +58,24 @@
     },
     {
       "ingredient": {
-        "item": "satsu_iron_man_addon:arc_core"
+        "item": "minecraft:blue_dye"
       },
-      "count": 1
+      "count": 10
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:black_dye"
+      },
+      "count": 4
+    },
+    {
+      "ingredient": {
+        "item": "palladium:vibranium_ingot"
+      },
+      "count": 4
     }
+    
+  
   ],
   "tool": {
     "item": "satsu_iron_man_addon:stark_hammer"
