@@ -2278,7 +2278,7 @@
     },
     "pickaxe.velocity.right.arm": {
       "type": "palladium:attribute_modifier",
-      "icon": "minecraft:golden_pickaxe",
+      "icon": "minecraft:diamond_pickaxe",
       "title": { "translate": "ability.title.satsu.pickaxe.velocity" },
       "description": { "translate": "description.satsu.pickaxe.velocity" },
       "hidden": false,
@@ -2352,7 +2352,7 @@
     },
     "pickaxe.velocity.left.arm": {
       "type": "palladium:attribute_modifier",
-      "icon": "minecraft:golden_pickaxe",
+      "icon": "minecraft:diamond_pickaxe",
       "title": { "translate": "ability.title.satsu.pickaxe.velocity" },
       "description": { "translate": "description.satsu.pickaxe.velocity" },
       "hidden": true,
@@ -2426,7 +2426,7 @@
     },
     "pickaxe.velocity.right.arm_low": {
       "type": "palladium:attribute_modifier",
-      "icon": "minecraft:golden_pickaxe",
+      "icon": "minecraft:diamond_pickaxe",
       "title": { "translate": "ability.title.satsu.pickaxe.velocity" },
       "description": { "translate": "description.satsu.pickaxe.velocity" },
       "hidden": false,
@@ -2500,7 +2500,7 @@
     },
     "pickaxe.velocity.left.arm_low": {
       "type": "palladium:attribute_modifier",
-      "icon": "minecraft:golden_pickaxe",
+      "icon": "minecraft:diamond_pickaxe",
       "title": { "translate": "ability.title.satsu.pickaxe.velocity" },
       "description": { "translate": "description.satsu.pickaxe.velocity" },
       "hidden": true,
