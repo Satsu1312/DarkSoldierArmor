@@ -7932,8 +7932,8 @@
             "type": "palladium:ability_integer_property",
             "ability": "right_arm_animation",
             "property": "value",
-            "min": 17,
-            "max": 17
+            "min": 18,
+            "max": 18
           },
           {
             "type": "palladium:ability_unlocked",
@@ -8004,48 +8004,8 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:ability_integer_property",
-            "ability": "right_arm_animation",
-            "property": "value",
-            "min": 17,
-            "max": 17
-          },
-          {
             "type": "palladium:ability_unlocked",
-            "ability": "armor"
-          },
-          {
-            "type": "palladium:ability_unlocked",
-            "ability": "waepons.choose"
-          },
-          {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_mark_86_pym_particle",
-            "min": 1,
-            "max": 2147483647
-          },
-          {
-            "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
-            "powers": [
-              "satsu_iron_man_addon:extremis/main",
-              "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
-            ],
-            "namespaces": [],
-            "ignore_powers": ["fsang:space_power", "fsang_hero:dampened"]
-          },
-          {
-            "type": "palladium:not",
-            "conditions": [
-              {
-                "type": "palladium:or",
-                "conditions": [
-                  {
-                    "type": "palladium:has_tag",
-                    "tag": "alien"
-                  }
-                ]
-              }
-            ]
+            "ability": "nano_increase_decrease"
           }
         ]
       }
@@ -8079,48 +8039,8 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:ability_integer_property",
-            "ability": "right_arm_animation",
-            "property": "value",
-            "min": 17,
-            "max": 17
-          },
-          {
             "type": "palladium:ability_unlocked",
-            "ability": "armor"
-          },
-          {
-            "type": "palladium:ability_unlocked",
-            "ability": "waepons.choose"
-          },
-          {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_mark_86_pym_particle",
-            "min": 1,
-            "max": 2147483647
-          },
-          {
-            "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
-            "powers": [
-              "satsu_iron_man_addon:extremis/main",
-              "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
-            ],
-            "namespaces": [],
-            "ignore_powers": ["fsang:space_power", "fsang_hero:dampened"]
-          },
-          {
-            "type": "palladium:not",
-            "conditions": [
-              {
-                "type": "palladium:or",
-                "conditions": [
-                  {
-                    "type": "palladium:has_tag",
-                    "tag": "alien"
-                  }
-                ]
-              }
-            ]
+            "ability": "nano_increase_decrease"
           }
         ]
       }
@@ -8154,48 +8074,8 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:ability_integer_property",
-            "ability": "right_arm_animation",
-            "property": "value",
-            "min": 17,
-            "max": 17
-          },
-          {
             "type": "palladium:ability_unlocked",
-            "ability": "armor"
-          },
-          {
-            "type": "palladium:ability_unlocked",
-            "ability": "waepons.choose"
-          },
-          {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_mark_86_pym_particle",
-            "min": 1,
-            "max": 2147483647
-          },
-          {
-            "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
-            "powers": [
-              "satsu_iron_man_addon:extremis/main",
-              "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
-            ],
-            "namespaces": [],
-            "ignore_powers": ["fsang:space_power", "fsang_hero:dampened"]
-          },
-          {
-            "type": "palladium:not",
-            "conditions": [
-              {
-                "type": "palladium:or",
-                "conditions": [
-                  {
-                    "type": "palladium:has_tag",
-                    "tag": "alien"
-                  }
-                ]
-              }
-            ]
+            "ability": "nano_increase_decrease"
           }
         ]
       }
@@ -8229,48 +8109,8 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:ability_integer_property",
-            "ability": "right_arm_animation",
-            "property": "value",
-            "min": 17,
-            "max": 17
-          },
-          {
             "type": "palladium:ability_unlocked",
-            "ability": "armor"
-          },
-          {
-            "type": "palladium:ability_unlocked",
-            "ability": "waepons.choose"
-          },
-          {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_mark_86_pym_particle",
-            "min": 1,
-            "max": 2147483647
-          },
-          {
-            "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
-            "powers": [
-              "satsu_iron_man_addon:extremis/main",
-              "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
-            ],
-            "namespaces": [],
-            "ignore_powers": ["fsang:space_power", "fsang_hero:dampened"]
-          },
-          {
-            "type": "palladium:not",
-            "conditions": [
-              {
-                "type": "palladium:or",
-                "conditions": [
-                  {
-                    "type": "palladium:has_tag",
-                    "tag": "alien"
-                  }
-                ]
-              }
-            ]
+            "ability": "nano_increase_decrease"
           }
         ]
       }
@@ -8304,48 +8144,8 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:ability_integer_property",
-            "ability": "right_arm_animation",
-            "property": "value",
-            "min": 17,
-            "max": 17
-          },
-          {
             "type": "palladium:ability_unlocked",
-            "ability": "armor"
-          },
-          {
-            "type": "palladium:ability_unlocked",
-            "ability": "waepons.choose"
-          },
-          {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_mark_86_pym_particle",
-            "min": 1,
-            "max": 2147483647
-          },
-          {
-            "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
-            "powers": [
-              "satsu_iron_man_addon:extremis/main",
-              "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
-            ],
-            "namespaces": [],
-            "ignore_powers": ["fsang:space_power", "fsang_hero:dampened"]
-          },
-          {
-            "type": "palladium:not",
-            "conditions": [
-              {
-                "type": "palladium:or",
-                "conditions": [
-                  {
-                    "type": "palladium:has_tag",
-                    "tag": "alien"
-                  }
-                ]
-              }
-            ]
+            "ability": "nano_increase_decrease"
           }
         ]
       }
@@ -8379,48 +8179,8 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:ability_integer_property",
-            "ability": "right_arm_animation",
-            "property": "value",
-            "min": 17,
-            "max": 17
-          },
-          {
             "type": "palladium:ability_unlocked",
-            "ability": "armor"
-          },
-          {
-            "type": "palladium:ability_unlocked",
-            "ability": "waepons.choose"
-          },
-          {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_mark_86_pym_particle",
-            "min": 1,
-            "max": 2147483647
-          },
-          {
-            "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
-            "powers": [
-              "satsu_iron_man_addon:extremis/main",
-              "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
-            ],
-            "namespaces": [],
-            "ignore_powers": ["fsang:space_power", "fsang_hero:dampened"]
-          },
-          {
-            "type": "palladium:not",
-            "conditions": [
-              {
-                "type": "palladium:or",
-                "conditions": [
-                  {
-                    "type": "palladium:has_tag",
-                    "tag": "alien"
-                  }
-                ]
-              }
-            ]
+            "ability": "nano_increase_decrease"
           }
         ]
       }
@@ -8454,48 +8214,8 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:ability_integer_property",
-            "ability": "right_arm_animation",
-            "property": "value",
-            "min": 17,
-            "max": 17
-          },
-          {
             "type": "palladium:ability_unlocked",
-            "ability": "armor"
-          },
-          {
-            "type": "palladium:ability_unlocked",
-            "ability": "waepons.choose"
-          },
-          {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_mark_86_pym_particle",
-            "min": 1,
-            "max": 2147483647
-          },
-          {
-            "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
-            "powers": [
-              "satsu_iron_man_addon:extremis/main",
-              "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
-            ],
-            "namespaces": [],
-            "ignore_powers": ["fsang:space_power", "fsang_hero:dampened"]
-          },
-          {
-            "type": "palladium:not",
-            "conditions": [
-              {
-                "type": "palladium:or",
-                "conditions": [
-                  {
-                    "type": "palladium:has_tag",
-                    "tag": "alien"
-                  }
-                ]
-              }
-            ]
+            "ability": "nano_increase_decrease"
           }
         ]
       }
@@ -8529,48 +8249,8 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:ability_integer_property",
-            "ability": "right_arm_animation",
-            "property": "value",
-            "min": 17,
-            "max": 17
-          },
-          {
             "type": "palladium:ability_unlocked",
-            "ability": "armor"
-          },
-          {
-            "type": "palladium:ability_unlocked",
-            "ability": "waepons.choose"
-          },
-          {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_mark_86_pym_particle",
-            "min": 1,
-            "max": 2147483647
-          },
-          {
-            "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
-            "powers": [
-              "satsu_iron_man_addon:extremis/main",
-              "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
-            ],
-            "namespaces": [],
-            "ignore_powers": ["fsang:space_power", "fsang_hero:dampened"]
-          },
-          {
-            "type": "palladium:not",
-            "conditions": [
-              {
-                "type": "palladium:or",
-                "conditions": [
-                  {
-                    "type": "palladium:has_tag",
-                    "tag": "alien"
-                  }
-                ]
-              }
-            ]
+            "ability": "nano_increase_decrease"
           }
         ]
       }
@@ -8604,48 +8284,8 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:ability_integer_property",
-            "ability": "right_arm_animation",
-            "property": "value",
-            "min": 17,
-            "max": 17
-          },
-          {
             "type": "palladium:ability_unlocked",
-            "ability": "armor"
-          },
-          {
-            "type": "palladium:ability_unlocked",
-            "ability": "waepons.choose"
-          },
-          {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_mark_86_pym_particle",
-            "min": 1,
-            "max": 2147483647
-          },
-          {
-            "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
-            "powers": [
-              "satsu_iron_man_addon:extremis/main",
-              "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
-            ],
-            "namespaces": [],
-            "ignore_powers": ["fsang:space_power", "fsang_hero:dampened"]
-          },
-          {
-            "type": "palladium:not",
-            "conditions": [
-              {
-                "type": "palladium:or",
-                "conditions": [
-                  {
-                    "type": "palladium:has_tag",
-                    "tag": "alien"
-                  }
-                ]
-              }
-            ]
+            "ability": "nano_increase_decrease"
           }
         ]
       }
@@ -8679,48 +8319,8 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:ability_integer_property",
-            "ability": "right_arm_animation",
-            "property": "value",
-            "min": 17,
-            "max": 17
-          },
-          {
             "type": "palladium:ability_unlocked",
-            "ability": "armor"
-          },
-          {
-            "type": "palladium:ability_unlocked",
-            "ability": "waepons.choose"
-          },
-          {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_mark_86_pym_particle",
-            "min": 1,
-            "max": 2147483647
-          },
-          {
-            "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
-            "powers": [
-              "satsu_iron_man_addon:extremis/main",
-              "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
-            ],
-            "namespaces": [],
-            "ignore_powers": ["fsang:space_power", "fsang_hero:dampened"]
-          },
-          {
-            "type": "palladium:not",
-            "conditions": [
-              {
-                "type": "palladium:or",
-                "conditions": [
-                  {
-                    "type": "palladium:has_tag",
-                    "tag": "alien"
-                  }
-                ]
-              }
-            ]
+            "ability": "nano_increase_decrease"
           }
         ]
       }
@@ -8754,48 +8354,8 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:ability_integer_property",
-            "ability": "right_arm_animation",
-            "property": "value",
-            "min": 17,
-            "max": 17
-          },
-          {
             "type": "palladium:ability_unlocked",
-            "ability": "armor"
-          },
-          {
-            "type": "palladium:ability_unlocked",
-            "ability": "waepons.choose"
-          },
-          {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_mark_86_pym_particle",
-            "min": 1,
-            "max": 2147483647
-          },
-          {
-            "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
-            "powers": [
-              "satsu_iron_man_addon:extremis/main",
-              "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
-            ],
-            "namespaces": [],
-            "ignore_powers": ["fsang:space_power", "fsang_hero:dampened"]
-          },
-          {
-            "type": "palladium:not",
-            "conditions": [
-              {
-                "type": "palladium:or",
-                "conditions": [
-                  {
-                    "type": "palladium:has_tag",
-                    "tag": "alien"
-                  }
-                ]
-              }
-            ]
+            "ability": "nano_increase_decrease"
           }
         ]
       }
@@ -8829,48 +8389,8 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:ability_integer_property",
-            "ability": "right_arm_animation",
-            "property": "value",
-            "min": 17,
-            "max": 17
-          },
-          {
             "type": "palladium:ability_unlocked",
-            "ability": "armor"
-          },
-          {
-            "type": "palladium:ability_unlocked",
-            "ability": "waepons.choose"
-          },
-          {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_mark_86_pym_particle",
-            "min": 1,
-            "max": 2147483647
-          },
-          {
-            "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
-            "powers": [
-              "satsu_iron_man_addon:extremis/main",
-              "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
-            ],
-            "namespaces": [],
-            "ignore_powers": ["fsang:space_power", "fsang_hero:dampened"]
-          },
-          {
-            "type": "palladium:not",
-            "conditions": [
-              {
-                "type": "palladium:or",
-                "conditions": [
-                  {
-                    "type": "palladium:has_tag",
-                    "tag": "alien"
-                  }
-                ]
-              }
-            ]
+            "ability": "nano_increase_decrease"
           }
         ]
       }
