@@ -1,0 +1,20 @@
+{
+  "type": "palladium:compound",
+  "layers": [
+    {
+      "type": "geckolib:default",
+      "model": "satsu_iron_man_addon:geo/weapons_models/ds_widows_bite.geo.json",
+      "texture": {
+        "base": "satsu_iron_man_addon:textures/weapons/ds_widows_bite.png"
+      }
+    },
+    {
+      "type": "geckolib:default",
+      "model": "satsu_iron_man_addon:geo/weapons_models/ds_widows_bite.geo.json",
+      "texture": {
+        "base": "satsu_iron_man_addon:textures/weapons/ds_widows_bite_lights.png"
+      },
+      "render_type": "glow"
+    }
+  ]
+}
