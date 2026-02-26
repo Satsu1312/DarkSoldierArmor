@@ -1,0 +1,334 @@
+{
+  "type": "palladium:compound",
+  "layers": [
+    {
+      "type": "geckolib:default",
+      "model": "satsu_iron_man_addon:geo/armor_models/iron_man/nano_armors/nanohand_blade.geo.json",
+      "texture": {
+        "base": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nanohand_blade/no_light/mark_52_d.png",
+        "transformers": [
+          {
+            "type": "palladium:alpha_mask",
+            "mask": "satsu_iron_man_addon:textures/models/alpha_masks/armors/nano_things/nano_handblade/transformation_#TIMER.png"
+          }
+        ],
+        "variables": {
+          "TIMER": {
+            "type": "palladium:ability_integer_property",
+            "power": "satsu_iron_man_addon:mark_52_d/main",
+            "ability": "nano_hand_blade",
+            "property": "value",
+            "min": 0,
+            "max": 8
+          }
+        },
+        "output": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nanohand_blade/mark_52_d_#TIMER"
+      },
+      "conditions": [
+      ]
+    },
+    {
+      "type": "geckolib:default",
+      "model": "satsu_iron_man_addon:geo/armor_models/iron_man/nano_armors/nanohand_blade.geo.json",
+      "texture": {
+        "base": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nanohand_blade/light/mark_52_d.png",
+        "transformers": [
+          {
+            "type": "palladium:alpha_mask",
+            "mask": "satsu_iron_man_addon:textures/models/alpha_masks/armors/nano_things/nano_handblade/transformation_#TIMER.png"
+          }
+        ],
+        "variables": {
+          "TIMER": {
+            "type": "palladium:ability_integer_property",
+            "power": "satsu_iron_man_addon:mark_52_d/main",
+            "ability": "nano_hand_blade",
+            "property": "value",
+            "min": 0,
+            "max": 8
+          }
+        },
+        "output": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nanohand_blade/light/mark_52_d_#TIMER"
+      },
+      "render_type": "glow",
+      "conditions": [
+      ]
+    },
+    {
+      "type": "geckolib:default",
+      "model": "satsu_iron_man_addon:geo/armor_models/iron_man/nano_armors/each_arms/right/nano_rial.geo.json",
+      "texture": {
+        "base": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_rial/no_light/mark_52_d.png",
+        "transformers": [
+          {
+            "type": "palladium:alpha_mask",
+            "mask": "satsu_iron_man_addon:textures/models/alpha_masks/armors/nano_things/nano_rial/transformation_#TIMER.png"
+          }
+        ],
+        "variables": {
+          "TIMER": {
+            "type": "palladium:ability_integer_property",
+            "power": "satsu_iron_man_addon:mark_52_d/main",
+            "ability": "nano_rial",
+            "property": "value",
+            "min": 0,
+            "max": 8
+          }
+        },
+        "output": "satsu_iron_man_addon:textures/models/iron_man/right/nano_rial/no_light/mark_52_d_#TIMER"
+      },
+      "conditions": [
+        {
+          "type": "palladium:ability_integer_property",
+          "power": "satsu_iron_man_addon:mark_52_d/main",
+          "ability": "right_arm_animation",
+          "property": "value",
+          "min": 1,
+          "max": 18
+        }
+      ]
+    },
+    {
+      "type": "geckolib:default",
+      "model": "satsu_iron_man_addon:geo/armor_models/iron_man/nano_armors/each_arms/right/nano_rial.geo.json",
+      "texture": {
+        "base": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_rial/light/mark_52_d.png",
+        "transformers": [
+          {
+            "type": "palladium:alpha_mask",
+            "mask": "satsu_iron_man_addon:textures/models/alpha_masks/armors/nano_things/nano_rial/transformation_#TIMER.png"
+          }
+        ],
+        "variables": {
+          "TIMER": {
+            "type": "palladium:ability_integer_property",
+            "power": "satsu_iron_man_addon:mark_52_d/main",
+            "ability": "nano_rial",
+            "property": "value",
+            "min": 0,
+            "max": 8
+          }
+        },
+        "output": "satsu_iron_man_addon:textures/models/iron_man/right/nano_rial/light/mark_52_d_#TIMER"
+      },
+      "render_type": "glow",
+      "conditions": [
+        {
+          "type": "palladium:ability_integer_property",
+          "power": "satsu_iron_man_addon:mark_52_d/main",
+          "ability": "right_arm_animation",
+          "property": "value",
+          "min": 1,
+          "max": 18
+        }
+      ]
+    },
+    {
+      "type": "geckolib:default",
+      "model": "satsu_iron_man_addon:geo/armor_models/iron_man/nano_armors/each_arms/left/nano_rial.geo.json",
+      "texture": {
+        "base": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_rial/no_light/mark_52_d.png",
+        "transformers": [
+          {
+            "type": "palladium:alpha_mask",
+            "mask": "satsu_iron_man_addon:textures/models/alpha_masks/armors/nano_things/nano_rial/transformation_#TIMER.png"
+          }
+        ],
+        "variables": {
+          "TIMER": {
+            "type": "palladium:ability_integer_property",
+            "power": "satsu_iron_man_addon:mark_52_d/main",
+            "ability": "nano_rial",
+            "property": "value",
+            "min": 0,
+            "max": 8
+          }
+        },
+        "output": "satsu_iron_man_addon:textures/models/iron_man/left/nano_rial/no_light/mark_52_d_#TIMER"
+      },
+      "conditions": [
+        {
+          "type": "palladium:ability_integer_property",
+          "power": "satsu_iron_man_addon:mark_52_d/main",
+          "ability": "left_arm_animation",
+          "property": "value",
+          "min": 1,
+          "max": 18
+        }
+      ]
+    },
+    {
+      "type": "geckolib:default",
+      "model": "satsu_iron_man_addon:geo/armor_models/iron_man/nano_armors/each_arms/left/nano_rial.geo.json",
+      "texture": {
+        "base": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_rial/light/mark_52_d.png",
+        "transformers": [
+          {
+            "type": "palladium:alpha_mask",
+            "mask": "satsu_iron_man_addon:textures/models/alpha_masks/armors/nano_things/nano_rial/transformation_#TIMER.png"
+          }
+        ],
+        "variables": {
+          "TIMER": {
+            "type": "palladium:ability_integer_property",
+            "power": "satsu_iron_man_addon:mark_52_d/main",
+            "ability": "nano_rial",
+            "property": "value",
+            "min": 0,
+            "max": 8
+          }
+        },
+        "output": "satsu_iron_man_addon:textures/models/iron_man/left/nano_rial/light/mark_52_d_#TIMER"
+      },
+      "render_type": "glow",
+      "conditions": [
+        {
+          "type": "palladium:ability_integer_property",
+          "power": "satsu_iron_man_addon:mark_52_d/main",
+          "ability": "left_arm_animation",
+          "property": "value",
+          "min": 1,
+          "max": 18
+        }
+      ]
+    },
+    {
+      "type": "geckolib:default",
+      "model": "satsu_iron_man_addon:geo/armor_models/iron_man/nano_armors/each_arms/right/nano_grenade_launcher.geo.json",
+      "texture": {
+        "base": "satsu_iron_man_addon:textures/models/iron_man/no_light/mark_52_d.png",
+        "transformers": [
+          {
+            "type": "palladium:alpha_mask",
+            "mask": "satsu_iron_man_addon:textures/models/alpha_masks/armors/nano_things/nano_grenade_launcher/transformation_#TIMER.png"
+          }
+        ],
+        "variables": {
+          "TIMER": {
+            "type": "palladium:ability_integer_property",
+            "power": "satsu_iron_man_addon:mark_52_d/main",
+            "ability": "nano_grenade_launcher_anim",
+            "property": "value",
+            "min": 0,
+            "max": 8
+          }
+        },
+        "output": "satsu_iron_man_addon:textures/models/iron_man/no_light_nano_grenade_launcher_right/mark_52_d_#TIMER"
+      },
+      "conditions": [
+        {
+          "type": "palladium:ability_integer_property",
+          "power": "satsu_iron_man_addon:mark_52_d/main",
+          "ability": "right_arm_animation",
+          "property": "value",
+          "min": 1,
+          "max": 18
+        }
+      ]
+    },
+    {
+      "type": "geckolib:default",
+      "model": "satsu_iron_man_addon:geo/armor_models/iron_man/nano_armors/each_arms/right/nano_grenade_launcher.geo.json",
+      "texture": {
+        "base": "satsu_iron_man_addon:textures/models/iron_man/light/mark_52_d.png",
+        "transformers": [
+          {
+            "type": "palladium:alpha_mask",
+            "mask": "satsu_iron_man_addon:textures/models/alpha_masks/armors/nano_things/nano_grenade_launcher/transformation_#TIMER.png"
+          }
+        ],
+        "variables": {
+          "TIMER": {
+            "type": "palladium:ability_integer_property",
+            "power": "satsu_iron_man_addon:mark_52_d/main",
+            "ability": "nano_grenade_launcher_anim",
+            "property": "value",
+            "min": 0,
+            "max": 8
+          }
+        },
+        "output": "satsu_iron_man_addon:textures/models/iron_man/light_nano_grenade_launcher_right/mark_52_d_#TIMER"
+      },
+      "render_type": "glow",
+      "conditions": [
+        {
+          "type": "palladium:ability_integer_property",
+          "power": "satsu_iron_man_addon:mark_52_d/main",
+          "ability": "right_arm_animation",
+          "property": "value",
+          "min": 1,
+          "max": 18
+        }
+      ]
+    },
+    {
+      "type": "geckolib:default",
+      "model": "satsu_iron_man_addon:geo/armor_models/iron_man/nano_armors/each_arms/left/nano_grenade_launcher.geo.json",
+      "texture": {
+        "base": "satsu_iron_man_addon:textures/models/iron_man/no_light/mark_52_d.png",
+        "transformers": [
+          {
+            "type": "palladium:alpha_mask",
+            "mask": "satsu_iron_man_addon:textures/models/alpha_masks/armors/nano_things/nano_grenade_launcher/transformation_#TIMER.png"
+          }
+        ],
+        "variables": {
+          "TIMER": {
+            "type": "palladium:ability_integer_property",
+            "power": "satsu_iron_man_addon:mark_52_d/main",
+            "ability": "nano_grenade_launcher_anim",
+            "property": "value",
+            "min": 0,
+            "max": 8
+          }
+        },
+        "output": "satsu_iron_man_addon:textures/models/iron_man/no_light_nano_grenade_launcher_left/mark_52_d_#TIMER"
+      },
+      "conditions": [
+        {
+          "type": "palladium:ability_integer_property",
+          "power": "satsu_iron_man_addon:mark_52_d/main",
+          "ability": "left_arm_animation",
+          "property": "value",
+          "min": 1,
+          "max": 18
+        }
+      ]
+    },
+    {
+      "type": "geckolib:default",
+      "model": "satsu_iron_man_addon:geo/armor_models/iron_man/nano_armors/each_arms/left/nano_grenade_launcher.geo.json",
+      "texture": {
+        "base": "satsu_iron_man_addon:textures/models/iron_man/light/mark_52_d.png",
+        "transformers": [
+          {
+            "type": "palladium:alpha_mask",
+            "mask": "satsu_iron_man_addon:textures/models/alpha_masks/armors/nano_things/nano_grenade_launcher/transformation_#TIMER.png"
+          }
+        ],
+        "variables": {
+          "TIMER": {
+            "type": "palladium:ability_integer_property",
+            "power": "satsu_iron_man_addon:mark_52_d/main",
+            "ability": "nano_grenade_launcher_anim",
+            "property": "value",
+            "min": 0,
+            "max": 8
+          }
+        },
+        "output": "satsu_iron_man_addon:textures/models/iron_man/light_nano_grenade_launcher_left/mark_52_d_#TIMER"
+      },
+      "render_type": "glow",
+      "conditions": [
+        {
+          "type": "palladium:ability_integer_property",
+          "power": "satsu_iron_man_addon:mark_52_d/main",
+          "ability": "left_arm_animation",
+          "property": "value",
+          "min": 1,
+          "max": 18
+        }
+      ]
+    }
+  ]
+}
