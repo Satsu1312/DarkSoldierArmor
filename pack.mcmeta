@@ -1,8 +1,8 @@
 {
     "pack": {
-        "id": "dark_soldier_armor",
+        "id": "ds_expansion",
         "pack_format": 15,
-        "description": "Adds a Dark soldier armor to a Satsu's iron man addon",
+        "description": "This add-on adds a variety of content such as new Iron Man armor, weapons, crafting materials and abilities to Satsu's iron man Addon.",
         "version": "1.0.0"
     },
     "dependencies": {
