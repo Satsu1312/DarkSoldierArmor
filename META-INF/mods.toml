@@ -4,16 +4,16 @@ loaderVersion="[47,)"
 license="All Rights Reserved"
 
 [[mods]]
-modId="dark_soldier_armor"
+modId="ds_expansion"
 version="1.0.0"
 logoFile = "logo.png"
 logoBlur = false
-displayName="Dark soldier armor"
+displayName="DS Expansion"
 description='''
-Adds a Dark soldier armor to a Satsu's iron man addon
+This add-on adds a variety of content such as new Iron Man armor, weapons, crafting materials and abilities to Satsu's iron man Addon.
 '''
 
-[[dependencies.dark_soldier_armor]]
+[[dependencies.ds_expansion]]
 modId = "palladium"
 mandatory = true
 versionRange = "[4.4.1,)"
