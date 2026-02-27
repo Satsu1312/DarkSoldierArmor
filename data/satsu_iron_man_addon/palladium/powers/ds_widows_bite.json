@@ -2,12 +2,12 @@
   "name": { "translate": "ability.title.watch_glove" },
   "allow_bar_shrinking": true,
   "ability_bar_texture": "#satsu_iron_man_addon:armor_hud/ability_bar",
-  "icon": "satsu_iron_man_addon:textures/item/watch.png",
+  "icon": "satsu_iron_man_addon:textures/item/ds_widows_bite.png",
   "abilities": {
     "dummy": {
       "type": "palladium:dummy",
-      "icon": "satsu_iron_man_addon:textures/item/watch.png",
-      "title": { "translate": "ability.title.satsu.active.glove" },
+      "icon": "satsu_iron_man_addon:textures/item/ds_widows_bite.png",
+      "title": { "translate": "ability.title.dark_soldier.active.widows_bite" },
       "hidden": true,
       "hidden_in_bar": false,
       "list_index": 0,
