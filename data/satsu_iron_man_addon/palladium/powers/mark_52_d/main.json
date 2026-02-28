@@ -7582,7 +7582,7 @@
             "type": "palladium:integer_property",
             "property": "satsu_iron_man_flight_speed_choose",
             "min": 0,
-            "max": 232
+            "max": 250
           }
         ]
       }
@@ -7627,7 +7627,7 @@
             "type": "palladium:integer_property",
             "property": "satsu_iron_man_flight_speed_choose",
             "min": 2,
-            "max": 234
+            "max": 252
           }
         ]
       }
@@ -7641,7 +7641,7 @@
       "list_index": 8,
       "property_name": "satsu_iron_man_flight_speed_choose",
       "adjustment_type": "set",
-      "adjustment_amount": 232,
+      "adjustment_amount": 252,
       "conditions": {
         "enabling": [
           {
@@ -7679,7 +7679,7 @@
             "type": "palladium:integer_property",
             "property": "satsu_iron_man_flight_speed_choose",
             "min": 0,
-            "max": 232
+            "max": 250
           }
         ]
       }
@@ -7731,7 +7731,7 @@
             "type": "palladium:integer_property",
             "property": "satsu_iron_man_flight_speed_choose",
             "min": 2,
-            "max": 234
+            "max": 252
           }
         ]
       }
@@ -9697,7 +9697,7 @@
                   {
                     "type": "palladium:integer_property",
                     "property": "satsu_iron_man_flight_speed_choose",
-                    "min": 254,
+                    "min": 250,
                     "max": 10000000000
                   }
                 ]
