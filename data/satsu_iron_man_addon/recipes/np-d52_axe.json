@@ -1,9 +1,9 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "  A",
         "MA ",
-        "sM "
+        "MD ",
+        " s "
     ],
     "key": {
         "M": {
@@ -11,14 +11,17 @@
             "count": 10
         },
         "s": {
-            "item": "minecraft:diamond_sword"
+            "item": "minecraft:stick"
+        },
+        "D": {
+            "item": "minecraft:diamond_axe"
         },
          "A": {
             "item": "satsu_iron_man_addon:steel_gold_refined_alloy"
         }
     },
     "result": {
-        "item": "satsu_iron_man_addon:np-d52_sword",
+        "item": "satsu_iron_man_addon:np-d52_axe",
         "count": 1
     },
     "group": "iron_man"
