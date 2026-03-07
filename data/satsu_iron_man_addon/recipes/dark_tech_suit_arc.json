@@ -2,16 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "group": "iron_man",
   "pattern": [
-      "#b#",
-      "b#b",
-      "#b#"
+      " # ",
+      " b ",
+      "   "
   ],
   "key": {
       "#": {
-          "item": "minecraft:leather"
+          "item": "satsu_iron_man_addon:arc_reactor"
       },
       "b": {
-          "item": "minecraft:black_dye"
+          "item": "satsu_iron_man_addon:dark_tech_suit"
       }
   },
   "result": {

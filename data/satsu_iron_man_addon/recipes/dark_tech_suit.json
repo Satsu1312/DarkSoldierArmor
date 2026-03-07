@@ -2,17 +2,24 @@
   "type": "minecraft:crafting_shaped",
   "group": "iron_man",
   "pattern": [
-      "#b#",
-      "b#b",
-      "#b#"
+      "bfb",
+      "fmf",
+      "nfn"
   ],
   "key": {
-      "#": {
-          "item": "minecraft:leather"
+      "m": {
+          "item": "satsu_iron_man_addon:carbon_mesh"
       },
       "b": {
-          "item": "minecraft:black_dye"
-      }
+          "item": "minecraft:blue_dye"
+      },
+      "n": {
+          "item": "minecraft:iron_nugget"
+      },
+      "f": {
+          "item": "palladium:black_fabric"
+      }  
+      
   },
   "result": {
       "item": "satsu_iron_man_addon:dark_tech_suit",
