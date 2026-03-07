@@ -5,7 +5,7 @@
       "type": "geckolib:default",
       "model": "satsu_iron_man_addon:geo/armor_models/iron_man/mark_52_d/each_part/head.geo.json",
       "texture": {
-        "base": "satsu_iron_man_addon:textures/models/iron_man/no_light/mark_52_d.png",
+        "base": "satsu_iron_man_addon:textures/models/iron_man/no_light/mark_52_d_0.png",
         "transformers": [
           {
             "type": "palladium:alpha_mask",
@@ -22,7 +22,7 @@
             "max": 17
           }
         },
-        "output": "satsu_iron_man_addon:textures/models/iron_man/no_light_head/mark_52_d_#HEAD"
+        "output": "satsu_iron_man_addon:textures/models/iron_man/no_light_head/mark_52_d_0_#HEAD"
       },
       "animation_file": "satsu_iron_man_addon:animations/call_right_arm.geo.json",
       "animation_controller": [
@@ -40,7 +40,7 @@
       "type": "geckolib:default",
       "model": "satsu_iron_man_addon:geo/armor_models/iron_man/mark_52_d/each_part/head.geo.json",
       "texture": {
-        "base": "satsu_iron_man_addon:textures/models/iron_man/light/mark_52_d.png",
+        "base": "satsu_iron_man_addon:textures/models/iron_man/light/mark_52_d_0.png",
         "transformers": [
           {
             "type": "palladium:alpha_mask",
@@ -57,7 +57,7 @@
             "max": 17
           }
         },
-        "output": "satsu_iron_man_addon:textures/models/iron_man/light_head/mark_52_d_#HEAD"
+        "output": "satsu_iron_man_addon:textures/models/iron_man/light_head/mark_52_d_0_#HEAD"
       },
       "animation_file": "satsu_iron_man_addon:animations/call_right_arm.geo.json",
       "animation_controller": [

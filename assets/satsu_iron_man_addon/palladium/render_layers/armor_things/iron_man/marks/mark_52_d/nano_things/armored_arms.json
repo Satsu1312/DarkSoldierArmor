@@ -5,7 +5,7 @@
       "type": "geckolib:default",
       "model": "satsu_iron_man_addon:geo/armor_models/iron_man/nano_armors/nanohand_blade.geo.json",
       "texture": {
-        "base": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nanohand_blade/no_light/mark_52_d.png",
+        "base": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nanohand_blade/no_light/mark_52_d_0.png",
         "transformers": [
           {
             "type": "palladium:alpha_mask",
@@ -22,7 +22,7 @@
             "max": 8
           }
         },
-        "output": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nanohand_blade/mark_52_d_#TIMER"
+        "output": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nanohand_blade/mark_52_d_0_#TIMER"
       },
       "conditions": [
       ]
@@ -31,7 +31,7 @@
       "type": "geckolib:default",
       "model": "satsu_iron_man_addon:geo/armor_models/iron_man/nano_armors/nanohand_blade.geo.json",
       "texture": {
-        "base": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nanohand_blade/light/mark_52_d.png",
+        "base": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nanohand_blade/light/mark_52_d_0.png",
         "transformers": [
           {
             "type": "palladium:alpha_mask",
@@ -48,7 +48,7 @@
             "max": 8
           }
         },
-        "output": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nanohand_blade/light/mark_52_d_#TIMER"
+        "output": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nanohand_blade/light/mark_52_d_0_#TIMER"
       },
       "render_type": "glow",
       "conditions": [
@@ -58,7 +58,7 @@
       "type": "geckolib:default",
       "model": "satsu_iron_man_addon:geo/armor_models/iron_man/nano_armors/each_arms/right/nano_rial.geo.json",
       "texture": {
-        "base": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_rial/no_light/mark_52_d.png",
+        "base": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_rial/no_light/mark_52_d_0.png",
         "transformers": [
           {
             "type": "palladium:alpha_mask",
@@ -75,7 +75,7 @@
             "max": 8
           }
         },
-        "output": "satsu_iron_man_addon:textures/models/iron_man/right/nano_rial/no_light/mark_52_d_#TIMER"
+        "output": "satsu_iron_man_addon:textures/models/iron_man/right/nano_rial/no_light/mark_52_d_0_#TIMER"
       },
       "conditions": [
         {
@@ -92,7 +92,7 @@
       "type": "geckolib:default",
       "model": "satsu_iron_man_addon:geo/armor_models/iron_man/nano_armors/each_arms/right/nano_rial.geo.json",
       "texture": {
-        "base": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_rial/light/mark_52_d.png",
+        "base": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_rial/light/mark_52_d_0.png",
         "transformers": [
           {
             "type": "palladium:alpha_mask",
@@ -109,7 +109,7 @@
             "max": 8
           }
         },
-        "output": "satsu_iron_man_addon:textures/models/iron_man/right/nano_rial/light/mark_52_d_#TIMER"
+        "output": "satsu_iron_man_addon:textures/models/iron_man/right/nano_rial/light/mark_52_d_0_#TIMER"
       },
       "render_type": "glow",
       "conditions": [
@@ -127,7 +127,7 @@
       "type": "geckolib:default",
       "model": "satsu_iron_man_addon:geo/armor_models/iron_man/nano_armors/each_arms/left/nano_rial.geo.json",
       "texture": {
-        "base": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_rial/no_light/mark_52_d.png",
+        "base": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_rial/no_light/mark_52_d_0.png",
         "transformers": [
           {
             "type": "palladium:alpha_mask",
@@ -144,7 +144,7 @@
             "max": 8
           }
         },
-        "output": "satsu_iron_man_addon:textures/models/iron_man/left/nano_rial/no_light/mark_52_d_#TIMER"
+        "output": "satsu_iron_man_addon:textures/models/iron_man/left/nano_rial/no_light/mark_52_d_0_#TIMER"
       },
       "conditions": [
         {
@@ -161,7 +161,7 @@
       "type": "geckolib:default",
       "model": "satsu_iron_man_addon:geo/armor_models/iron_man/nano_armors/each_arms/left/nano_rial.geo.json",
       "texture": {
-        "base": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_rial/light/mark_52_d.png",
+        "base": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_rial/light/mark_52_d_0.png",
         "transformers": [
           {
             "type": "palladium:alpha_mask",
@@ -178,7 +178,7 @@
             "max": 8
           }
         },
-        "output": "satsu_iron_man_addon:textures/models/iron_man/left/nano_rial/light/mark_52_d_#TIMER"
+        "output": "satsu_iron_man_addon:textures/models/iron_man/left/nano_rial/light/mark_52_d_0_#TIMER"
       },
       "render_type": "glow",
       "conditions": [
@@ -196,7 +196,7 @@
       "type": "geckolib:default",
       "model": "satsu_iron_man_addon:geo/armor_models/iron_man/nano_armors/each_arms/right/nano_grenade_launcher.geo.json",
       "texture": {
-        "base": "satsu_iron_man_addon:textures/models/iron_man/no_light/mark_52_d.png",
+        "base": "satsu_iron_man_addon:textures/models/iron_man/no_light/mark_52_d_0.png",
         "transformers": [
           {
             "type": "palladium:alpha_mask",
@@ -213,7 +213,7 @@
             "max": 8
           }
         },
-        "output": "satsu_iron_man_addon:textures/models/iron_man/no_light_nano_grenade_launcher_right/mark_52_d_#TIMER"
+        "output": "satsu_iron_man_addon:textures/models/iron_man/no_light_nano_grenade_launcher_right/mark_52_d_0_#TIMER"
       },
       "conditions": [
         {
@@ -230,7 +230,7 @@
       "type": "geckolib:default",
       "model": "satsu_iron_man_addon:geo/armor_models/iron_man/nano_armors/each_arms/right/nano_grenade_launcher.geo.json",
       "texture": {
-        "base": "satsu_iron_man_addon:textures/models/iron_man/light/mark_52_d.png",
+        "base": "satsu_iron_man_addon:textures/models/iron_man/light/mark_52_d_0.png",
         "transformers": [
           {
             "type": "palladium:alpha_mask",
@@ -247,7 +247,7 @@
             "max": 8
           }
         },
-        "output": "satsu_iron_man_addon:textures/models/iron_man/light_nano_grenade_launcher_right/mark_52_d_#TIMER"
+        "output": "satsu_iron_man_addon:textures/models/iron_man/light_nano_grenade_launcher_right/mark_52_d_0_#TIMER"
       },
       "render_type": "glow",
       "conditions": [
@@ -265,7 +265,7 @@
       "type": "geckolib:default",
       "model": "satsu_iron_man_addon:geo/armor_models/iron_man/nano_armors/each_arms/left/nano_grenade_launcher.geo.json",
       "texture": {
-        "base": "satsu_iron_man_addon:textures/models/iron_man/no_light/mark_52_d.png",
+        "base": "satsu_iron_man_addon:textures/models/iron_man/no_light/mark_52_d_0.png",
         "transformers": [
           {
             "type": "palladium:alpha_mask",
@@ -282,7 +282,7 @@
             "max": 8
           }
         },
-        "output": "satsu_iron_man_addon:textures/models/iron_man/no_light_nano_grenade_launcher_left/mark_52_d_#TIMER"
+        "output": "satsu_iron_man_addon:textures/models/iron_man/no_light_nano_grenade_launcher_left/mark_52_d_0_#TIMER"
       },
       "conditions": [
         {
@@ -299,7 +299,7 @@
       "type": "geckolib:default",
       "model": "satsu_iron_man_addon:geo/armor_models/iron_man/nano_armors/each_arms/left/nano_grenade_launcher.geo.json",
       "texture": {
-        "base": "satsu_iron_man_addon:textures/models/iron_man/light/mark_52_d.png",
+        "base": "satsu_iron_man_addon:textures/models/iron_man/light/mark_52_d_0.png",
         "transformers": [
           {
             "type": "palladium:alpha_mask",
@@ -316,7 +316,7 @@
             "max": 8
           }
         },
-        "output": "satsu_iron_man_addon:textures/models/iron_man/light_nano_grenade_launcher_left/mark_52_d_#TIMER"
+        "output": "satsu_iron_man_addon:textures/models/iron_man/light_nano_grenade_launcher_left/mark_52_d_0_#TIMER"
       },
       "render_type": "glow",
       "conditions": [
