@@ -230,7 +230,7 @@
         },
         "output": "satsu_iron_man_addon:textures/models/flames/new_thruster_white/#X_#TURBINE_FLAME"
       },
-      "tint": "#f0a430",
+      "tint": "#1bdef3",
       "render_type": "glow",
       "conditions": [
         {
