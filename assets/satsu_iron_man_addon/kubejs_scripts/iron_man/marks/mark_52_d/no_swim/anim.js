@@ -2,13 +2,13 @@
 PalladiumEvents.registerAnimations((event) => {
   event.registerForPower(
     "satsu_iron_man_addon/no_swim_mark_animation.mark_52_d",
-        "satsu_iron_man_addon:mark_52_dmain",
+        "satsu_iron_man_addon:mark_52_d/main",
     10,
     (builder) => {
       // Gets the current animation timer progress from the ability, returned value is a number from 0.0 to 1.0
       const progress = animationUtil.getAnimationTimerAbilityValue(
         builder.getPlayer(),
-        "satsu_iron_man_addon:mark_52_dmain",
+        "satsu_iron_man_addon:mark_52_d/main",
         "no_swim_mark_animation",
         builder.getPartialTicks()
       );
@@ -70,13 +70,13 @@ PalladiumEvents.registerAnimations((event) => {
   );
   event.registerForPower(
     "satsu_iron_man_addon/movement_underwater_skill.mark_85",
-        "satsu_iron_man_addon:mark_52_dmain",
+        "satsu_iron_man_addon:mark_52_d/main",
     10,
     (builder) => {
       // Gets the current animation timer progress from the ability, returned value is a number from 0.0 to 1.0
       const progress = animationUtil.getAnimationTimerAbilityValue(
         builder.getPlayer(),
-        "satsu_iron_man_addon:mark_52_dmain",
+        "satsu_iron_man_addon:mark_52_d/main",
         "movement_underwater_skill",
         builder.getPartialTicks()
       );

@@ -20,7 +20,7 @@
             "property": "value"
           }
         },
-        "output": "satsu_iron_man_addon:textures/models/iron_man_armors_feet_thruster/iron_man/mark_52_d_0_#TIMER"
+        "output": "satsu_iron_man_addon:textures/models/iron_man_armors_feet_thruster/mark_52_d_0_#TIMER"
       }
     },
     {
@@ -42,7 +42,7 @@
             "property": "value"
           }
         },
-        "output": "satsu_iron_man_addon:textures/models/iron_man_armors_feet_thruster/iron_man_lights/light/mark_52_d_0_#TIMER"
+        "output": "satsu_iron_man_addon:textures/models/iron_man_armors_feet_thruster/light/mark_52_d_0_#TIMER"
       },
       "render_type": "glow"
     }
