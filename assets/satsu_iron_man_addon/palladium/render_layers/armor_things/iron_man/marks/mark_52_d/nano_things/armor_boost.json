@@ -5,7 +5,7 @@
       "type": "geckolib:default",
       "model": "satsu_iron_man_addon:geo/armor_models/iron_man/nano_armors/unknown.geo.json",
       "texture": {
-        "base": "satsu_iron_man_addon:textures/models/iron_man/no_light/mark_85_0.png",
+        "base": "satsu_iron_man_addon:textures/models/iron_man/no_light/mark_52_d_0.png",
         "transformers": [
           {
             "type": "palladium:alpha_mask",
@@ -15,19 +15,19 @@
         "variables": {
           "TIMER": {
             "type": "palladium:ability_integer_property",
-            "power": "satsu_iron_man_addon:iron_man/marks/mark_85/main",
+            "power": "satsu_iron_man_addon:mark_52_d/main",
             "ability": "flight_anim",
             "property": "value"
           }
         },
-        "output": "satsu_iron_man_addon:textures/models/iron_man_armors_feet_thruster/iron_man/iron_man_suit_85_0_#TIMER"
+        "output": "satsu_iron_man_addon:textures/models/iron_man_armors_feet_thruster/iron_man/mark_52_d_0_#TIMER"
       }
     },
     {
       "type": "geckolib:default",
       "model": "satsu_iron_man_addon:geo/armor_models/iron_man/nano_armors/unknown.geo.json",
       "texture": {
-        "base": "satsu_iron_man_addon:textures/models/iron_man/light/mark_85_0.png",
+        "base": "satsu_iron_man_addon:textures/models/iron_man/light/mark_52_d_0.png",
         "transformers": [
           {
             "type": "palladium:alpha_mask",
@@ -37,12 +37,12 @@
         "variables": {
           "TIMER": {
             "type": "palladium:ability_integer_property",
-            "power": "satsu_iron_man_addon:iron_man/marks/mark_85/main",
+            "power": "satsu_iron_man_addon:mark_52_d/main",
             "ability": "flight_anim",
             "property": "value"
           }
         },
-        "output": "satsu_iron_man_addon:textures/models/iron_man_armors_feet_thruster/iron_man_lights/iron_man_suit_lights_85_0_#TIMER"
+        "output": "satsu_iron_man_addon:textures/models/iron_man_armors_feet_thruster/iron_man_lights/light/mark_52_d_0_#TIMER"
       },
       "render_type": "glow"
     }
