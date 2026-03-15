@@ -147,7 +147,16 @@
         },
         "output": "satsu_iron_man_addon:textures/models/iron_man/no_light_chest/mark_52_d_0_#water_turbine"
       },
-      "conditions": []
+      "conditions": [
+        {
+          "type": "palladium:ability_integer_property",
+          "power": "satsu_iron_man_addon:mark_52_d/main",
+          "ability": "water_turbine",
+          "property": "value",
+          "min": 1,
+          "max": 17
+        }
+      ]
     },
     {
       "type": "geckolib:default",
@@ -170,10 +179,18 @@
             "max": 7
           }
         },
-        "output": "satsu_iron_man_addon:textures/models/iron_man/no_light_chest/light/mark_52_d_0_#water_turbine"
+        "output": "satsu_iron_man_addon:textures/models/iron_man/scuba/light/mark_52_d_0_#water_turbine"
       },
       "render_type": "glow",
       "conditions": [
+        {
+          "type": "palladium:ability_integer_property",
+          "power": "satsu_iron_man_addon:mark_52_d/main",
+          "ability": "water_turbine",
+          "property": "value",
+          "min": 1,
+          "max": 17
+        },
         {
           "type": "palladium:or",
           "conditions": [
