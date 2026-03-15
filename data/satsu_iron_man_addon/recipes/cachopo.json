@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "iron_man",
+    "pattern": [
+        "bbb",
+        "BmP",
+        "bbb"
+    ],
+    "key": {
+        "b": {
+            "item": "minecraft:bread"
+        },
+        "B": {
+            "item": "minecraft:beef"
+        },
+        "m": {
+            "item": "minecraft:milk_bucket"
+        },
+        "P": {
+            "item": "minecraft:porkchop"
+        }
+    },
+    "result": {
+        "item": "satsu_iron_man_addon:cachopo",
+        "count": 1
+    }
+  }
