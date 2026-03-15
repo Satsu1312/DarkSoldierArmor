@@ -5427,7 +5427,7 @@
     },
     "mask_activate": {
       "type": "palladium:dummy",
-      "icon": "#satsu_iron_man_addon:mask_icon",
+      "icon": "#satsu_iron_man_addon:iron_man/mark_52_d/mask_icon",
       "title": { "translate": "ability.title.satsu.enable_mask" },
       "description": { "translate": "description.armor_skill_bar" },
       "hidden": true,
