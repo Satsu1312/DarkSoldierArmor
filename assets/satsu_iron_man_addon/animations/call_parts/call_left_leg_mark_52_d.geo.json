@@ -1,0 +1,41 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.minecraft:call.left.leg": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.3,
+			"bones": {
+				"call_left_leg": {
+					"position": {
+						"0.0": [50, 5, 0],
+						"0.3": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"left_leg_deploy": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.25,
+			"bones": {
+				"leg_thruster_L": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [25, 0, 0]
+					}
+				}
+			}
+		},
+		"left_leg_fold": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.25,
+			"bones": {
+				"leg_thruster_L": {
+					"rotation": {
+						"0.0": [25, 0, 0],
+						"0.25": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

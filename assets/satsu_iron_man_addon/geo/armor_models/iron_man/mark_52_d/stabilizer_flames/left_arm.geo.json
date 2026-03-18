@@ -1,0 +1,45 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.minecraft:player#main",
+				"texture_width": 4,
+				"texture_height": 4,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "armorLeftArm",
+					"pivot": [5, 22, 0],
+					"cubes": [
+						{
+							"origin": [8.0943, 15.30945, -1.3048],
+							"size": [0.85, 1.4, 2.4],
+							"pivot": [8.4943, 16.70945, -0.1548],
+							"rotation": [0, 0, -10],
+							"uv": {
+								"north": {"uv": [3, 0], "uv_size": [-3, 3]},
+								"east": {"uv": [3, 0], "uv_size": [-3, 3]},
+								"south": {"uv": [3, 0], "uv_size": [-3, 3]},
+								"west": {"uv": [3, 0], "uv_size": [-3, 3]}
+							}
+						}
+					]
+				},
+				{
+					"name": "wingLeft",
+					"parent": "armorLeftArm",
+					"pivot": [5, 22, 0]
+				},
+				{
+					"name": "armNested",
+					"parent": "armorLeftArm",
+					"pivot": [6, 22, 0]
+				}
+			]
+		}
+	]
+}

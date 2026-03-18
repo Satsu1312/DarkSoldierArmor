@@ -9432,7 +9432,7 @@
     },
     "waepons.choose_wheel_nano_stabilizer": {
       "type": "palladium:dummy",
-      "icon": "satsu_iron_man_addon:textures/gui/armors/marks_abilities/nano/stabilizer.png",
+      "icon": "satsu_iron_man_addon:textures/gui/armors/marks_abilities/mark_52_d/thrusters_icon.png",
       "title": { "translate": "ability.title.satsu.stabilizer" },
       "description": { "translate": "description.satsu.stabilizer" },
       "hidden": true,
@@ -10477,7 +10477,7 @@
       "hidden": true,
       "hidden_in_bar": true,
       "start_value": 0,
-      "max_value": 12,
+      "max_value": 2,
       "conditions": {
         "enabling": [],
         "unlocking": [
@@ -10514,6 +10514,346 @@
         ]
       }
     },
+    "nano_stabilizer_chest_deploy": {
+      "type": "geckolib:render_layer_animation",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "render_layer": "satsu_iron_man_addon:armor_things/iron_man/marks/mark_52_d/armor/chest/main",
+      "controller": "thrusters",
+      "animation_trigger": "deploy",
+      "conditions": {
+        "enabling": [],
+        "unlocking": [
+          {
+            "type": "palladium:ability_integer_property",
+            "power": "null",
+            "ability": "nano_stabilizer",
+            "property": "value",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "chest_animation",
+            "property": "value",
+            "min": 16,
+            "max": 16
+          },
+          {
+            "type": "palladium:string_property",
+            "property": "satsu_iron_man_addon_nano_stabilizer",
+            "comparator": "equals",
+            "compare_to": "true"
+          }
+        ]
+      }
+    },
+    "nano_stabilizer_chest_fold": {
+      "type": "geckolib:render_layer_animation",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "render_layer": "satsu_iron_man_addon:armor_things/iron_man/marks/mark_52_d/armor/chest/main",
+      "controller": "thrusters",
+      "animation_trigger": "fold",
+      "conditions": {
+        "enabling": [],
+        "unlocking": [
+          {
+            "type": "palladium:ability_integer_property",
+            "power": "null",
+            "ability": "nano_stabilizer",
+            "property": "value",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "chest_animation",
+            "property": "value",
+            "min": 16,
+            "max": 16
+          },
+          {
+            "type": "palladium:string_property",
+            "property": "satsu_iron_man_addon_nano_stabilizer",
+            "comparator": "equals",
+            "compare_to": "false"
+          }
+        ]
+      }
+    },
+    "nano_stabilizer_left_arm_deploy": {
+      "type": "geckolib:render_layer_animation",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "render_layer": "satsu_iron_man_addon:armor_things/iron_man/marks/mark_52_d/armor/left_arm/main",
+      "controller": "left_arm_thruster",
+      "animation_trigger": "deploy",
+      "conditions": {
+        "enabling": [],
+        "unlocking": [
+          {
+            "type": "palladium:ability_integer_property",
+            "power": "null",
+            "ability": "nano_stabilizer",
+            "property": "value",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "chest_animation",
+            "property": "value",
+            "min": 16,
+            "max": 16
+          },
+          {
+            "type": "palladium:string_property",
+            "property": "satsu_iron_man_addon_nano_stabilizer",
+            "comparator": "equals",
+            "compare_to": "true"
+          }
+        ]
+      }
+    },
+    "nano_stabilizer_left_arm_fold": {
+      "type": "geckolib:render_layer_animation",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "render_layer": "satsu_iron_man_addon:armor_things/iron_man/marks/mark_52_d/armor/left_arm/main",
+      "controller": "left_arm_thruster",
+      "animation_trigger": "fold",
+      "conditions": {
+        "enabling": [],
+        "unlocking": [
+          {
+            "type": "palladium:ability_integer_property",
+            "power": "null",
+            "ability": "nano_stabilizer",
+            "property": "value",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "chest_animation",
+            "property": "value",
+            "min": 16,
+            "max": 16
+          },
+          {
+            "type": "palladium:string_property",
+            "property": "satsu_iron_man_addon_nano_stabilizer",
+            "comparator": "equals",
+            "compare_to": "false"
+          }
+        ]
+      }
+    },
+    "nano_stabilizer_left_leg_deploy": {
+      "type": "geckolib:render_layer_animation",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "render_layer": "satsu_iron_man_addon:armor_things/iron_man/marks/mark_52_d/armor/left_leg/main",
+      "controller": "thruster_left_leg",
+      "animation_trigger": "deploy",
+      "conditions": {
+        "enabling": [],
+        "unlocking": [
+          {
+            "type": "palladium:ability_integer_property",
+            "power": "null",
+            "ability": "nano_stabilizer",
+            "property": "value",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "chest_animation",
+            "property": "value",
+            "min": 16,
+            "max": 16
+          },
+          {
+            "type": "palladium:string_property",
+            "property": "satsu_iron_man_addon_nano_stabilizer",
+            "comparator": "equals",
+            "compare_to": "true"
+          }
+        ]
+      }
+    },
+    "nano_stabilizer_left_leg_fold": {
+      "type": "geckolib:render_layer_animation",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "render_layer": "satsu_iron_man_addon:armor_things/iron_man/marks/mark_52_d/armor/left_leg/main",
+      "controller": "thruster_left_leg",
+      "animation_trigger": "fold",
+      "conditions": {
+        "enabling": [],
+        "unlocking": [
+          {
+            "type": "palladium:ability_integer_property",
+            "power": "null",
+            "ability": "nano_stabilizer",
+            "property": "value",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "chest_animation",
+            "property": "value",
+            "min": 16,
+            "max": 16
+          },
+          {
+            "type": "palladium:string_property",
+            "property": "satsu_iron_man_addon_nano_stabilizer",
+            "comparator": "equals",
+            "compare_to": "false"
+          }
+        ]
+      }
+    },
+    "nano_stabilizer_right_arm_deploy": {
+      "type": "geckolib:render_layer_animation",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "render_layer": "satsu_iron_man_addon:armor_things/iron_man/marks/mark_52_d/armor/right_arm/main",
+      "controller": "thruster_right_arm",
+      "animation_trigger": "deploy",
+      "conditions": {
+        "enabling": [],
+        "unlocking": [
+          {
+            "type": "palladium:ability_integer_property",
+            "power": "null",
+            "ability": "nano_stabilizer",
+            "property": "value",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "chest_animation",
+            "property": "value",
+            "min": 16,
+            "max": 16
+          },
+          {
+            "type": "palladium:string_property",
+            "property": "satsu_iron_man_addon_nano_stabilizer",
+            "comparator": "equals",
+            "compare_to": "true"
+          }
+        ]
+      }
+    },
+    "nano_stabilizer_right_arm_fold": {
+      "type": "geckolib:render_layer_animation",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "render_layer": "satsu_iron_man_addon:armor_things/iron_man/marks/mark_52_d/armor/right_arm/main",
+      "controller": "thruster_right_arm",
+      "animation_trigger": "fold",
+      "conditions": {
+        "enabling": [],
+        "unlocking": [
+          {
+            "type": "palladium:ability_integer_property",
+            "power": "null",
+            "ability": "nano_stabilizer",
+            "property": "value",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "chest_animation",
+            "property": "value",
+            "min": 16,
+            "max": 16
+          },
+          {
+            "type": "palladium:string_property",
+            "property": "satsu_iron_man_addon_nano_stabilizer",
+            "comparator": "equals",
+            "compare_to": "false"
+          }
+        ]
+      }
+    },
+    "nano_stabilizer_right_leg_deploy": {
+      "type": "geckolib:render_layer_animation",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "render_layer": "satsu_iron_man_addon:armor_things/iron_man/marks/mark_52_d/armor/right_leg/main",
+      "controller": "thruster_right_leg",
+      "animation_trigger": "deploy",
+      "conditions": {
+        "enabling": [],
+        "unlocking": [
+          {
+            "type": "palladium:ability_integer_property",
+            "power": "null",
+            "ability": "nano_stabilizer",
+            "property": "value",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "chest_animation",
+            "property": "value",
+            "min": 16,
+            "max": 16
+          },
+          {
+            "type": "palladium:string_property",
+            "property": "satsu_iron_man_addon_nano_stabilizer",
+            "comparator": "equals",
+            "compare_to": "true"
+          }
+        ]
+      }
+    },
+    "nano_stabilizer_right_leg_fold": {
+      "type": "geckolib:render_layer_animation",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "render_layer": "satsu_iron_man_addon:armor_things/iron_man/marks/mark_52_d/armor/right_leg/main",
+      "controller": "thruster_right_leg",
+      "animation_trigger": "fold",
+      "conditions": {
+        "enabling": [],
+        "unlocking": [
+          {
+            "type": "palladium:ability_integer_property",
+            "power": "null",
+            "ability": "nano_stabilizer",
+            "property": "value",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "chest_animation",
+            "property": "value",
+            "min": 16,
+            "max": 16
+          },
+          {
+            "type": "palladium:string_property",
+            "property": "satsu_iron_man_addon_nano_stabilizer",
+            "comparator": "equals",
+            "compare_to": "false"
+          }
+        ]
+      }
+    },
     "nano_stabilizer_flexibility": {
       "type": "palladium:attribute_modifier",
       "hidden": true,
@@ -10528,8 +10868,8 @@
             "type": "palladium:ability_integer_property",
             "ability": "nano_stabilizer",
             "property": "value",
-            "min": 12,
-            "max": 12
+            "min": 2,
+            "max": 2
           }
         ]
       }
@@ -10546,8 +10886,8 @@
             "type": "palladium:ability_integer_property",
             "ability": "nano_stabilizer",
             "property": "value",
-            "min": 12,
-            "max": 12
+            "min": 2,
+            "max": 2
           }
         ]
       }
@@ -10575,8 +10915,8 @@
             "type": "palladium:ability_integer_property",
             "ability": "nano_stabilizer",
             "property": "value",
-            "min": 12,
-            "max": 12
+            "min": 2,
+            "max": 2
           }
         ]
       }
@@ -10604,8 +10944,8 @@
             "type": "palladium:ability_integer_property",
             "ability": "nano_stabilizer",
             "property": "value",
-            "min": 12,
-            "max": 12
+            "min": 2,
+            "max": 2
           }
         ]
       }
@@ -10625,8 +10965,8 @@
             "type": "palladium:ability_integer_property",
             "ability": "nano_stabilizer",
             "property": "value",
-            "min": 12,
-            "max": 12
+            "min": 2,
+            "max": 2
           }
         ]
       }
@@ -10729,12 +11069,6 @@
                 "ability": "nano_flares_flames",
                 "min": "1",
                 "max": "7"
-              },
-              {
-                "type": "palladium:ability_integer_property",
-                "ability": "nano_stabilizer",
-                "min": "1",
-                "max": "8"
               },
               {
                 "type": "palladium:ability_integer_property",
@@ -10886,24 +11220,6 @@
           {
             "type": "palladium:ability_integer_property",
             "ability": "nano_flares_flames",
-            "min": "1",
-            "max": "1000"
-          }
-        ]
-      }
-    },
-    "remove_nanite.nano_stabilizer": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
-      "hidden": true,
-      "hidden_in_bar": true,
-      "property_name": "satsu_iron_man_nano_counts",
-      "adjustment_type": "subtract",
-      "adjustment_amount": 1,
-      "conditions": {
-        "enabling": [
-          {
-            "type": "palladium:ability_integer_property",
-            "ability": "nano_stabilizer",
             "min": "1",
             "max": "1000"
           }
@@ -12937,7 +13253,7 @@
         "enabling": [
           {
             "type": "palladium:string_property",
-            "property": "satsu_iron_man_asatsu_iron_man_addon_armor_recharge_modeddon_nano_stabilizer",
+            "property": "satsu_iron_man_addon_armor_recharge_mode",
             "comparator": "equals",
             "compare_to": "on"
           },

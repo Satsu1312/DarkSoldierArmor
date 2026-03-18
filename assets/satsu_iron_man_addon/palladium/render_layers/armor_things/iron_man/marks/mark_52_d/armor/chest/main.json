@@ -60,13 +60,21 @@
         },
         "output": "satsu_iron_man_addon:textures/models/iron_man/no_light_chest/mark_52_d_0_#CHEST"
       },
-      "animation_file": "satsu_iron_man_addon:animations/call_right_arm.geo.json",
+      "animation_file": "satsu_iron_man_addon:animations/call_parts/call_chest_mark_52_d.geo.json",
       "animation_controller": [
         {
           "name": "call.part.control",
           "transition_tick_time": 10,
           "triggers": {
             "call.part": "animation.minecraft:call.body"
+          }
+        },
+        {
+          "name": "thrusters",
+          "transition_tick_time": 10,
+          "triggers": {
+            "deploy": "thrusters_deploy",
+            "fold": "thrusters_fold"
           }
         }
       ],
@@ -95,13 +103,21 @@
         },
         "output": "satsu_iron_man_addon:textures/models/iron_man/light_chest/mark_52_d_0_#CHEST"
       },
-      "animation_file": "satsu_iron_man_addon:animations/call_right_arm.geo.json",
+      "animation_file": "satsu_iron_man_addon:animations/call_parts/call_chest_mark_52_d.geo.json",
       "animation_controller": [
         {
           "name": "call.part.control",
           "transition_tick_time": 10,
           "triggers": {
             "call.part": "animation.minecraft:call.body"
+          }
+        },
+        {
+          "name": "thrusters",
+          "transition_tick_time": 10,
+          "triggers": {
+            "deploy": "thrusters_deploy",
+            "fold": "thrusters_fold"
           }
         }
       ],

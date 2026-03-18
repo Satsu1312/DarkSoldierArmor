@@ -24,13 +24,21 @@
         },
         "output": "satsu_iron_man_addon:textures/models/iron_man/no_light_left_arm/mark_52_d_0_#LEFT_ARM"
       },
-      "animation_file": "satsu_iron_man_addon:animations/call_right_arm.geo.json",
+      "animation_file": "satsu_iron_man_addon:animations/call_parts/call_left_arm_mark_52_d.geo.json",
       "animation_controller": [
         {
           "name": "call.part.control",
           "transition_tick_time": 10,
           "triggers": {
             "call.part": "animation.minecraft:call.left.arm"
+          }
+        },
+        {
+          "name": "left_arm_thruster",
+          "transition_tick_time": 10,
+          "triggers": {
+            "deploy": "left_arm_deploy",
+            "fold": "left_arm_fold"
           }
         }
       ],
@@ -59,13 +67,21 @@
         },
         "output": "satsu_iron_man_addon:textures/models/iron_man/light_left_arm/mark_52_d_0_#LEFT_ARM"
       },
-      "animation_file": "satsu_iron_man_addon:animations/call_right_arm.geo.json",
+      "animation_file": "satsu_iron_man_addon:animations/call_parts/call_left_arm_mark_52_d.geo.json",
       "animation_controller": [
         {
           "name": "call.part.control",
           "transition_tick_time": 10,
           "triggers": {
             "call.part": "animation.minecraft:call.left.arm"
+          }
+        },
+        {
+          "name": "left_arm_thruster",
+          "transition_tick_time": 10,
+          "triggers": {
+            "deploy": "left_arm_deploy",
+            "fold": "left_arm_fold"
           }
         }
       ],
