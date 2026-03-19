@@ -5436,8 +5436,7 @@
       "conditions": {
         "enabling": [
           {
-            "type": "palladium:action",
-            "cooldown": 0
+            "type": "satsu_iron_man_addon:open_equipment_condition"
           }
         ],
         "unlocking": [
