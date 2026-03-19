@@ -1,0 +1,27 @@
+{
+  "item.satsu_iron_man_addon.ia_tarjet_52": "AI Card: Jarvis",
+  "ability.title.satsu.ia.name.3": "AI Name:Y.O.R.C.H",
+  "satsu.iron.man.addon.text.ia.full.name.52": "<Y.O.R.C.H> Full Energy",
+  "satsu.iron.man.addon.text.ia.low.name.52": "<Y.O.R.C.H> Low Energy",
+  "satsu.iron.man.addon.text.ia.overcharged.name.52": "<Y.O.R.C.H> Warning overcharged!",
+  "satsu.iron.man.addon.text.ia.interaction.52": "<Y.O.R.C.H> Hi buddy, what do you need?",
+  "satsu.iron.man.addon.text.ia.interaction.night.vision.52": "<Y.O.R.C.H> Night vision activated, go hard.",
+  "satsu.iron.man.addon.text.ia.interaction.disable.night.vision.52": "<Y.O.R.C.H> Night vision deactivated, eturning to standard vision.",
+  "satsu.iron.man.addon.text.ia.interaction.scan.52": "<Y.O.R.C.H> Scanning the area for potential threats, detection systems online.",
+  "satsu.iron.man.addon.text.ia.interaction.disable.scan.52": "<Y.O.R.C.H> Enemy scan deactivated, detection systems offline.",
+  "satsu.iron.man.addon.text.ia.interaction.energy.52": "<Y.O.R.C.H> Here are the current energy levels, all systems are operating at optimal conditions.",
+  "satsu.iron.man.addon.text.ia.interaction.disable.energy.52": "<Y.O.R.C.H> Energy levels hidden, back to standard view.",
+  "satsu.iron.man.addon.text.ia.interaction.sentinel.52": "<Y.O.R.C.H> Sentry mode activated, defense systems on standby",
+  "satsu.iron.man.addon.text.ia.interaction.disable.sentinel.52": "<Y.O.R.C.H> Sentry mode deactivated.",
+  "satsu.iron.man.addon.text.ia.warning.energy.name.52": "<Y.O.R.C.H> Sir, energy is in a critical state. I recommend immediate recharge to prevent shutdown.",
+  "satsu.iron.man.addon.text.ia.interaction.reroute.flight.enable.52": "<Y.O.R.C.H> Rerouting power to thrusters, sir. All systems are operating within established parameters.",
+  "satsu.iron.man.addon.text.ia.interaction.reroute.flight.disable.52": "<Y.O.R.C.H> Power flow normalized. Continuing under optimal conditions.",
+  "satsu.iron.man.addon.text.ia.increase.mine.speed.52": "<Y.O.R.C.H> Mining speed activated, sir. Performance optimized.",
+  "satsu.iron.man.addon.text.ia.decrease.mine.speed.52": "<Y.O.R.C.H> Mining speed deactivated, sir. Returning to standard mode.",
+  "satsu.iron.man.addon.text.ia.interaction.recharge_mode.52": "<Y.O.R.C.H> Recharge mode activated, sir. Energy system optimized for maximum efficiency.",  
+  "satsu.iron.man.addon.text.ia.interaction.disable.recharge_mode.52": "<Y.O.R.C.H> Recharge mode deactivated, sir. System returning to normal operation.",
+  "satsu.iron.man.addon.text.ia.interaction.bye.52": "<Y.O.R.C.H> Deactivating, sir. Until next time."
+
+
+
+}
