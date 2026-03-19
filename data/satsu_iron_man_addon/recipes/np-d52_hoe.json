@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "MA ",
+        " D ",
+        " s "
+    ],
+    "key": {
+        "M": {
+            "item": "satsu_iron_man_addon:nanopolymer_d_52",
+            "count": 10
+        },
+        "s": {
+            "item": "minecraft:stick"
+        },
+        "D": {
+            "item": "minecraft:diamond_hoe"
+        },
+         "A": {
+            "item": "satsu_iron_man_addon:steel_gold_refined_alloy"
+        }
+    },
+    "result": {
+        "item": "satsu_iron_man_addon:np-d52_hoe",
+        "count": 1
+    },
+    "group": "iron_man"
+}

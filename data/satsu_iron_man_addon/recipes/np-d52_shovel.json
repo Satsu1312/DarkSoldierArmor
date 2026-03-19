@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " M ",
+        " A ",
+        " D "
+    ],
+    "key": {
+        "M": {
+            "item": "satsu_iron_man_addon:nanopolymer_d_52",
+            "count": 10
+        },
+        "D": {
+            "item": "minecraft:diamond_shovel"
+        },
+         "A": {
+            "item": "satsu_iron_man_addon:steel_gold_refined_alloy"
+        }
+    },
+    "result": {
+        "item": "satsu_iron_man_addon:np-d52_shovel",
+        "count": 1
+    },
+    "group": "iron_man"
+}
