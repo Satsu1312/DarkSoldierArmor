@@ -13,7 +13,33 @@
           }
         ],
         "output": "satsu_iron_man_addon:textures/models/tech/dark_tech_falcon_wings/1"
-      }
+      },
+      "animation_file": "satsu_iron_man_addon:animations/dark_tech/dark_tech_falcon_wings_animation.json",
+      "animation_controller": [
+        {
+          "name": "boost",
+          "transition_tick_time": 10,
+          "triggers": {
+            "boost_on": "boost_on",
+            "boost_off": "boost_off"
+          }
+        },
+        {
+          "name": "shield",
+          "transition_tick_time": 10,
+          "triggers": {
+            "shield_on": "shield_on",
+            "shield_off": "shield_off"
+          }
+        },
+        {
+          "name": "attack",
+          "transition_tick_time": 10,
+          "triggers": {
+            "attack": "attack"
+          }
+        }
+      ]
     },
     {
       "type": "geckolib:default",
@@ -26,8 +52,34 @@
             "mask": "satsu_iron_man_addon:textures/models/alpha_masks/tech/dark_tech_falcon_wings/1.png"
           }
         ],
-        "output": "satsu_iron_man_addon:textures/models/tech/dark_tech_falcon_wings/1"
+        "output": "satsu_iron_man_addon:textures/models/tech/dark_tech_falcon_wings_glow/1"
       },
+      "animation_file": "satsu_iron_man_addon:animations/dark_tech/dark_tech_falcon_wings_animation.json",
+      "animation_controller": [
+        {
+          "name": "boost",
+          "transition_tick_time": 10,
+          "triggers": {
+            "boost_on": "boost_on",
+            "boost_off": "boost_off"
+          }
+        },
+        {
+          "name": "shield",
+          "transition_tick_time": 10,
+          "triggers": {
+            "shield_on": "shield_on",
+            "shield_off": "shield_off"
+          }
+        },
+        {
+          "name": "attack",
+          "transition_tick_time": 10,
+          "triggers": {
+            "attack": "attack"
+          }
+        }
+      ],
       "render_type": "glow"
     }
   ]
