@@ -93,6 +93,145 @@
         ]
       }
     },
+    "shield": {
+      "type": "palladium:animation_timer",
+      "icon": "satsu_iron_man_addon:textures/item/ds_widows_bite.png",
+      "title": { "translate": "ability.title.dark_soldier.active.widows_bite" },
+      "hidden": true,
+      "hidden_in_bar": false,
+      "list_index": 1,
+      "start_value": 0,
+      "max_value": 3,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:activation",
+            "key_type": "key_bind",
+            "ticks": 120,
+            "cooldown": 80
+          }
+        ],
+        "unlocking": [
+          {
+            "type": "palladium:animation_timer_ability",
+            "power": "null",
+            "ability": "animation_timer",
+            "min": 2,
+            "max": 15
+          },
+          {
+            "type": "palladium:string_property",
+            "property": "satsu_iron_man_addon_watch",
+            "comparator": "equals",
+            "compare_to": "on"
+          }
+        ]
+      }
+    },
+    "shield.animation.on": {
+      "type": "geckolib:render_layer_animation",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "render_layer": "satsu_iron_man_addon:tech/falcon_wings",
+      "controller": "shield",
+      "animation_trigger": "shield_on",
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:animation_timer_ability",
+            "power": "null",
+            "ability": "shield",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "type": "palladium:ability_enabled",
+            "power": "null",
+            "ability": "shield"
+          }
+        ],
+        "unlocking": []
+      }
+    },
+    "shield.animation.off": {
+      "type": "geckolib:render_layer_animation",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "render_layer": "satsu_iron_man_addon:tech/falcon_wings",
+      "controller": "shield",
+      "animation_trigger": "shield_off",
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:animation_timer_ability",
+            "power": "null",
+            "ability": "shield",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "type": "palladium:not",
+            "conditions": [
+              {
+                "type": "palladium:ability_enabled",
+                "power": "null",
+                "ability": "shield"
+              }
+            ]
+          }
+        ],
+        "unlocking": []
+      }
+    },
+    "shield.forcefield": {
+      "type": "gravecore:forcefield",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "max_health": 440,
+      "scoreboard": "null",
+      "regen_rate": 1,
+      "damage_sources": [
+        "minecraft:damages_helmet",
+        "minecraft:bypasses_armor",
+        "minecraft:bypasses_shield",
+        "minecraft:bypasses_invulnerability",
+        "minecraft:bypasses_cooldown",
+        "minecraft:bypasses_effects",
+        "minecraft:bypasses_resistance",
+        "minecraft:bypasses_enchantments",
+        "minecraft:is_fire",
+        "minecraft:is_projectile",
+        "minecraft:witch_resistant_to",
+        "minecraft:is_explosion",
+        "minecraft:is_fall",
+        "minecraft:is_drowning",
+        "minecraft:is_freezing",
+        "minecraft:is_lightning",
+        "minecraft:no_anger",
+        "minecraft:no_impact",
+        "minecraft:always_most_significant_fall",
+        "minecraft:wither_immune_to",
+        "minecraft:ignites_armor_stands",
+        "minecraft:burns_armor_stands",
+        "minecraft:avoids_guardian_thorns",
+        "minecraft:always_triggers_silverfish",
+        "minecraft:always_hurts_ender_dragons",
+        "satsu_iron_man_addon:all",
+        "satsu_iron_man_addon:mob",
+        "satsu_iron_man_addon:player"
+      ],
+      "thorns": false,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_enabled",
+            "power": "null",
+            "ability": "shield"
+          }
+        ],
+        "unlocking": []
+      }
+    },
     "animation_timer": {
       "type": "palladium:animation_timer",
       "hidden": true,
@@ -107,6 +246,17 @@
             "property": "satsu_iron_man_addon_watch",
             "comparator": "equals",
             "compare_to": "on"
+          },
+          {
+            "type": "palladium:not",
+            "conditions": [
+              {
+                "type": "palladium:string_property",
+                "property": "satsu_iron_man_addon_armor_activated",
+                "comparator": "equals",
+                "compare_to": "on"
+              }
+            ]
           }
         ]
       }
