@@ -9,11 +9,22 @@
         "transformers": [
           {
             "type": "palladium:alpha_mask",
-            "mask": "satsu_iron_man_addon:textures/models/alpha_masks/tech/dark_tech_falcon_wings/1.png"
+            "mask": "satsu_iron_man_addon:textures/models/alpha_masks/tech/dark_tech_falcon_wings/#falcon.png"
           }
         ],
-        "output": "satsu_iron_man_addon:textures/models/tech/dark_tech_falcon_wings/1"
+        "variables": {
+          "falcon": {
+            "type": "palladium:ability_integer_property",
+            "power": "satsu_iron_man_addon:falcon_wings",
+            "ability": "animation_timer",
+            "property": "value",
+            "min": 1,
+            "max": 15
+          }
+        },
+        "output": "satsu_iron_man_addon:textures/models/tech/dark_tech_falcon_wings/#falcon"
       },
+      "hidden_body_parts": ["cape"],
       "animation_file": "satsu_iron_man_addon:animations/dark_tech/dark_tech_falcon_wings_animation.json",
       "animation_controller": [
         {
@@ -49,11 +60,22 @@
         "transformers": [
           {
             "type": "palladium:alpha_mask",
-            "mask": "satsu_iron_man_addon:textures/models/alpha_masks/tech/dark_tech_falcon_wings/1.png"
+            "mask": "satsu_iron_man_addon:textures/models/alpha_masks/tech/dark_tech_falcon_wings/#falcon.png"
           }
         ],
-        "output": "satsu_iron_man_addon:textures/models/tech/dark_tech_falcon_wings_glow/1"
+        "variables": {
+          "falcon": {
+            "type": "palladium:ability_integer_property",
+            "power": "satsu_iron_man_addon:falcon_wings",
+            "ability": "animation_timer",
+            "property": "value",
+            "min": 1,
+            "max": 15
+          }
+        },
+        "output": "satsu_iron_man_addon:textures/models/tech/dark_tech_falcon_wings_glow/#falcon"
       },
+      "hidden_body_parts": ["cape"],
       "animation_file": "satsu_iron_man_addon:animations/dark_tech/dark_tech_falcon_wings_animation.json",
       "animation_controller": [
         {
