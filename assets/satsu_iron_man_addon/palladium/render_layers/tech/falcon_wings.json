@@ -1,0 +1,34 @@
+{
+  "type": "palladium:compound",
+  "layers": [
+    {
+      "type": "geckolib:default",
+      "model": "satsu_iron_man_addon:geo/tech/falcon_wings.geo.json",
+      "texture": {
+        "base": "satsu_iron_man_addon:textures/models/tech/dark_tech_falcon_wings.png",
+        "transformers": [
+          {
+            "type": "palladium:alpha_mask",
+            "mask": "satsu_iron_man_addon:textures/models/alpha_masks/tech/dark_tech_falcon_wings/1.png"
+          }
+        ],
+        "output": "satsu_iron_man_addon:textures/models/tech/dark_tech_falcon_wings/1"
+      }
+    },
+    {
+      "type": "geckolib:default",
+      "model": "satsu_iron_man_addon:geo/tech/falcon_wings.geo.json",
+      "texture": {
+        "base": "satsu_iron_man_addon:textures/models/tech/dark_tech_falcon_wings_lights.png",
+        "transformers": [
+          {
+            "type": "palladium:alpha_mask",
+            "mask": "satsu_iron_man_addon:textures/models/alpha_masks/tech/dark_tech_falcon_wings/1.png"
+          }
+        ],
+        "output": "satsu_iron_man_addon:textures/models/tech/dark_tech_falcon_wings/1"
+      },
+      "render_type": "glow"
+    }
+  ]
+}
