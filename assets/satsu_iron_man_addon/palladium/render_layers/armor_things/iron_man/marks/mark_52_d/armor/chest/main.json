@@ -161,7 +161,7 @@
             "max": 7
           }
         },
-        "output": "satsu_iron_man_addon:textures/models/iron_man/no_light_chest/mark_52_d_0_#water_turbine"
+        "output": "satsu_iron_man_addon:textures/models/iron_man/scuba/no_light/mark_52_d_0_#water_turbine"
       },
       "conditions": [
         {
