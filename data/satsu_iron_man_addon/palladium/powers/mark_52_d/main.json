@@ -768,8 +768,9 @@
       "conditions": {
         "enabling": [
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -1020,8 +1021,9 @@
             "compare_to": "true"
           },
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -1394,8 +1396,9 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -2051,8 +2054,9 @@
       "conditions": {
         "enabling": [
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -4963,8 +4967,9 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -5456,8 +5461,9 @@
             "compare_to": "on"
           },
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -5650,8 +5656,9 @@
             "max": 16
           },
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -5758,8 +5765,9 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -5875,8 +5883,9 @@
             "ability": "armor"
           },
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -5992,8 +6001,9 @@
             "ability": "armor"
           },
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -6139,8 +6149,9 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -6214,8 +6225,9 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -6325,8 +6337,9 @@
             "ability": "armor"
           },
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -6392,8 +6405,9 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -6442,8 +6456,9 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -6503,8 +6518,9 @@
             ]
           },
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -6572,8 +6588,9 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -6638,8 +6655,9 @@
         "enabling": [],
         "unlocking": [
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -6672,10 +6690,11 @@
       }
     },
     "energyblast.remove.ark.energy": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
+      "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "property_name": "satsu_iron_man_iron_man_energy",
+      "slot": "chest",
+      "nbtKey": "Energy",
       "adjustment_type": "subtract",
       "adjustment_amount": 10,
       "conditions": {
@@ -6718,8 +6737,9 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -6795,8 +6815,9 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -6890,8 +6911,9 @@
             ]
           },
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -6970,8 +6992,9 @@
             ]
           },
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -7015,8 +7038,9 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -7085,8 +7109,9 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -7144,10 +7169,11 @@
       }
     },
     "energybeam.remove.ark.energy": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
+      "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "property_name": "satsu_iron_man_iron_man_energy",
+      "slot": "chest",
+      "nbtKey": "Energy",
       "adjustment_type": "subtract",
       "adjustment_amount": 3,
       "conditions": {
@@ -7180,10 +7206,11 @@
       }
     },
     "energybeam.remove.ark.energy_powerfull.1": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
+      "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "property_name": "satsu_iron_man_iron_man_energy",
+      "slot": "chest",
+      "nbtKey": "Energy",
       "adjustment_type": "subtract",
       "adjustment_amount": 6,
       "conditions": {
@@ -7211,10 +7238,11 @@
       }
     },
     "energybeam.remove.ark.energy_powerfull.2": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
+      "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "property_name": "satsu_iron_man_iron_man_energy",
+      "slot": "chest",
+      "nbtKey": "Energy",
       "adjustment_type": "subtract",
       "adjustment_amount": 9,
       "conditions": {
@@ -7422,8 +7450,9 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -7498,8 +7527,9 @@
             "compare_to": "true"
           },
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -7516,15 +7546,55 @@
         ]
       }
     },
-    "increase.flight_speed": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
-      "icon": "satsu_iron_man_addon:textures/gui/armors/speed_up.png",
-      "title": { "translate": "ability.title.satsu.Increase.Speed" },
-      "description": { "translate": "description.armor_skill_bar" },
+    "item_modifier.flight_velocity": {
+      "type": "satsu_iron_man_addon:item_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "list_index": 6,
-      "property_name": "satsu_iron_man_flight_speed_choose",
+      "slot": "chest",
+      "nbtKey": "Flight_velocity",
+      "nbtValue": "0",
+      "conditions": {
+        "enabling": [],
+        "unlocking": [
+          {
+            "type": "palladium:not",
+            "conditions": [
+              {
+                "type": "satsu_iron_man_addon:slot_nbt_range_check",
+                "slot": "chest",
+                "nbtKey": "Flight_velocity",
+                "min": -2147483647,
+                "max": 2147483647
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "item_property_sync.flight_velocity": {
+      "type": "satsu_iron_man_addon:item_property_sync",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "slot": "chest",
+      "nbtKey": "Flight_velocity",
+      "propertyKey": "satsu_iron_man_flight_speed_choose",
+      "syncMode": "nbt",
+      "conditions": {
+        "enabling": [],
+        "unlocking": [
+          {
+            "type": "palladium:ability_unlocked",
+            "ability": "armor"
+          }
+        ]
+      }
+    },
+    "increase.flight_speed": {
+      "type": "satsu_iron_man_addon:nbt_modifier",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "slot": "chest",
+      "nbtKey": "Flight_velocity",
       "adjustment_type": "add",
       "adjustment_amount": 2,
       "conditions": {
@@ -7536,8 +7606,9 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -7562,14 +7633,11 @@
       }
     },
     "remove.flight_speed": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
-      "icon": "satsu_iron_man_addon:textures/gui/armors/speed_down.png",
-      "title": { "translate": "ability.title.satsu.decrease.Speed" },
-      "description": { "translate": "description.armor_skill_bar" },
+      "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "list_index": 7,
-      "property_name": "satsu_iron_man_flight_speed_choose",
+      "slot": "chest",
+      "nbtKey": "Flight_velocity",
       "adjustment_type": "subtract",
       "adjustment_amount": 2,
       "conditions": {
@@ -7581,8 +7649,9 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -7607,13 +7676,11 @@
       }
     },
     "increase.max.flight_speed": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
-      "icon": "satsu_iron_man_addon:textures/gui/armors/speed_up.png",
-      "title": { "translate": "ability.title.satsu.Increase.Speed" },
+      "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "list_index": 8,
-      "property_name": "satsu_iron_man_flight_speed_choose",
+      "slot": "chest",
+      "nbtKey": "Flight_velocity",
       "adjustment_type": "set",
       "adjustment_amount": 252,
       "conditions": {
@@ -7629,8 +7696,9 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -7659,13 +7727,11 @@
       }
     },
     "remove.max.flight_speed": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
-      "icon": "satsu_iron_man_addon:textures/gui/armors/speed_down.png",
-      "title": { "translate": "ability.title.satsu.decrease.Speed" },
+      "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "list_index": 9,
-      "property_name": "satsu_iron_man_flight_speed_choose",
+      "slot": "chest",
+      "nbtKey": "Flight_velocity",
       "adjustment_type": "set",
       "adjustment_amount": 0,
       "conditions": {
@@ -7681,8 +7747,9 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -7747,8 +7814,9 @@
             "max": 3
           },
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -7831,8 +7899,9 @@
             "max": 1
           },
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -7908,8 +7977,9 @@
             "max": 2
           },
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -8757,14 +8827,16 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_nano_counts",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Nanites",
             "min": 0,
             "max": 2147483647
           },
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -9628,8 +9700,9 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -9794,10 +9867,11 @@
       }
     },
     "remove_ark_energy.shield": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
+      "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "property_name": "satsu_iron_man_iron_man_energy",
+      "slot": "chest",
+      "nbtKey": "Energy",
       "adjustment_type": "subtract",
       "adjustment_amount": 4,
       "conditions": {
@@ -9834,8 +9908,9 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -9991,8 +10066,9 @@
         ],
         "unlocking": [
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -10155,8 +10231,9 @@
             "ability": "nano_grenade_launcher"
           },
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -10232,8 +10309,9 @@
             "ability": "nano_grenade_launcher"
           },
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -10294,10 +10372,11 @@
       }
     },
     "nano_grenade_launcher.remove.ark.energy": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
+      "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "property_name": "satsu_iron_man_iron_man_energy",
+      "slot": "chest",
+      "nbtKey": "Energy",
       "adjustment_type": "subtract",
       "adjustment_amount": 18,
       "conditions": {
@@ -11083,10 +11162,11 @@
       }
     },
     "remove_nanite.shield": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
+      "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "property_name": "satsu_iron_man_nano_counts",
+      "slot": "chest",
+      "nbtKey": "Nanites",
       "adjustment_type": "subtract",
       "adjustment_amount": 1,
       "conditions": {
@@ -11102,10 +11182,11 @@
       }
     },
     "remove_nanite.propulsor_anim": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
+      "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "property_name": "satsu_iron_man_nano_counts",
+      "slot": "chest",
+      "nbtKey": "Nanites",
       "adjustment_type": "subtract",
       "adjustment_amount": 1,
       "conditions": {
@@ -11120,10 +11201,11 @@
       }
     },
     "remove_nanite.flight_anim": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
+      "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "property_name": "satsu_iron_man_nano_counts",
+      "slot": "chest",
+      "nbtKey": "Nanites",
       "adjustment_type": "subtract",
       "adjustment_amount": 1,
       "conditions": {
@@ -11138,10 +11220,11 @@
       }
     },
     "remove_nanite.nano_hand_blade": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
+      "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "property_name": "satsu_iron_man_nano_counts",
+      "slot": "chest",
+      "nbtKey": "Nanites",
       "adjustment_type": "subtract",
       "adjustment_amount": 1,
       "conditions": {
@@ -11156,10 +11239,11 @@
       }
     },
     "remove_nanite.nano_rial": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
+      "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "property_name": "satsu_iron_man_nano_counts",
+      "slot": "chest",
+      "nbtKey": "Nanites",
       "adjustment_type": "subtract",
       "adjustment_amount": 1,
       "conditions": {
@@ -11174,10 +11258,11 @@
       }
     },
     "remove_nanite.rocket": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
+      "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "property_name": "satsu_iron_man_nano_counts",
+      "slot": "chest",
+      "nbtKey": "Nanites",
       "adjustment_type": "subtract",
       "adjustment_amount": 1,
       "conditions": {
@@ -11192,10 +11277,11 @@
       }
     },
     "remove_nanite.nano_fireworks": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
+      "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "property_name": "satsu_iron_man_nano_counts",
+      "slot": "chest",
+      "nbtKey": "Nanites",
       "adjustment_type": "subtract",
       "adjustment_amount": 1,
       "conditions": {
@@ -11210,10 +11296,11 @@
       }
     },
     "remove_nanite.nano_flares_flames": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
+      "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "property_name": "satsu_iron_man_nano_counts",
+      "slot": "chest",
+      "nbtKey": "Nanites",
       "adjustment_type": "subtract",
       "adjustment_amount": 1,
       "conditions": {
@@ -11228,10 +11315,11 @@
       }
     },
     "remove_nanite.water_turbine": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
+      "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "property_name": "satsu_iron_man_nano_counts",
+      "slot": "chest",
+      "nbtKey": "Nanites",
       "adjustment_type": "subtract",
       "adjustment_amount": 1,
       "conditions": {
@@ -11524,8 +11612,9 @@
             "ability": "armor"
           },
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -11588,8 +11677,9 @@
             "ability": "armor"
           },
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           },
@@ -12793,10 +12883,11 @@
       }
     },
     "mini_fireworks.remove.ark.energy": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
+      "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "property_name": "satsu_iron_man_iron_man_energy",
+      "slot": "chest",
+      "nbtKey": "Energy",
       "adjustment_type": "subtract",
       "adjustment_amount": 12,
       "conditions": {
@@ -12825,10 +12916,11 @@
       }
     },
     "rocket.remove.ark.energy": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
+      "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "property_name": "satsu_iron_man_iron_man_energy",
+      "slot": "chest",
+      "nbtKey": "Energy",
       "adjustment_type": "subtract",
       "adjustment_amount": 15,
       "conditions": {
@@ -12845,10 +12937,11 @@
       }
     },
     "flare_flames.remove.ark.energy": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
+      "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "property_name": "satsu_iron_man_iron_man_energy",
+      "slot": "chest",
+      "nbtKey": "Energy",
       "adjustment_type": "subtract",
       "adjustment_amount": 20,
       "conditions": {
@@ -12870,10 +12963,11 @@
       }
     },
     "minigun.remove.ark.energy": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
+      "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "property_name": "satsu_iron_man_iron_man_energy",
+      "slot": "chest",
+      "nbtKey": "Energy",
       "adjustment_type": "subtract",
       "adjustment_amount": 12,
       "conditions": {
@@ -12977,17 +13071,19 @@
       }
     },
     "remove_ark_energy": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
+      "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "property_name": "satsu_iron_man_iron_man_energy",
+      "slot": "chest",
+      "nbtKey": "Energy",
       "adjustment_type": "subtract",
       "adjustment_amount": 1,
       "conditions": {
         "enabling": [
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 2147483647
           }
@@ -13020,10 +13116,11 @@
       }
     },
     "energybeam-chest.remove.ark.energy": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
+      "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "property_name": "satsu_iron_man_iron_man_energy",
+      "slot": "chest",
+      "nbtKey": "Energy",
       "adjustment_type": "subtract",
       "adjustment_amount": 4,
       "conditions": {
@@ -13050,10 +13147,11 @@
       }
     },
     "energybeam-chest.remove.ark.energy_1": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
+      "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "property_name": "satsu_iron_man_iron_man_energy",
+      "slot": "chest",
+      "nbtKey": "Energy",
       "adjustment_type": "subtract",
       "adjustment_amount": 8,
       "conditions": {
@@ -13075,10 +13173,11 @@
       }
     },
     "energybeam-chest.remove.ark.energy_2": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
+      "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "property_name": "satsu_iron_man_iron_man_energy",
+      "slot": "chest",
+      "nbtKey": "Energy",
       "adjustment_type": "subtract",
       "adjustment_amount": 16,
       "conditions": {
@@ -13115,18 +13214,58 @@
         ]
       }
     },
-    "set.satsu_iron_man_nano_counts": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
+    "satsu_iron_man_nano_counts.item_modifier": {
+      "type": "satsu_iron_man_addon:item_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "property_name": "satsu_iron_man_nano_counts",
+      "slot": "chest",
+      "nbtKey": "Nanites",
+      "nbtValue": "1000000",
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:not",
+            "conditions": [
+              {
+                "type": "satsu_iron_man_addon:slot_nbt_range_check",
+                "slot": "chest",
+                "nbtKey": "Nanites",
+                "min": -2147483647,
+                "max": 2147483647
+              }
+            ]
+          }
+        ],
+        "unlocking": []
+      }
+    },
+    "satsu_iron_man_nano_counts.item_property_sync": {
+      "type": "satsu_iron_man_addon:item_property_sync",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "slot": "chest",
+      "nbtKey": "Nanites",
+      "propertyKey": "satsu_iron_man_nano_counts",
+      "syncMode": "nbt",
+      "conditions": {
+        "enabling": [],
+        "unlocking": []
+      }
+    },
+    "set.satsu_iron_man_nano_counts": {
+      "type": "satsu_iron_man_addon:nbt_modifier",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "slot": "chest",
+      "nbtKey": "Nanites",
       "adjustment_type": "set",
       "adjustment_amount": 10000,
       "conditions": {
         "enabling": [
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_nano_counts",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Nanites",
             "min": 10001,
             "max": 2147483647
           }
@@ -13178,8 +13317,9 @@
       "conditions": {
         "enabling": [
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 1,
             "max": 800
           },
@@ -13194,10 +13334,11 @@
       }
     },
     "recharge_energy": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
+      "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "property_name": "satsu_iron_man_iron_man_energy",
+      "slot": "chest",
+      "nbtKey": "Energy",
       "adjustment_type": "add",
       "adjustment_amount": 25,
       "conditions": {
@@ -13234,8 +13375,9 @@
             ]
           },
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": -2147483647,
             "max": 95201
           }
@@ -13244,10 +13386,11 @@
       }
     },
     "recharge_energy.closed": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
+      "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "property_name": "satsu_iron_man_iron_man_energy",
+      "slot": "chest",
+      "nbtKey": "Energy",
       "adjustment_type": "add",
       "adjustment_amount": 50,
       "conditions": {
@@ -13265,8 +13408,9 @@
             "max": 1
           },
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": -2147483647,
             "max": 95201
           }
@@ -13275,17 +13419,19 @@
       }
     },
     "set_energy_95200..": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
+      "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "property_name": "satsu_iron_man_iron_man_energy",
+      "slot": "chest",
+      "nbtKey": "Energy",
       "adjustment_type": "set",
       "adjustment_amount": 95200,
       "conditions": {
         "enabling": [
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 95201,
             "max": 2147483647
           }
@@ -13303,8 +13449,9 @@
       "conditions": {
         "enabling": [
           {
-            "type": "palladium:integer_property",
-            "property": "satsu_iron_man_iron_man_energy",
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
             "min": 0,
             "max": 2147483647
           }
