@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "satsu_iron_man_addon:item/dark_tech_lightning_core"
+  }
+}
