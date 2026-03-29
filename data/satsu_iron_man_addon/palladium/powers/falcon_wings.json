@@ -423,6 +423,41 @@
         ]
       }
     },
+    "fly_anim": {
+      "type": "palladium:animation_timer",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "start_value": 0,
+      "max_value": 6,
+      "conditions": {
+        "enabling": [],
+        "unlocking": [
+          {
+            "type": "palladium:has_movement_input"
+          },
+          {
+            "type": "palladium:is_fast_flying"
+          },
+          {
+            "type": "palladium:string_property",
+            "property": "satsu_iron_man_addon_dark_tech_falcon_wings",
+            "comparator": "equals",
+            "compare_to": "on"
+          },
+          {
+            "type": "palladium:not",
+            "conditions": [
+              {
+                "type": "palladium:string_property",
+                "property": "satsu_iron_man_addon_armor_activated",
+                "comparator": "equals",
+                "compare_to": "on"
+              }
+            ]
+          }
+        ]
+      }
+    },
     "multi_attribute_modifier": {
       "type": "satsu_iron_man_addon:multi_attribute_modifier",
       "hidden": true,
