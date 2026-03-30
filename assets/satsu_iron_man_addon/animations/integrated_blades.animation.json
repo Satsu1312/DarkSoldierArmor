@@ -1,0 +1,73 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"integrated blades deploy": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.3333,
+			"bones": {
+				"integratedbladeR": {
+					"rotation": {
+						"0.0": [32.5, 0, 0],
+						"0.2917": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [3, 0, 0],
+						"0.2917": [0, 0, 0]
+					},
+					"scale": {
+						"0.0": [1, 0, 1],
+						"0.2917": [1, 0.9, 1]
+					}
+				},
+				"integratedbladeL": {
+					"rotation": {
+						"0.0": [32.5, 0, 0],
+						"0.2917": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [-3, 0, 0],
+						"0.2917": [0, 0, 0]
+					},
+					"scale": {
+						"0.0": [1, 0, 1],
+						"0.2917": [1, 1, 1]
+					}
+				}
+			}
+		},
+		"integrated blades fold": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.3333,
+			"bones": {
+				"integratedbladeR": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2917": [32.5, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.2917": [3, 0, 0]
+					},
+					"scale": {
+						"0.0": [1, 0.9, 1],
+						"0.2917": [1, 0, 1]
+					}
+				},
+				"integratedbladeL": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2917": [32.5, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.2917": [-3, 0, 0]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.2917": [1, 0, 1]
+					}
+				}
+			}
+		}
+	}
+}
