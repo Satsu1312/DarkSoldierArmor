@@ -10048,7 +10048,7 @@
     },
     "integrated_blades": {
       "type": "palladium:animation_timer",
-      "icon": "satsu_iron_man_addon:textures/gui/armors/marks_abilities/nano/integrated_blades.png",
+      "icon": "satsu_iron_man_addon:textures/gui/armors/marks_abilities/mark_52_d/integrated_blades_icon.png",
       "title": { "translate": "ability.title.satsu.integrated_blades" },
       "description": { "translate": "description.satsu.integrated_blades" },
       "hidden": true,
@@ -10094,6 +10094,67 @@
             "property": "value",
             "min": 18,
             "max": 18
+          }
+        ]
+      }
+    },
+    "integrated_blades.deploy": {
+      "type": "geckolib:render_layer_animation",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "render_layer": "satsu_iron_man_addon:armor_things/iron_man/marks/mark_52_d/integrated_blades/main",
+      "controller": "integrated_blades",
+      "animation_trigger": "deploy",
+      "conditions": {
+        "enabling": [],
+        "unlocking": [
+          {
+            "type": "palladium:ability_unlocked",
+            "ability": "integrated_blades"
+          },
+          {
+            "type": "palladium:ability_enabled",
+            "ability": "integrated_blades"
+          },
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "integrated_blades",
+            "property": "value",
+            "min": 2,
+            "max": 3
+          }
+        ]
+      }
+    },
+    "integrated_blades.fold": {
+      "type": "geckolib:render_layer_animation",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "render_layer": "satsu_iron_man_addon:armor_things/iron_man/marks/mark_52_d/integrated_blades/main",
+      "controller": "integrated_blades",
+      "animation_trigger": "fold",
+      "conditions": {
+        "enabling": [],
+        "unlocking": [
+          {
+            "type": "palladium:ability_unlocked",
+            "ability": "integrated_blades"
+          },
+          {
+            "type": "palladium:not",
+            "conditions": [
+              {
+                "type": "palladium:ability_enabled",
+                "ability": "integrated_blades"
+              }
+            ]
+          },
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "integrated_blades",
+            "property": "value",
+            "min": 1,
+            "max": 1
           }
         ]
       }

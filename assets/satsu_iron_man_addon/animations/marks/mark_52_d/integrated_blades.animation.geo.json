@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"integrated blades deploy": {
+		"integrated_blades_deploy": {
 			"loop": "hold_on_last_frame",
 			"animation_length": 0.3333,
 			"bones": {
@@ -35,7 +35,7 @@
 				}
 			}
 		},
-		"integrated blades fold": {
+		"integrated_blades_fold": {
 			"loop": "hold_on_last_frame",
 			"animation_length": 0.3333,
 			"bones": {

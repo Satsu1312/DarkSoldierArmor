@@ -18,6 +18,17 @@
         },
         "output": "satsu_iron_man_addon:textures/models/iron_man/no_light_right_arm/mark_52_d_0_#RIGHT_ARM"
       },
+      "animation_file": "satsu_iron_man_addon:animations/marks/mark_52_d/integrated_blades.animation.geo.json",
+      "animation_controller": [
+        {
+          "name": "integrated_blades",
+          "transition_tick_time": 10,
+          "triggers": {
+            "deploy": "integrated_blades_deploy",
+            "fold": "integrated_blades_fold"
+          }
+        }
+      ],
       "conditions": [
         {
           "type": "palladium:ability_integer_property",
@@ -46,6 +57,17 @@
         },
         "output": "satsu_iron_man_addon:textures/models/iron_man/light_right_arm/mark_52_d_0_#RIGHT_ARM"
       },
+      "animation_file": "satsu_iron_man_addon:animations/marks/mark_52_d/integrated_blades.animation.geo.json",
+      "animation_controller": [
+        {
+          "name": "integrated_blades",
+          "transition_tick_time": 10,
+          "triggers": {
+            "deploy": "integrated_blades_deploy",
+            "fold": "integrated_blades_fold"
+          }
+        }
+      ],
       "render_type": "glow",
       "conditions": [
         {
