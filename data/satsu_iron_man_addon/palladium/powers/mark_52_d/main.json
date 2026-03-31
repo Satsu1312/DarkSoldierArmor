@@ -8973,7 +8973,7 @@
     },
     "waepons.choose_wheel.integrated_blades": {
       "type": "palladium:dummy",
-      "icon": "satsu_iron_man_addon:textures/gui/armors/marks_abilities/nano/integrated_blades.png",
+      "icon": "satsu_iron_man_addon:textures/gui/armors/marks_abilities/mark_52_d/integrated_blades_icon.png",
       "title": { "translate": "ability.title.satsu.integrated_blades" },
       "description": { "translate": "description.satsu.integrated_blades" },
       "hidden": true,
