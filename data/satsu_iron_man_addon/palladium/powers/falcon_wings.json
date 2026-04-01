@@ -33,6 +33,34 @@
         ]
       }
     },
+    "recharge_energy": {
+      "type": "satsu_iron_man_addon:nbt_modifier",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "slot": "curios:hands",
+      "nbtKey": "wings_energy",
+      "adjustment_type": "add",
+      "adjustment_amount": 1,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "curios:hands",
+            "nbtKey": "wings_energy",
+            "min": -2147483647,
+            "max": 999,
+            "mode": "range"
+          },
+          {
+            "type": "palladium:string_property",
+            "property": "satsu_iron_man_addon_dark_tech_falcon_wings",
+            "comparator": "equals",
+            "compare_to": "off"
+          }
+        ],
+        "unlocking": []
+      }
+    },
     "energy.pulse.actived": {
       "type": "satsu_iron_man_addon:set_property_string",
       "hidden": true,
@@ -242,6 +270,25 @@
         "unlocking": []
       }
     },
+    "shield.remove.energy": {
+      "type": "satsu_iron_man_addon:nbt_modifier",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "slot": "curios:hands",
+      "nbtKey": "wings_energy",
+      "adjustment_type": "subtract",
+      "adjustment_amount": 5,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_enabled",
+            "power": "null",
+            "ability": "shield"
+          }
+        ],
+        "unlocking": []
+      }
+    },
     "attack": {
       "type": "palladium:animation_timer",
       "icon": "satsu_iron_man_addon:textures/item/ds_widows_bite.png",
@@ -319,6 +366,25 @@
       "from": "@s",
       "command_as_entity": "null",
       "excluded_tag": "damage_excluded_tag",
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_enabled",
+            "power": "null",
+            "ability": "attack"
+          }
+        ],
+        "unlocking": []
+      }
+    },
+    "attack.remove.energy": {
+      "type": "satsu_iron_man_addon:nbt_modifier",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "slot": "curios:hands",
+      "nbtKey": "wings_energy",
+      "adjustment_type": "subtract",
+      "adjustment_amount": 5,
       "conditions": {
         "enabling": [
           {
@@ -532,6 +598,51 @@
           },
           {
             "type": "palladium:sprinting"
+          }
+        ]
+      }
+    },
+    "fly.remove.energy": {
+      "type": "satsu_iron_man_addon:nbt_modifier",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "slot": "curios:hands",
+      "nbtKey": "wings_energy",
+      "adjustment_type": "subtract",
+      "adjustment_amount": 1,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:is_hovering_or_flying"
+          },
+          {
+            "type": "palladium:ability_enabled",
+            "ability": "multi_attribute_modifier"
+          }
+        ],
+        "unlocking": []
+      }
+    },
+    "item_nbt_modifier.set_energy": {
+      "type": "satsu_iron_man_addon:item_nbt_modifier",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "slot": "curios:hands",
+      "nbtKey": "wings_energy",
+      "nbtValue": "1000",
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:not",
+            "conditions": [
+              {
+                "type": "satsu_iron_man_addon:slot_nbt_check",
+                "slot": "curios:hands",
+                "nbtKey": "wings_energy",
+                "nbtValue": "Active",
+                "mode": "exists"
+              }
+            ]
           }
         ]
       }
