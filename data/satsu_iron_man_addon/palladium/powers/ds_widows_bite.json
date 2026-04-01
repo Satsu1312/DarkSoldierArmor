@@ -33,6 +33,46 @@
         ]
       }
     },
+    "recharge_energy": {
+      "type": "satsu_iron_man_addon:nbt_modifier",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "slot": "curios:hands",
+      "nbtKey": "ds_widows_bite_energy",
+      "adjustment_type": "add",
+      "adjustment_amount": 1,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "curios:hands",
+            "nbtKey": "ds_widows_bite_energy",
+            "min": -2147483647,
+            "max": 99,
+            "mode": "range"
+          },
+          {
+            "type": "palladium:string_property",
+            "property": "satsu_iron_man_addon_watch",
+            "comparator": "equals",
+            "compare_to": "off"
+          }
+        ],
+        "unlocking": [
+          {
+            "type": "palladium:not",
+            "conditions": [
+              {
+                "type": "palladium:string_property",
+                "property": "satsu_iron_man_addon_armor_activated",
+                "comparator": "equals",
+                "compare_to": "on"
+              }
+            ]
+          }
+        ]
+      }
+    },
     "energy.pulse.actived": {
       "type": "satsu_iron_man_addon:set_property_string",
       "hidden": true,
@@ -144,6 +184,13 @@
         ],
         "unlocking": [
           {
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "curios:hands",
+            "nbtKey": "ds_widows_bite_energy",
+            "min": 0,
+            "mode": "greaterThan"
+          },
+          {
             "type": "palladium:not",
             "conditions": [
               {
@@ -242,6 +289,13 @@
         ],
         "unlocking": [
           {
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "curios:hands",
+            "nbtKey": "ds_widows_bite_energy",
+            "min": 0,
+            "mode": "greaterThan"
+          },
+          {
             "type": "palladium:not",
             "conditions": [
               {
@@ -303,10 +357,11 @@
       }
     },
     "energyblast.remove.ark.energy": {
-      "type": "satsu_iron_man_addon:palladium_property_modifier",
+      "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "property_name": "satsu_iron_man_armor_arc_energy",
+      "slot": "curios:hands",
+      "nbtKey": "ds_widows_bite_energy",
       "adjustment_type": "subtract",
       "adjustment_amount": 5,
       "conditions": {
@@ -536,6 +591,30 @@
                 "property": "satsu_iron_man_addon_armor_activated",
                 "comparator": "equals",
                 "compare_to": "on"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "item_nbt_modifier.set_energy": {
+      "type": "satsu_iron_man_addon:item_nbt_modifier",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "slot": "curios:hands",
+      "nbtKey": "ds_widows_bite_energy",
+      "nbtValue": "100",
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:not",
+            "conditions": [
+              {
+                "type": "satsu_iron_man_addon:slot_nbt_check",
+                "slot": "curios:hands",
+                "nbtKey": "ds_widows_bite_energy",
+                "nbtValue": "Active",
+                "mode": "exists"
               }
             ]
           }
