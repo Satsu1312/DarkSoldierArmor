@@ -19,10 +19,3 @@ mandatory = true
 versionRange = "[4.4.1,)"
 ordering = "NONE"
 side = "BOTH"
-
-[[dependencies.ds_expansion]]
-modId = "satsu_iron_man_addon"
-mandatory = true
-versionRange = "*"
-ordering = "AFTER"
-side = "BOTH"

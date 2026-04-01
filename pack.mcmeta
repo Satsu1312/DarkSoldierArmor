@@ -1,22 +1,13 @@
 {
-  "pack": {
-    "id": "ds_expansion",
-    "pack_format": 15,
-    "description": "This add-on adds a variety of content such as new Iron Man armor, weapons, crafting materials and abilities to Satsu's iron man Addon.",
-    "version": "1.0.0"
-  },
-  "dependencies": {
-    "common": {
-      "gravecore": ">=1.2.0",
-      "palladium": ">=4.5.0",
-      "satsu_iron_man_addon": "*",
-      "kubejs": "*",
-      "geckolib": "*",
-      "pehkui": "*",
-      "curios": "*",
-      "packetfixer": "*"
+    "pack": {
+        "id": "ds_expansion",
+        "pack_format": 15,
+        "description": "This add-on adds a variety of content such as new Iron Man armor, weapons, crafting materials and abilities to Satsu's iron man Addon.",
+        "version": "1.0.0"
     },
-    "fabric": {},
-    "forge": {}
-  }
+    "dependencies": {
+        "common": {},
+        "fabric": {},
+        "forge": {}
+    }
 }
