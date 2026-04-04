@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"round shield.new": {
+		"round_shield_deploy": {
 			"loop": "hold_on_last_frame",
 			"animation_length": 1.25,
 			"bones": {
