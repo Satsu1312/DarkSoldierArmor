@@ -5,18 +5,25 @@
       "type": "geckolib:default",
       "model": "satsu_iron_man_addon:geo/armor_models/iron_man/mark_52_d/nano_round_shield.geo.json",
       "texture": {
-        "base": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_round_shield/nano_shield_mark_52_d.png"
-      },
-      "animation_file": "satsu_iron_man_addon:animations/marks/mark_52_d/roundedshield_animation.geo.json",
-      "animation_controller": [
-        {
-          "name": "round_shield",
-          "transition_tick_time": 10,
-          "triggers": {
-            "deploy": "round_shield_deploy"
+        "base": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_round_shield/nano_shield_mark_52_d.png",
+        "transformers": [
+          {
+            "type": "palladium:alpha_mask",
+            "mask": "satsu_iron_man_addon:textures/models/alpha_masks/mark_52_d/shield_alpha_mask/#shield.png"
           }
-        }
-      ],
+        ],
+        "variables": {
+          "shield": {
+            "type": "palladium:ability_integer_property",
+            "power": "satsu_iron_man_addon:mark_52_d/main",
+            "ability": "round_shield",
+            "property": "value",
+            "min": 0,
+            "max": 14
+          }
+        },
+        "output": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_round_shield_no_light/nano_shield_mark_52_d_#shield"
+      },
       "conditions": [
         {
           "type": "palladium:ability_integer_property",
@@ -24,7 +31,7 @@
           "ability": "round_shield",
           "property": "value",
           "min": 1,
-          "max": 5
+          "max": 14
         }
       ]
     },
@@ -32,18 +39,25 @@
       "type": "geckolib:default",
       "model": "satsu_iron_man_addon:geo/armor_models/iron_man/mark_52_d/nano_round_shield.geo.json",
       "texture": {
-        "base": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_round_shield/nano_shield_mark_52_d_light.png"
-      },
-      "animation_file": "satsu_iron_man_addon:animations/marks/mark_52_d/roundedshield_animation.geo.json",
-      "animation_controller": [
-        {
-          "name": "round_shield",
-          "transition_tick_time": 10,
-          "triggers": {
-            "deploy": "round_shield_deploy"
+        "base": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_round_shield/nano_shield_mark_52_d_light.png",
+        "transformers": [
+          {
+            "type": "palladium:alpha_mask",
+            "mask": "satsu_iron_man_addon:textures/models/alpha_masks/mark_52_d/shield_alpha_mask/#shield.png"
           }
-        }
-      ],
+        ],
+        "variables": {
+          "shield": {
+            "type": "palladium:ability_integer_property",
+            "power": "satsu_iron_man_addon:mark_52_d/main",
+            "ability": "round_shield",
+            "property": "value",
+            "min": 0,
+            "max": 14
+          }
+        },
+        "output": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_round_shield_light/nano_shield_mark_52_d_#shield"
+      },
       "render_type": "glow",
       "conditions": [
         {
@@ -52,7 +66,7 @@
           "ability": "round_shield",
           "property": "value",
           "min": 1,
-          "max": 5
+          "max": 14
         },
         {
           "type": "palladium:or",

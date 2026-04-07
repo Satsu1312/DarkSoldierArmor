@@ -3129,22 +3129,7 @@
             ]
           }
         ],
-        "unlocking": [
-          {
-            "type": "palladium:or",
-            "conditions": [
-              {
-                "type": "palladium:ability_unlocked",
-                "ability": "armor"
-              },
-              {
-                "type": "palladium:ability_enabled",
-                "power": "satsu_iron_man_addon:iron_man/main_power/main",
-                "ability": "enable_armor"
-              }
-            ]
-          }
-        ]
+        "unlocking": []
       }
     },
     "mask_animation_timer": {
@@ -3292,22 +3277,7 @@
             ]
           }
         ],
-        "unlocking": [
-          {
-            "type": "palladium:or",
-            "conditions": [
-              {
-                "type": "palladium:ability_unlocked",
-                "ability": "armor"
-              },
-              {
-                "type": "palladium:ability_enabled",
-                "power": "satsu_iron_man_addon:iron_man/main_power/main",
-                "ability": "enable_armor"
-              }
-            ]
-          }
-        ]
+        "unlocking": []
       }
     },
     "right_shoulder_animation": {
@@ -3373,22 +3343,7 @@
             ]
           }
         ],
-        "unlocking": [
-          {
-            "type": "palladium:or",
-            "conditions": [
-              {
-                "type": "palladium:ability_unlocked",
-                "ability": "armor"
-              },
-              {
-                "type": "palladium:ability_enabled",
-                "power": "satsu_iron_man_addon:iron_man/main_power/main",
-                "ability": "enable_armor"
-              }
-            ]
-          }
-        ]
+        "unlocking": []
       }
     },
     "left_arm_animation": {
@@ -3454,22 +3409,7 @@
             ]
           }
         ],
-        "unlocking": [
-          {
-            "type": "palladium:or",
-            "conditions": [
-              {
-                "type": "palladium:ability_unlocked",
-                "ability": "armor"
-              },
-              {
-                "type": "palladium:ability_enabled",
-                "power": "satsu_iron_man_addon:iron_man/main_power/main",
-                "ability": "enable_armor"
-              }
-            ]
-          }
-        ]
+        "unlocking": []
       }
     },
     "right_arm_animation": {
@@ -3535,22 +3475,7 @@
             ]
           }
         ],
-        "unlocking": [
-          {
-            "type": "palladium:or",
-            "conditions": [
-              {
-                "type": "palladium:ability_unlocked",
-                "ability": "armor"
-              },
-              {
-                "type": "palladium:ability_enabled",
-                "power": "satsu_iron_man_addon:iron_man/main_power/main",
-                "ability": "enable_armor"
-              }
-            ]
-          }
-        ]
+        "unlocking": []
       }
     },
     "left_leg_animation": {
@@ -3611,22 +3536,7 @@
             ]
           }
         ],
-        "unlocking": [
-          {
-            "type": "palladium:or",
-            "conditions": [
-              {
-                "type": "palladium:ability_unlocked",
-                "ability": "armor"
-              },
-              {
-                "type": "palladium:ability_enabled",
-                "power": "satsu_iron_man_addon:iron_man/main_power/main",
-                "ability": "enable_armor"
-              }
-            ]
-          }
-        ]
+        "unlocking": []
       }
     },
     "right_leg_animation": {
@@ -3687,22 +3597,7 @@
             ]
           }
         ],
-        "unlocking": [
-          {
-            "type": "palladium:or",
-            "conditions": [
-              {
-                "type": "palladium:ability_unlocked",
-                "ability": "armor"
-              },
-              {
-                "type": "palladium:ability_enabled",
-                "power": "satsu_iron_man_addon:iron_man/main_power/main",
-                "ability": "enable_armor"
-              }
-            ]
-          }
-        ]
+        "unlocking": []
       }
     },
     "chest_animation": {
@@ -3768,22 +3663,7 @@
             ]
           }
         ],
-        "unlocking": [
-          {
-            "type": "palladium:or",
-            "conditions": [
-              {
-                "type": "palladium:ability_unlocked",
-                "ability": "armor"
-              },
-              {
-                "type": "palladium:ability_enabled",
-                "power": "satsu_iron_man_addon:iron_man/main_power/main",
-                "ability": "enable_armor"
-              }
-            ]
-          }
-        ]
+        "unlocking": []
       }
     },
     "armor_activate.command": {
@@ -10102,9 +9982,9 @@
       }
     },
     "integrated_blades.dual_wielding": {
-    "type": "palladium:dual_wielding",
-    "hidden": true,
-    "hidden_in_bar": true,
+      "type": "palladium:dual_wielding",
+      "hidden": true,
+      "hidden_in_bar": true,
       "conditions": {
         "enabling": [
           {
@@ -10131,6 +10011,22 @@
         ]
       }
     },
+    "round_shield_animation": {
+      "type": "palladium:animation_timer",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "start_value": 0,
+      "max_value": 6,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_enabled",
+            "ability": "round_shield"
+          }
+        ],
+        "unlocking": []
+      }
+    },
     "round_shield": {
       "type": "palladium:animation_timer",
       "icon": "satsu_iron_man_addon:textures/gui/armors/marks_abilities/mark_52_d/round_shield_icon.png",
@@ -10141,7 +10037,7 @@
       "gui_position": [-7, -0],
       "list_index": 6,
       "start_value": 0,
-      "max_value": 5,
+      "max_value": 14,
       "conditions": {
         "enabling": [
           {
@@ -10193,30 +10089,6 @@
         ]
       }
     },
-    "round_shield.deploy": {
-      "type": "geckolib:render_layer_animation",
-      "hidden": true,
-      "hidden_in_bar": true,
-      "render_layer": "satsu_iron_man_addon:armor_things/iron_man/marks/mark_52_d/nano_round_shield/main",
-      "controller": "round_shield",
-      "animation_trigger": "deploy",
-      "conditions": {
-        "enabling": [],
-        "unlocking": [
-          {
-            "type": "palladium:ability_unlocked",
-            "ability": "round_shield"
-          },
-          {
-            "type": "palladium:ability_integer_property",
-            "ability": "round_shield",
-            "property": "value",
-            "min": 1,
-            "max": 2
-          }
-        ]
-      }
-    },
     "round_shield.knockback": {
       "type": "palladium:attribute_modifier",
       "hidden": true,
@@ -10231,8 +10103,8 @@
             "type": "palladium:ability_integer_property",
             "ability": "round_shield",
             "property": "value",
-            "min": 5,
-            "max": 5
+            "min": 14,
+            "max": 14
           }
         ],
         "unlocking": []
@@ -10252,8 +10124,8 @@
             "type": "palladium:ability_integer_property",
             "ability": "round_shield",
             "property": "value",
-            "min": 5,
-            "max": 5
+            "min": 14,
+            "max": 14
           }
         ],
         "unlocking": []
@@ -10306,8 +10178,8 @@
             "type": "palladium:ability_integer_property",
             "ability": "round_shield",
             "property": "value",
-            "min": 5,
-            "max": 5
+            "min": 14,
+            "max": 14
           }
         ],
         "unlocking": []
@@ -10324,8 +10196,8 @@
             "type": "palladium:ability_integer_property",
             "ability": "round_shield",
             "property": "value",
-            "min": 5,
-            "max": 5
+            "min": 14,
+            "max": 14
           }
         ],
         "unlocking": []
@@ -10345,8 +10217,8 @@
             "type": "palladium:ability_integer_property",
             "ability": "round_shield",
             "property": "value",
-            "min": 7,
-            "max": 7
+            "min": 14,
+            "max": 14
           }
         ]
       }
