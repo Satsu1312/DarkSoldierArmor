@@ -1,0 +1,5 @@
+{
+  "entity.armor.round_shield": {
+    "sounds": ["satsu_iron_man_addon:suits_sounds/mark_52_d/round_shield_sound"]
+  }
+}
