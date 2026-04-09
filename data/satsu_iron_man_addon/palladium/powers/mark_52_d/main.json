@@ -10203,6 +10203,29 @@
         "unlocking": []
       }
     },
+    "round_shield.play_sound": {
+      "type": "palladium:play_sound",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "sound": "satsu_iron_man_addon:entity.armor.round_shield",
+      "volume": 0.2,
+      "pitch": 1,
+      "looping": false,
+      "play_self": false,
+      "play_others": false,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "round_shield",
+            "property": "value",
+            "min": 5,
+            "max": 13
+          }
+        ],
+        "unlocking": []
+      }
+    },
     "remove_ark_energy.shield": {
       "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
