@@ -8908,19 +8908,79 @@
       }
     },
     "waepons.choose_wheel.force_field": {
-      "type": "satsu_iron_man_addon:set_property_string",
+      "type": "palladium:dummy",
       "icon": "satsu_iron_man_addon:textures/gui/armors/ark_force_field.png",
       "title": { "translate": "ability.title.satsu.force.field" },
       "description": { "translate": "description.force_field" },
       "hidden": true,
       "hidden_in_bar": false,
-      "name": "satsu_iron_man_nano_weapons_second",
-      "test_value": "shield",
       "conditions": {
         "enabling": [
           {
             "type": "palladium:ability_wheel",
             "cooldown": 0
+          }
+        ],
+        "unlocking": []
+      }
+    },
+    "force_field.set.off": {
+      "type": "satsu_iron_man_addon:set_property_string",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "name": "satsu_iron_man_addon_shield_enabled",
+      "test_value": "off",
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_enabled",
+            "ability": "waepons.choose_wheel.force_field"
+          },
+          {
+            "type": "palladium:string_property",
+            "property": "satsu_iron_man_addon_shield_enabled",
+            "comparator": "equals",
+            "compare_to": "on"
+          },
+          {
+            "type": "palladium:not",
+            "conditions": [
+              {
+                "type": "palladium:ability_enabled",
+                "ability": "force_field.set.on"
+              }
+            ]
+          }
+        ],
+        "unlocking": []
+      }
+    },
+    "force_field.set.on": {
+      "type": "satsu_iron_man_addon:set_property_string",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "name": "satsu_iron_man_addon_shield_enabled",
+      "test_value": "on",
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_enabled",
+            "ability": "waepons.choose_wheel.force_field"
+          },
+          {
+            "type": "palladium:string_property",
+            "property": "satsu_iron_man_addon_shield_enabled",
+            "comparator": "equals",
+            "compare_to": "off"
+          },
+          {
+            "type": "palladium:not",
+            "conditions": [
+              {
+                "type": "palladium:ability_enabled",
+                "ability": "force_field.set.off"
+              }
+            ]
           }
         ],
         "unlocking": []
@@ -10020,11 +10080,17 @@
       "conditions": {
         "enabling": [
           {
+            "type": "satsu_iron_man_addon:pdata_boolean_toggle",
+            "data": "satsu_iron_man_addon.shield_enabling_pressed",
+            "value": true
+          }
+        ],
+        "unlocking": [
+          {
             "type": "palladium:ability_enabled",
             "ability": "round_shield"
           }
-        ],
-        "unlocking": []
+        ]
       }
     },
     "round_shield": {
@@ -10041,13 +10107,18 @@
       "conditions": {
         "enabling": [
           {
-            "type": "palladium:toggle",
-            "cooldown": 220,
-            "key_type": "key_bind",
-            "needs_empty_hand": false
+            "type": "satsu_iron_man_addon:pdata_boolean_toggle",
+            "data": "satsu_iron_man_addon.shield_enabling_pressed",
+            "value": true
           }
         ],
         "unlocking": [
+          {
+            "type": "palladium:string_property",
+            "property": "satsu_iron_man_addon_shield_enabled",
+            "comparator": "equals",
+            "compare_to": "on"
+          },
           {
             "type": "palladium:ability_unlocked",
             "ability": "armor"
@@ -12851,10 +12922,10 @@
               },
               {
                 "type": "palladium:ability_integer_property",
-                "ability": "force_field.shield.animation_timer",
+                "ability": "round_shield",
                 "property": "value",
                 "min": 1,
-                "max": 7
+                "max": 14
               },
               {
                 "type": "palladium:ability_enabled",
