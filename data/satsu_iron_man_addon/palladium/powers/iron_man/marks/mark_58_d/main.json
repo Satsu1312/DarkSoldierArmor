@@ -3739,7 +3739,7 @@
             "type": "palladium:integer_property",
             "property": "satsu_iron_man_flight_speed_choose",
             "min": 0,
-            "max": 252
+            "max": 216
           }
         ]
       }
@@ -3782,7 +3782,7 @@
             "type": "palladium:integer_property",
             "property": "satsu_iron_man_flight_speed_choose",
             "min": 2,
-            "max": 254
+            "max": 218
           }
         ]
       }
@@ -3794,7 +3794,7 @@
       "slot": "chest",
       "nbtKey": "Flight_velocity",
       "adjustment_type": "set",
-      "adjustment_amount": 254,
+      "adjustment_amount": 216,
       "conditions": {
         "enabling": [
           {
@@ -3833,7 +3833,7 @@
             "type": "palladium:integer_property",
             "property": "satsu_iron_man_flight_speed_choose",
             "min": 0,
-            "max": 252
+            "max": 216
           }
         ]
       }
@@ -3884,7 +3884,7 @@
             "type": "palladium:integer_property",
             "property": "satsu_iron_man_flight_speed_choose",
             "min": 2,
-            "max": 254
+            "max": 218
           }
         ]
       }
