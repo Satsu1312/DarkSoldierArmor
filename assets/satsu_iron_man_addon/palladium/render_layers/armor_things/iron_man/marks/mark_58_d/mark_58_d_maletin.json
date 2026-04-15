@@ -1,0 +1,11 @@
+{
+  "type": "palladium:compound",
+  "layers": [
+    {
+      "type": "geckolib:default",
+      "model": "satsu_iron_man_addon:geo/suitcase/main.geo.json",
+      "texture": "satsu_iron_man_addon:textures/models/iron_man/no_light/mark_58_d_briefcase.png",
+      "first_person_conditions": false
+    }
+  ]
+}
