@@ -7,7 +7,7 @@
       "texture": {
         "base": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/integrated_energy_sword/no_light/mark_52_d_0.png",
         "variables": {
-          "RIGHT_ARM": {
+          "INTEGRATED_BLADES": {
             "type": "palladium:ability_integer_property",
             "power": "satsu_iron_man_addon:mark_52_d/main",
             "ability": "integrated_blades",
@@ -16,7 +16,7 @@
             "max": 10
           }
         },
-        "output": "satsu_iron_man_addon:textures/models/iron_man/no_light_right_arm/mark_52_d_0_#RIGHT_ARM"
+        "output": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/integrated_energy_sword/no_light/mark_52_d_0_#INTEGRATED_BLADES"
       },
       "animation_file": "satsu_iron_man_addon:animations/marks/mark_52_d/integrated_blades.animation.geo.json",
       "animation_controller": [
@@ -46,7 +46,7 @@
       "texture": {
         "base": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/integrated_energy_sword/light/mark_52_d_0.png",
         "variables": {
-          "RIGHT_ARM": {
+          "INTEGRATED_BLADES": {
             "type": "palladium:ability_integer_property",
             "power": "satsu_iron_man_addon:mark_52_d/main",
             "ability": "integrated_blades",
@@ -55,7 +55,7 @@
             "max": 10
           }
         },
-        "output": "satsu_iron_man_addon:textures/models/iron_man/light_right_arm/mark_52_d_0_#RIGHT_ARM"
+        "output": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/integrated_energy_sword/light/mark_52_d_0_#INTEGRATED_BLADES"
       },
       "animation_file": "satsu_iron_man_addon:animations/marks/mark_52_d/integrated_blades.animation.geo.json",
       "animation_controller": [
