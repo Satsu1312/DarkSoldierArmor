@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " M ",
+        " A ",
+        " S "
+    ],
+    "key": {
+        "M": {
+            "item": "satsu_iron_man_addon:nanopolymer_d_52",
+            "count": 10
+        },
+         "A": {
+            "item": "satsu_iron_man_addon:steel_gold_refined_alloy"
+        },
+                 "S": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "satsu_iron_man_addon:np-d52_dagger",
+        "count": 1
+    },
+    "group": "iron_man"
+}
