@@ -21,7 +21,7 @@
           },
           "SHOW_UP": {
             "type": "palladium:animation_timer_ability",
-            "power": "satsu_iron_man_addon:iron_man/marks/mark_05/main",
+            "power": "satsu_iron_man_addon:iron_man/marks/mark_58_d/main",
             "ability": "flames_up",
             "property": "value",
             "min": 0,
@@ -30,12 +30,12 @@
         },
         "output": "satsu_iron_man_addon:textures/models/flames/new_thruster_white/#X_#SHOW_UP"
       },
-      "tint": "#f0a430",
+      "tint": "#1bdef3",
       "render_type": "glow",
       "conditions": [
         {
           "type": "palladium:animation_timer_ability",
-          "power": "satsu_iron_man_addon:iron_man/marks/mark_05/main",
+          "power": "satsu_iron_man_addon:iron_man/marks/mark_58_d/main",
           "ability": "flames_up",
           "property": "value",
           "min": 1,
@@ -63,7 +63,7 @@
           },
           "SHOW_DOWN": {
             "type": "palladium:animation_timer_ability",
-            "power": "satsu_iron_man_addon:iron_man/marks/mark_05/main",
+            "power": "satsu_iron_man_addon:iron_man/marks/mark_58_d/main",
             "ability": "flames_down",
             "property": "value",
             "min": 0,
@@ -72,12 +72,12 @@
         },
         "output": "satsu_iron_man_addon:textures/models/flames/new_thruster_white/#X_#SHOW_DOWN"
       },
-      "tint": "#f0a430",
+      "tint": "#1bdef3",
       "render_type": "glow",
       "conditions": [
         {
           "type": "palladium:animation_timer_ability",
-          "power": "satsu_iron_man_addon:iron_man/marks/mark_05/main",
+          "power": "satsu_iron_man_addon:iron_man/marks/mark_58_d/main",
           "ability": "flames_down",
           "property": "value",
           "min": 1,
