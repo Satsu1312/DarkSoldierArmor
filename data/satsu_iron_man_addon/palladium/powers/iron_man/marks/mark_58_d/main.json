@@ -5492,7 +5492,7 @@
             "slot": "chest",
             "nbtKey": "Energy",
             "min": -2147483647,
-            "max": 95001
+            "max": 80059
           }
         ],
         "unlocking": []
@@ -5525,40 +5525,40 @@
             "slot": "chest",
             "nbtKey": "Energy",
             "min": -2147483647,
-            "max": 95001
+            "max": 80059
           }
         ],
         "unlocking": []
       }
     },
-    "set_energy_95000..": {
+    "set_energy_80058..": {
       "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
       "hidden_in_bar": true,
       "slot": "chest",
       "nbtKey": "Energy",
       "adjustment_type": "set",
-      "adjustment_amount": 95000,
+      "adjustment_amount": 80058,
       "conditions": {
         "enabling": [
           {
             "type": "satsu_iron_man_addon:slot_nbt_range_check",
             "slot": "chest",
             "nbtKey": "Energy",
-            "min": 95001,
+            "min": 80059,
             "max": 2147483647
           }
         ],
         "unlocking": []
       }
     },
-    "set_energy_95000..max": {
+    "set_energy_80058..max": {
       "type": "satsu_iron_man_addon:palladium_property_modifier",
       "hidden": true,
       "hidden_in_bar": true,
       "property_name": "satsu_iron_man_iron_man_energy_max",
       "adjustment_type": "set",
-      "adjustment_amount": 95000,
+      "adjustment_amount": 80058,
       "conditions": {
         "enabling": [
           {

@@ -10,6 +10,7 @@
   "item.satsu_iron_man_addon.ds_widows_bite": "Dark Tech Widow's Bite",
   "item.satsu_iron_man_addon.marks.mark_52_d.main": "Mark 52-D",
   "item.satsu_iron_man_addon.marks.mark_58_d.main": "Mark 58-D",
+ "item.satsu_iron_man_addon.marks.mark_64_d.main": "Mark 64-D",
   "item.satsu_iron_man_addon.np-d52_sword": "NP-D52 Sword",
   "item.satsu_iron_man_addon.np-d52_axe": "NP-D52 Axe",
   "item.satsu_iron_man_addon.np-d52_pickaxe": "NP-D52 Pickaxe",
@@ -23,12 +24,17 @@
   "block.satsu_iron_man_addon.np-d52_block": "NP-D52 Block",
   "block.satsu_iron_man_addon.np-d52_bricks": "NP-D52 Bricks",
   "ability.title.satsu.mark.52_d": "Mark 52-D",
+  "ability.title.satsu.mark.58_d": "Mark 58-D",  
+  "ability.title.satsu.mark.64_d": "Mark 64-D",
   "ability.title.satsu.integrated_blades": "Integrated Energy Blades",
   "ability.title.satsu.round_shield": "Activate/Deactivate Round Shield",
   "ability.title.dark_soldier.active.widows_bite": "Activate/Deactivate Widow's Bite blast",
   "ability.title.class.hybrid_class": "Class: Hybrid",
   "description.iron.man.mark.52_d": "The Mark 52‑D is designed to excel in any environment, combining solid durability, extreme adaptability, and limited nano capabilities.(Maximum energy:95200)",
+  "description.iron.man.mark.58_d": "The Mark 58-D is designed for containment-focused operations, utilizing non-lethal systems and tactical weaponry while retaining full offensive capability. Equipped with a portable deployment system similar to the Mark V. (Maximum energy:80058)",
+  "description.iron.man.mark.64_d": "Mark 64-D",
   "description.iron.man.class.hybrid_class": "This type of armor is characterized by combining nano-systems and weaponry with conventional armor systems and a chassis. Nanotechnology plays a reinforcing role in all the systems of the classic armor, allowing the creation of certain nano-weaponry supported by a solid, classical structure.",
-  "suitset.satsu_iron_man_addon.iron_man.marks.mark_52_d.main": "Mark 52 D",
-  "palladium.tailoring_recipe.category.satsu_iron_man_addon.dark_tech": "Dark Tech"
+  "suitset.satsu_iron_man_addon.iron_man.marks.mark_52_d.main": "Mark 52-D",
+  "suitset.satsu_iron_man_addon.iron_man.marks.mark_58_d.main": "Mark 58-D",
+  "palladium.tailoring_recipe.category.satsu_iron_man_addon.dark_tech": "Dark Tech Armors"
 }
