@@ -1611,9 +1611,7 @@
       "hidden_in_bar": true,
       "first_tick_commands": ["tag @s add mark.58_d"],
       "commands": [""],
-      "last_tick_commands": [
-        "tag @s remove mark.58_d"
-      ],
+      "last_tick_commands": ["tag @s remove mark.58_d"],
       "conditions": {
         "enabling": []
       }
@@ -2739,7 +2737,7 @@
                 "type": "palladium:ability_enabled",
                 "ability": "flares_flames"
               },
-               {
+              {
                 "type": "palladium:ability_enabled",
                 "ability": "sonic_dampened"
               },
@@ -2960,7 +2958,6 @@
         "weapons_wheel.light_flash",
         "weapons_wheel.sonic_dampened",
         "weapons_wheel.emp"
-
       ],
       "texture": "null",
       "disable_mouse_scrolling": false,
@@ -3101,7 +3098,7 @@
       "list_index": 2,
       "gui_position": [4.3, -1],
       "name": "satsu_armor_weapon",
-      "number": 1,
+      "number": 3,
       "conditions": {
         "enabling": [
           {
@@ -3133,7 +3130,7 @@
         ]
       }
     },
-        "weapons_wheel.sonic_dampened": {
+    "weapons_wheel.sonic_dampened": {
       "type": "satsu_iron_man_addon:set_property",
       "icon": "satsu_iron_man_addon:textures/gui/armors/sonic_howl.png",
       "title": { "translate": "ability.title.satsu.dampened.sound" },
@@ -4288,8 +4285,8 @@
           {
             "type": "palladium:integer_property",
             "property": "satsu_armor_weapon",
-            "min": 1,
-            "max": 1
+            "min": 3,
+            "max": 3
           },
           {
             "type": "satsu_iron_man_addon:slot_nbt_range_check",
@@ -5518,6 +5515,10 @@
               },
               {
                 "type": "palladium:ability_enabled",
+                "ability": "shoulder_rockets"
+              },
+              {
+                "type": "palladium:ability_enabled",
                 "ability": "taser_charge"
               },
               {
@@ -5570,6 +5571,10 @@
                   {
                     "type": "palladium:ability_enabled",
                     "ability": "flares_flames"
+                  },
+                  {
+                    "type": "palladium:ability_enabled",
+                    "ability": "shoulder_rockets"
                   },
                   {
                     "type": "palladium:ability_enabled",
