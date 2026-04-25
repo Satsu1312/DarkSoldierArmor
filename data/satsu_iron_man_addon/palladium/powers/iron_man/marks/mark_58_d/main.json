@@ -3265,6 +3265,302 @@
         ]
       }
     },
+    "waepons.choose": {
+      "type": "palladium:ability_wheel",
+      "icon": "satsu_iron_man_addon:textures/gui/armors/on.png",
+      "title": { "translate": "ability.title.satsu.nano.weapons" },
+      "description": { "translate": "description.satsu.nano.weapons" },
+      "hidden": false,
+      "hidden_in_bar": false,
+      "list_index": 4,
+      "gui_position": [0, -2.6],
+      "abilities": [
+        "waepons.choose_wheel.nano_katar",
+        "waepons.choose_wheel.nano_health_spray"
+      ],
+      "texture": "null",
+      "disable_mouse_scrolling": false,
+      "disable_center_icon": false,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:held"
+          }
+        ],
+        "unlocking": [
+          {
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Nanites",
+            "min": 0,
+            "max": 2147483647
+          },
+          {
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
+            "min": 1,
+            "max": 2147483647
+          },
+          {
+            "type": "palladium:ability_unlocked",
+            "ability": "armor"
+          },
+          {
+            "type": "palladium:string_property",
+            "property": "satsu_iron_man_addon_armor_activated",
+            "comparator": "equals",
+            "compare_to": "on"
+          },
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "no_nanoarmor_anim",
+            "property": "value",
+            "min": 15,
+            "max": 16
+          }
+        ]
+      }
+    },
+    "waepons.choose_wheel.nano_katar": {
+      "type": "palladium:dummy",
+      "icon": "satsu_iron_man_addon:textures/gui/armors/marks_abilities/nano/nano_katar.png",
+      "title": { "translate": "ability.title.satsu.nano_katar" },
+      "description": { "translate": "description.satsu.nano_katar" },
+      "hidden": true,
+      "hidden_in_bar": false,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_wheel",
+            "cooldown": 0
+          }
+        ],
+        "unlocking": [
+          {
+            "type": "palladium:ability_enabled",
+            "ability": "waepons.choose"
+          }
+        ]
+      }
+    },
+    "nano_katar.set.0": {
+      "type": "satsu_iron_man_addon:set_property",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "name": "satsu_nano_type_weapon",
+      "number": 0,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_enabled",
+            "ability": "waepons.choose_wheel.nano_katar"
+          },
+          {
+            "type": "palladium:integer_property",
+            "property": "satsu_nano_type_weapon",
+            "min": 2,
+            "max": 2
+          },
+          {
+            "type": "palladium:not",
+            "conditions": [
+              {
+                "type": "palladium:ability_enabled",
+                "ability": "nano_katar.set.1"
+              }
+            ]
+          }
+        ],
+        "unlocking": []
+      }
+    },
+    "nano_katar.set.1": {
+      "type": "satsu_iron_man_addon:set_property",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "name": "satsu_nano_type_weapon",
+      "number": 2,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_enabled",
+            "ability": "waepons.choose_wheel.nano_katar"
+          },
+          {
+            "type": "palladium:integer_property",
+            "property": "satsu_nano_type_weapon",
+            "min": 0,
+            "max": 1000
+          },
+          {
+            "type": "palladium:not",
+            "conditions": [
+              {
+                "type": "palladium:ability_enabled",
+                "ability": "nano_katar.set.0"
+              },
+              {
+                "type": "palladium:integer_property",
+                "property": "satsu_nano_type_weapon",
+                "min": 2,
+                "max": 2
+              }
+            ]
+          }
+        ],
+        "unlocking": []
+      }
+    },
+    "nano_katar": {
+      "type": "palladium:animation_timer",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "start_value": 0,
+      "max_value": 10,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:integer_property",
+            "property": "satsu_nano_type_weapon",
+            "min": 2,
+            "max": 2
+          }
+        ],
+        "unlocking": [
+          {
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Energy",
+            "min": 1,
+            "max": 2147483647
+          },
+          {
+            "type": "palladium:ability_unlocked",
+            "ability": "armor"
+          },
+          {
+            "type": "palladium:ability_unlocked",
+            "ability": "waepons.choose"
+          },
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "no_nanoarmor_anim",
+            "property": "value",
+            "min": 15,
+            "max": 16
+          }
+        ]
+      }
+    },
+    "nano_katar.attack": {
+      "type": "palladium:animation_timer",
+      "icon": "satsu_iron_man_addon:textures/gui/armors/vribranuim_blades_attack.png",
+      "title": { "translate": "ability.title.satsu.throw.blades.attack" },
+      "description": { "translate": "description.satsu.throw.blades.attack" },
+      "hidden": true,
+      "hidden_in_bar": false,
+      "list_index": 11,
+      "gui_position": [16, 3.5],
+      "start_value": 0,
+      "max_value": 15,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:activation",
+            "ticks": 17,
+            "cooldown": 0,
+            "key_type": "key_bind",
+            "needs_empty_hand": false,
+            "allow_scrolling_when_crouching": true
+          }
+        ],
+        "unlocking": [
+          {
+            "type": "palladium:ability_enabled",
+            "ability": "nano_katar"
+          }
+        ]
+      }
+    },
+    "nano_katar.attack_command": {
+      "type": "palladium:command",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "first_tick_commands": [
+        "execute as @s anchored eyes run particle minecraft:sweep_attack ^ ^ ^1 0.1 0.1 0.1 0 1 normal",
+        "playsound minecraft:entity.player.attack.crit master @p[distance=0..10] ~ ~ ~ 1 1"
+      ],
+      "commands": [""],
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "nano_katar.attack",
+            "property": "value",
+            "min": 15,
+            "max": 15
+          },
+          {
+            "type": "palladium:ability_enabled",
+            "ability": "nano_katar.attack"
+          }
+        ],
+        "unlocking": []
+      }
+    },
+    "nano_katar.attack_damage": {
+      "type": "satsu_iron_man_addon:entity_damage",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "damage": 20,
+      "damage_type": "minecraft:player_attack",
+      "effect": "minecraft:weakness",
+      "fire_seconds": 0,
+      "potion_seconds": 10,
+      "potion_amplifier": 1,
+      "hide_particles": false,
+      "range": 18,
+      "at": "null",
+      "by": "@s",
+      "from": "@s",
+      "command_as_entity": "null",
+      "excluded_tag": "damage_excluded_tag",
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "nano_katar.attack",
+            "property": "value",
+            "min": 15,
+            "max": 15
+          },
+          {
+            "type": "palladium:ability_enabled",
+            "ability": "nano_katar.attack"
+          }
+        ],
+        "unlocking": []
+      }
+    },
+    "nano_katar.attribute": {
+      "type": "palladium:attribute_modifier",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "attribute": "minecraft:generic.attack_damage",
+      "uuid": "f690d74f-5bab-432d-b60d-0748e3208bd8",
+      "amount": 3.1,
+      "operation": 0,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_enabled",
+            "ability": "nano_katar"
+          }
+        ],
+        "unlocking": []
+      }
+    },
     "energyblast.remove.ark.energy.normal": {
       "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
@@ -4591,7 +4887,7 @@
       "title": { "translate": "ability.title.satsu.stealht.mode" },
       "hidden": true,
       "hidden_in_bar": false,
-      "list_index": 4,
+      "list_index": 10,
       "gui_position": [4.5, 3.5],
       "conditions": {
         "enabling": [
@@ -4678,6 +4974,678 @@
             "property": "value",
             "min": 20,
             "max": 20
+          }
+        ]
+      }
+    },
+    "waepons.choose_wheel.nano_health_spray": {
+      "type": "satsu_iron_man_addon:scoreboard_ability",
+      "icon": "satsu_iron_man_addon:textures/gui/armors/abilities/nano_health_spray.png",
+      "title": { "translate": "ability.title.satsu.nano.health.spray" },
+      "description": { "translate": "description.satsu.nano.health.spray" },
+      "hidden": true,
+      "hidden_in_bar": false,
+      "score": "satsu.iron.man.addon.nano.armor.things",
+      "adjustment_type": "set",
+      "adjustment_amount": 5,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_wheel",
+            "cooldown": 0
+          }
+        ],
+        "unlocking": [
+          {
+            "type": "palladium:ability_enabled",
+            "ability": "waepons.choose"
+          }
+        ]
+      }
+    },
+    "nano_health_spray": {
+      "type": "palladium:animation_timer",
+      "icon": "satsu_iron_man_addon:textures/gui/armors/abilities/nano_health_spray.png",
+      "title": { "translate": "ability.title.satsu.nano.health.spray" },
+      "description": { "translate": "description.satsu.nano.health.spray" },
+      "hidden": true,
+      "hidden_in_bar": false,
+      "list_index": 12,
+      "start_value": 0,
+      "max_value": 5,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:activation",
+            "ticks": 5,
+            "cooldown": 160,
+            "key_type": "key_bind",
+            "needs_empty_hand": false
+          }
+        ],
+        "unlocking": [
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "no_nanoarmor_anim",
+            "property": "value",
+            "min": 15,
+            "max": 16
+          },
+          {
+            "type": "palladium:objective_score",
+            "objective": "satsu.iron.man.addon.nano.armor.things",
+            "min_score": 5,
+            "max_score": 5
+          },
+          {
+            "type": "palladium:ability_unlocked",
+            "ability": "armor"
+          },
+          {
+            "type": "palladium:ability_unlocked",
+            "ability": "waepons.choose"
+          },
+          {
+            "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
+            "powers": [
+              "satsu_iron_man_addon:extremis/main",
+              "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
+            ],
+            "namespaces": [],
+            "ignore_powers": ["fsang:space_power", "fsang_hero:dampened"]
+          },
+          {
+            "type": "palladium:not",
+            "conditions": [
+              {
+                "type": "palladium:or",
+                "conditions": [
+                  {
+                    "type": "palladium:crouching"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "nano_health_spray_animation": {
+      "type": "palladium:player_animation",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "animation": "satsu_iron_man_addon:nano_spray",
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_enabled",
+            "ability": "nano_health_spray"
+          }
+        ]
+      }
+    },
+    "nano_health_spray.healing": {
+      "type": "palladium:command",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "first_tick_commands": [
+        "playsound minecraft:entity.generic.extinguish_fire player @a[distance=0..3] ~ ~ ~ 1 2",
+        "effect give @s satsu_iron_man_addon:nano_health_spray 4 255"
+      ],
+      "commands": [""],
+      "last_tick_commands": [""],
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "nano_health_spray",
+            "property": "value",
+            "min": 5,
+            "max": 5
+          },
+          {
+            "type": "palladium:not",
+            "conditions": [
+              {
+                "type": "palladium:crouching"
+              }
+            ]
+          }
+        ],
+        "unlocking": []
+      }
+    },
+    "nano_health_spray_other": {
+      "type": "palladium:animation_timer",
+      "icon": "satsu_iron_man_addon:textures/gui/armors/abilities/nano_health_spray_other.png",
+      "title": { "translate": "ability.title.satsu.nano.health.spray" },
+      "description": { "translate": "description.satsu.nano.health.spray" },
+      "hidden": true,
+      "hidden_in_bar": false,
+      "list_index": 12,
+      "start_value": 0,
+      "max_value": 5,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:activation",
+            "ticks": 5,
+            "cooldown": 160,
+            "key_type": "key_bind",
+            "needs_empty_hand": false
+          }
+        ],
+        "unlocking": [
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "no_nanoarmor_anim",
+            "property": "value",
+            "min": 15,
+            "max": 16
+          },
+          {
+            "type": "palladium:objective_score",
+            "objective": "satsu.iron.man.addon.nano.armor.things",
+            "min_score": 5,
+            "max_score": 5
+          },
+          {
+            "type": "palladium:ability_unlocked",
+            "ability": "armor"
+          },
+          {
+            "type": "palladium:ability_unlocked",
+            "ability": "waepons.choose"
+          },
+          {
+            "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
+            "powers": [
+              "satsu_iron_man_addon:extremis/main",
+              "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
+            ],
+            "namespaces": [],
+            "ignore_powers": ["fsang:space_power", "fsang_hero:dampened"]
+          }
+        ]
+      }
+    },
+    "nano_health_spray.healing.ray": {
+      "type": "satsu_iron_man_addon:entity_damage",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "damage": 0,
+      "damage_type": "minecraft:player_attack",
+      "effect": "null",
+      "fire_seconds": 0,
+      "potion_seconds": 0,
+      "potion_amplifier": 0,
+      "hide_particles": false,
+      "range": 2,
+      "at": "null",
+      "by": "@s",
+      "from": "@s",
+      "command_as_entity": "function satsu_iron_man_addon:nano_health_spray_others",
+      "excluded_tag": "damage_excluded_tag",
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "nano_health_spray_other",
+            "property": "value",
+            "min": 1,
+            "max": 5
+          }
+        ],
+        "unlocking": []
+      }
+    },
+    "nano_things_sounds": {
+      "type": "palladium:play_sound",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "sound": "satsu_iron_man_addon:nano_weapons",
+      "volume": 0.5,
+      "pitch": 1,
+      "looping": true,
+      "play_self": true,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:or",
+            "conditions": [
+              {
+                "type": "palladium:ability_integer_property",
+                "ability": "propulsor_anim",
+                "min": "1",
+                "max": "8"
+              },
+              {
+                "type": "palladium:ability_integer_property",
+                "ability": "flight_anim",
+                "min": "1",
+                "max": "8"
+              },
+              {
+                "type": "palladium:ability_integer_property",
+                "ability": "water_turbine",
+                "min": "1",
+                "max": "8"
+              },
+              {
+                "type": "palladium:ability_integer_property",
+                "ability": "nano_sword",
+                "min": "1",
+                "max": "8"
+              },
+              {
+                "type": "palladium:ability_integer_property",
+                "ability": "force_field.shield.animation_timer",
+                "property": "value",
+                "min": 1,
+                "max": 6
+              },
+              {
+                "type": "palladium:ability_integer_property",
+                "ability": "nano_katar",
+                "min": "1",
+                "max": "8"
+              },
+              {
+                "type": "palladium:ability_integer_property",
+                "ability": "nano_hand_blade",
+                "min": "1",
+                "max": "8"
+              },
+              {
+                "type": "palladium:ability_integer_property",
+                "ability": "nano_rial",
+                "min": "1",
+                "max": "7"
+              },
+              {
+                "type": "palladium:ability_integer_property",
+                "ability": "nano_grenade_launcher_anim",
+                "min": "1",
+                "max": "7"
+              },
+              {
+                "type": "palladium:ability_integer_property",
+                "ability": "rocket",
+                "min": "1",
+                "max": "7"
+              },
+              {
+                "type": "palladium:ability_integer_property",
+                "ability": "grab_cannon_anim",
+                "min": "1",
+                "max": "7"
+              },
+              {
+                "type": "palladium:ability_integer_property",
+                "ability": "nano_mallet",
+                "min": "1",
+                "max": "7"
+              },
+              {
+                "type": "palladium:ability_integer_property",
+                "ability": "nano_fireworks",
+                "min": "1",
+                "max": "7"
+              },
+              {
+                "type": "palladium:ability_integer_property",
+                "ability": "nano_flares_flames",
+                "min": "1",
+                "max": "7"
+              },
+              {
+                "type": "palladium:ability_integer_property",
+                "ability": "nano_energy_boosters",
+                "min": "1",
+                "max": "8"
+              },
+              {
+                "type": "palladium:ability_integer_property",
+                "ability": "nano_stabilizer",
+                "min": "1",
+                "max": "8"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "remove_nanite.shield": {
+      "type": "satsu_iron_man_addon:nbt_modifier",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "slot": "chest",
+      "nbtKey": "Nanites",
+      "adjustment_type": "subtract",
+      "adjustment_amount": 1,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "force_field.shield.animation_timer",
+            "property": "value",
+            "min": 1,
+            "max": 7
+          }
+        ]
+      }
+    },
+    "remove_nanite.propulsor_anim": {
+      "type": "satsu_iron_man_addon:nbt_modifier",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "slot": "chest",
+      "nbtKey": "Nanites",
+      "adjustment_type": "subtract",
+      "adjustment_amount": 1,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "propulsor_anim",
+            "min": "1",
+            "max": "1000"
+          }
+        ]
+      }
+    },
+    "remove_nanite.flight_anim": {
+      "type": "satsu_iron_man_addon:nbt_modifier",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "slot": "chest",
+      "nbtKey": "Nanites",
+      "adjustment_type": "subtract",
+      "adjustment_amount": 1,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "flight_anim",
+            "min": "1",
+            "max": "1000"
+          }
+        ]
+      }
+    },
+    "remove_nanite.nano_sword": {
+      "type": "satsu_iron_man_addon:nbt_modifier",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "slot": "chest",
+      "nbtKey": "Nanites",
+      "adjustment_type": "subtract",
+      "adjustment_amount": 1,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "nano_sword",
+            "min": "1",
+            "max": "1000"
+          }
+        ]
+      }
+    },
+    "remove_nanite.nano_katar": {
+      "type": "satsu_iron_man_addon:nbt_modifier",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "slot": "chest",
+      "nbtKey": "Nanites",
+      "adjustment_type": "subtract",
+      "adjustment_amount": 1,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "nano_katar",
+            "min": "1",
+            "max": "1000"
+          }
+        ]
+      }
+    },
+    "remove_nanite.nano_hand_blade": {
+      "type": "satsu_iron_man_addon:nbt_modifier",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "slot": "chest",
+      "nbtKey": "Nanites",
+      "adjustment_type": "subtract",
+      "adjustment_amount": 1,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "nano_hand_blade",
+            "min": "1",
+            "max": "1000"
+          }
+        ]
+      }
+    },
+    "remove_nanite.nano_grenade_launcher": {
+      "type": "satsu_iron_man_addon:nbt_modifier",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "slot": "chest",
+      "nbtKey": "Nanites",
+      "adjustment_type": "subtract",
+      "adjustment_amount": 1,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "nano_grenade_launcher",
+            "min": "1",
+            "max": "1000"
+          }
+        ]
+      }
+    },
+    "remove_nanite.nano_rial": {
+      "type": "satsu_iron_man_addon:nbt_modifier",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "slot": "chest",
+      "nbtKey": "Nanites",
+      "adjustment_type": "subtract",
+      "adjustment_amount": 1,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "nano_rial",
+            "min": "1",
+            "max": "1000"
+          }
+        ]
+      }
+    },
+    "remove_nanite.rocket": {
+      "type": "satsu_iron_man_addon:nbt_modifier",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "slot": "chest",
+      "nbtKey": "Nanites",
+      "adjustment_type": "subtract",
+      "adjustment_amount": 1,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "rocket",
+            "min": "1",
+            "max": "1000"
+          }
+        ]
+      }
+    },
+    "remove_nanite.grab_cannon_anim": {
+      "type": "satsu_iron_man_addon:nbt_modifier",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "slot": "chest",
+      "nbtKey": "Nanites",
+      "adjustment_type": "subtract",
+      "adjustment_amount": 1,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "grab_cannon_anim",
+            "min": "1",
+            "max": "1000"
+          }
+        ]
+      }
+    },
+    "remove_nanite.nano_mallet": {
+      "type": "satsu_iron_man_addon:nbt_modifier",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "slot": "chest",
+      "nbtKey": "Nanites",
+      "adjustment_type": "subtract",
+      "adjustment_amount": 1,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "nano_mallet",
+            "min": "1",
+            "max": "1000"
+          }
+        ]
+      }
+    },
+    "remove_nanite.nano_fireworks": {
+      "type": "satsu_iron_man_addon:nbt_modifier",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "slot": "chest",
+      "nbtKey": "Nanites",
+      "adjustment_type": "subtract",
+      "adjustment_amount": 1,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "nano_fireworks",
+            "min": "1",
+            "max": "1000"
+          }
+        ]
+      }
+    },
+    "remove_nanite.nano_flares_flames": {
+      "type": "satsu_iron_man_addon:nbt_modifier",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "slot": "chest",
+      "nbtKey": "Nanites",
+      "adjustment_type": "subtract",
+      "adjustment_amount": 1,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "nano_flares_flames",
+            "min": "1",
+            "max": "1000"
+          }
+        ]
+      }
+    },
+    "remove_nanite.nano_energy_boosters": {
+      "type": "satsu_iron_man_addon:nbt_modifier",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "slot": "chest",
+      "nbtKey": "Nanites",
+      "adjustment_type": "subtract",
+      "adjustment_amount": 1,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "nano_energy_boosters",
+            "min": "1",
+            "max": "1000"
+          }
+        ]
+      }
+    },
+    "remove_nanite.nano_stabilizer": {
+      "type": "satsu_iron_man_addon:nbt_modifier",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "slot": "chest",
+      "nbtKey": "Nanites",
+      "adjustment_type": "subtract",
+      "adjustment_amount": 1,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "nano_stabilizer",
+            "min": "1",
+            "max": "1000"
+          }
+        ]
+      }
+    },
+    "remove_nanite.water_turbine": {
+      "type": "satsu_iron_man_addon:nbt_modifier",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "slot": "chest",
+      "nbtKey": "Nanites",
+      "adjustment_type": "subtract",
+      "adjustment_amount": 1,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "water_turbine",
+            "min": "1",
+            "max": "1000"
+          }
+        ]
+      }
+    },
+    "tool_hands": {
+      "type": "palladium:tool_hands",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "drop_block_tags": [
+        "minecraft:mineable/pickaxe",
+        "minecraft:needs_iron_tool"
+      ],
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:or",
+            "conditions": [
+              {
+                "type": "palladium:ability_enabled",
+                "ability": "nano_sword"
+              },
+              {
+                "type": "palladium:ability_enabled",
+                "ability": "nano_katar"
+              },
+              {
+                "type": "palladium:ability_enabled",
+                "ability": "nano_hand_blade"
+              }
+            ]
           }
         ]
       }
@@ -5976,6 +6944,224 @@
           }
         ],
         "unlocking": []
+      }
+    },
+    "set_max.satsu_iron_man_nano_counts_max": {
+      "type": "satsu_iron_man_addon:palladium_property_modifier",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "property_name": "satsu_iron_man_nano_counts_max",
+      "adjustment_type": "set",
+      "adjustment_amount": 5000,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_first_tick",
+            "ability": "armor"
+          }
+        ]
+      }
+    },
+    "satsu_iron_man_nano_counts.item_nbt_modifier": {
+      "type": "satsu_iron_man_addon:item_nbt_modifier",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "slot": "chest",
+      "nbtKey": "Nanites",
+      "nbtValue": "1000000",
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:not",
+            "conditions": [
+              {
+                "type": "satsu_iron_man_addon:slot_nbt_range_check",
+                "slot": "chest",
+                "nbtKey": "Nanites",
+                "min": -2147483647,
+                "max": 2147483647
+              }
+            ]
+          }
+        ],
+        "unlocking": []
+      }
+    },
+    "satsu_iron_man_nano_counts.item_nbt_property_sync": {
+      "type": "satsu_iron_man_addon:item_nbt_property_sync",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "slot": "chest",
+      "nbtKey": "Nanites",
+      "propertyKey": "satsu_iron_man_nano_counts",
+      "syncMode": "nbt",
+      "conditions": {
+        "enabling": [],
+        "unlocking": []
+      }
+    },
+    "set.satsu_iron_man_nano_counts": {
+      "type": "satsu_iron_man_addon:nbt_modifier",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "slot": "chest",
+      "nbtKey": "Nanites",
+      "adjustment_type": "set",
+      "adjustment_amount": 5000,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Nanites",
+            "min": 5001,
+            "max": 2147483647
+          }
+        ]
+      }
+    },
+    "recharge.satsu_iron_man_nano_counts.timer": {
+      "type": "palladium:repeating_animation_timer",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "start_value": 0,
+      "max_value": 20,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "satsu_iron_man_addon:slot_nbt_range_check",
+            "slot": "chest",
+            "nbtKey": "Nanites",
+            "min": 1,
+            "max": 2147483647
+          },
+          {
+            "type": "palladium:string_property",
+            "property": "satsu_iron_man_addon_armor_activated",
+            "comparator": "equals",
+            "compare_to": "on"
+          }
+        ]
+      }
+    },
+    "recharge.satsu_iron_man_nano_counts": {
+      "type": "satsu_iron_man_addon:nbt_modifier",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "slot": "chest",
+      "nbtKey": "Nanites",
+      "adjustment_type": "add",
+      "adjustment_amount": 25,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_integer_property",
+            "ability": "recharge.satsu_iron_man_nano_counts.timer",
+            "property": "value",
+            "min": 20,
+            "max": 20
+          },
+          {
+            "type": "palladium:not",
+            "conditions": [
+              {
+                "type": "palladium:or",
+                "conditions": [
+                  {
+                    "type": "palladium:ability_integer_property",
+                    "ability": "propulsor_anim",
+                    "min": "1",
+                    "max": "200"
+                  },
+                  {
+                    "type": "palladium:ability_integer_property",
+                    "ability": "flight_anim",
+                    "min": "1",
+                    "max": "200"
+                  },
+                  {
+                    "type": "palladium:ability_integer_property",
+                    "ability": "nano_sword",
+                    "min": "1",
+                    "max": "200"
+                  },
+                  {
+                    "type": "palladium:ability_integer_property",
+                    "ability": "nano_katar",
+                    "min": "1",
+                    "max": "200"
+                  },
+                  {
+                    "type": "palladium:ability_integer_property",
+                    "ability": "nano_hand_blade",
+                    "min": "1",
+                    "max": "200"
+                  },
+                  {
+                    "type": "palladium:ability_integer_property",
+                    "ability": "nano_rial",
+                    "min": "1",
+                    "max": "200"
+                  },
+                  {
+                    "type": "palladium:ability_integer_property",
+                    "ability": "nano_grenade_launcher_anim",
+                    "min": "1",
+                    "max": "200"
+                  },
+                  {
+                    "type": "palladium:ability_integer_property",
+                    "ability": "rocket",
+                    "min": "1",
+                    "max": "200"
+                  },
+                  {
+                    "type": "palladium:ability_integer_property",
+                    "ability": "grab_cannon_anim",
+                    "min": "1",
+                    "max": "200"
+                  },
+                  {
+                    "type": "palladium:ability_integer_property",
+                    "ability": "nano_mallet",
+                    "min": "1",
+                    "max": "200"
+                  },
+                  {
+                    "type": "palladium:ability_integer_property",
+                    "ability": "nano_fireworks",
+                    "min": "1",
+                    "max": "200"
+                  },
+                  {
+                    "type": "palladium:ability_integer_property",
+                    "ability": "nano_flares_flames",
+                    "min": "1",
+                    "max": "200"
+                  },
+                  {
+                    "type": "palladium:ability_integer_property",
+                    "ability": "nano_energy_boosters",
+                    "min": "1",
+                    "max": "200"
+                  },
+                  {
+                    "type": "palladium:ability_integer_property",
+                    "ability": "nano_stabilizer",
+                    "min": "1",
+                    "max": "200"
+                  },
+                  {
+                    "type": "palladium:ability_integer_property",
+                    "ability": "force_field.shield.animation_timer",
+                    "min": "1",
+                    "max": "7"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     },
     "low_energy_alarm": {

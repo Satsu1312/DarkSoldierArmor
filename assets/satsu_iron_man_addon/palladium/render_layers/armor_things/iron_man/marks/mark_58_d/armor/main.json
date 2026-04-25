@@ -103,6 +103,75 @@
           ]
         }
       ]
+    },
+    {
+      "type": "geckolib:default",
+      "model": "satsu_iron_man_addon:geo/armor_models/iron_man/nano_armors/nanokatar.geo.json",
+      "texture": {
+        "base": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_katars/no_light/mark_58_d_0.png",
+        "transformers": [
+          {
+            "type": "palladium:alpha_mask",
+            "mask": "satsu_iron_man_addon:textures/models/alpha_masks/armors/nano_things/nano_katar/transformation_#TIMER.png"
+          }
+        ],
+        "variables": {
+          "TIMER": {
+            "type": "palladium:ability_integer_property",
+            "power": "satsu_iron_man_addon:iron_man/marks/mark_58_d/main",
+            "ability": "nano_katar",
+            "property": "value",
+            "min": 0,
+            "max": 8
+          }
+        },
+        "output": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_katar/iron_man_suit_50_0_#TIMER"
+      },
+      "conditions": [
+        {
+          "type": "palladium:ability_integer_property",
+          "power": "satsu_iron_man_addon:iron_man/marks/mark_58_d/main",
+          "ability": "nano_katar",
+          "property": "value",
+          "min": 1,
+          "max": 10
+        }
+      ]
+    },
+    {
+      "type": "geckolib:default",
+      "model": "satsu_iron_man_addon:geo/armor_models/iron_man/nano_armors/nanokatar.geo.json",
+      "texture": {
+        "base": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_katars/light/mark_58_d_0.png",
+        "transformers": [
+          {
+            "type": "palladium:alpha_mask",
+            "mask": "satsu_iron_man_addon:textures/models/alpha_masks/armors/nano_things/nano_katar/transformation_#TIMER.png"
+          }
+        ],
+        "variables": {
+          "TIMER": {
+            "type": "palladium:ability_integer_property",
+            "power": "satsu_iron_man_addon:iron_man/marks/mark_58_d/main",
+            "ability": "nano_katar",
+            "property": "value",
+            "min": 0,
+            "max": 8
+          }
+        },
+        "output": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_katar/light/iron_man_suit_50_0_#TIMER"
+      },
+      "render_type": "glow",
+      "conditions": [
+        {
+          "type": "palladium:ability_integer_property",
+          "power": "satsu_iron_man_addon:iron_man/marks/mark_58_d/main",
+          "ability": "nano_katar",
+          "property": "value",
+          "min": 1,
+          "max": 10
+        }
+      ]
     }
   ]
 }
