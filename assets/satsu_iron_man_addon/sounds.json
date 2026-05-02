@@ -3,6 +3,6 @@
     "sounds": ["satsu_iron_man_addon:suits_sounds/mark_52_d/round_shield_sound"]
   },
   "entity.armor.ultra_beam": {
-    "sounds": ["satsu_iron_man_addon:suits_sounds/mark_52_d/ultra_beam"]
+    "sounds": ["satsu_iron_man_addon:suits_sounds/mark_52_d/ultrabeam"]
   }
 }
