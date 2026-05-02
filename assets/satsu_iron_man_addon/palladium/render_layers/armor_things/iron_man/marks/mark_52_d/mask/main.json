@@ -15,7 +15,7 @@
         "variables": {
           "TIMER": {
             "type": "palladium:ability_integer_property",
-            "power": "satsu_iron_man_addon:mark_52_d/main",
+            "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
             "ability": "mask_animation_timer",
             "property": "value",
             "min": 0,
@@ -63,7 +63,7 @@
         "variables": {
           "TIMER": {
             "type": "palladium:ability_integer_property",
-            "power": "satsu_iron_man_addon:mark_52_d/main",
+            "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
             "ability": "mask_animation_timer",
             "property": "value",
             "min": 0,

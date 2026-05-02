@@ -15,7 +15,7 @@
         "variables": {
           "TIMER": {
             "type": "palladium:ability_integer_property",
-            "power": "satsu_iron_man_addon:mark_52_d/main",
+            "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
             "ability": "nano_hand_blade",
             "property": "value",
             "min": 0,
@@ -41,7 +41,7 @@
         "variables": {
           "TIMER": {
             "type": "palladium:ability_integer_property",
-            "power": "satsu_iron_man_addon:mark_52_d/main",
+            "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
             "ability": "nano_hand_blade",
             "property": "value",
             "min": 0,
@@ -68,7 +68,7 @@
         "variables": {
           "TIMER": {
             "type": "palladium:ability_integer_property",
-            "power": "satsu_iron_man_addon:mark_52_d/main",
+            "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
             "ability": "nano_rial",
             "property": "value",
             "min": 0,
@@ -80,7 +80,7 @@
       "conditions": [
         {
           "type": "palladium:ability_integer_property",
-          "power": "satsu_iron_man_addon:mark_52_d/main",
+          "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
           "ability": "right_arm_animation",
           "property": "value",
           "min": 1,
@@ -102,7 +102,7 @@
         "variables": {
           "TIMER": {
             "type": "palladium:ability_integer_property",
-            "power": "satsu_iron_man_addon:mark_52_d/main",
+            "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
             "ability": "nano_rial",
             "property": "value",
             "min": 0,
@@ -115,7 +115,7 @@
       "conditions": [
         {
           "type": "palladium:ability_integer_property",
-          "power": "satsu_iron_man_addon:mark_52_d/main",
+          "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
           "ability": "right_arm_animation",
           "property": "value",
           "min": 1,
@@ -137,7 +137,7 @@
         "variables": {
           "TIMER": {
             "type": "palladium:ability_integer_property",
-            "power": "satsu_iron_man_addon:mark_52_d/main",
+            "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
             "ability": "nano_rial",
             "property": "value",
             "min": 0,
@@ -149,7 +149,7 @@
       "conditions": [
         {
           "type": "palladium:ability_integer_property",
-          "power": "satsu_iron_man_addon:mark_52_d/main",
+          "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
           "ability": "left_arm_animation",
           "property": "value",
           "min": 1,
@@ -171,7 +171,7 @@
         "variables": {
           "TIMER": {
             "type": "palladium:ability_integer_property",
-            "power": "satsu_iron_man_addon:mark_52_d/main",
+            "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
             "ability": "nano_rial",
             "property": "value",
             "min": 0,
@@ -184,7 +184,7 @@
       "conditions": [
         {
           "type": "palladium:ability_integer_property",
-          "power": "satsu_iron_man_addon:mark_52_d/main",
+          "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
           "ability": "left_arm_animation",
           "property": "value",
           "min": 1,
@@ -206,7 +206,7 @@
         "variables": {
           "TIMER": {
             "type": "palladium:ability_integer_property",
-            "power": "satsu_iron_man_addon:mark_52_d/main",
+            "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
             "ability": "nano_grenade_launcher_anim",
             "property": "value",
             "min": 0,
@@ -218,7 +218,7 @@
       "conditions": [
         {
           "type": "palladium:ability_integer_property",
-          "power": "satsu_iron_man_addon:mark_52_d/main",
+          "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
           "ability": "right_arm_animation",
           "property": "value",
           "min": 1,
@@ -240,7 +240,7 @@
         "variables": {
           "TIMER": {
             "type": "palladium:ability_integer_property",
-            "power": "satsu_iron_man_addon:mark_52_d/main",
+            "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
             "ability": "nano_grenade_launcher_anim",
             "property": "value",
             "min": 0,
@@ -253,7 +253,7 @@
       "conditions": [
         {
           "type": "palladium:ability_integer_property",
-          "power": "satsu_iron_man_addon:mark_52_d/main",
+          "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
           "ability": "right_arm_animation",
           "property": "value",
           "min": 1,
@@ -275,7 +275,7 @@
         "variables": {
           "TIMER": {
             "type": "palladium:ability_integer_property",
-            "power": "satsu_iron_man_addon:mark_52_d/main",
+            "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
             "ability": "nano_grenade_launcher_anim",
             "property": "value",
             "min": 0,
@@ -287,7 +287,7 @@
       "conditions": [
         {
           "type": "palladium:ability_integer_property",
-          "power": "satsu_iron_man_addon:mark_52_d/main",
+          "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
           "ability": "left_arm_animation",
           "property": "value",
           "min": 1,
@@ -309,7 +309,7 @@
         "variables": {
           "TIMER": {
             "type": "palladium:ability_integer_property",
-            "power": "satsu_iron_man_addon:mark_52_d/main",
+            "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
             "ability": "nano_grenade_launcher_anim",
             "property": "value",
             "min": 0,
@@ -322,7 +322,7 @@
       "conditions": [
         {
           "type": "palladium:ability_integer_property",
-          "power": "satsu_iron_man_addon:mark_52_d/main",
+          "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
           "ability": "left_arm_animation",
           "property": "value",
           "min": 1,

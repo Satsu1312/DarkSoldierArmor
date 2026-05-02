@@ -21,7 +21,7 @@
           },
           "SHOW_UP_right": {
             "type": "palladium:animation_timer_ability",
-            "power": "satsu_iron_man_addon:mark_52_d/main",
+            "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
             "ability": "flames_up_right",
             "property": "value",
             "min": 0,
@@ -52,7 +52,7 @@
           },
           "SHOW_UP_left": {
             "type": "palladium:animation_timer_ability",
-            "power": "satsu_iron_man_addon:mark_52_d/main",
+            "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
             "ability": "flames_up_left",
             "property": "value",
             "min": 0,
@@ -83,7 +83,7 @@
           },
           "SHOW_DOWN_RIGHT": {
             "type": "palladium:animation_timer_ability",
-            "power": "satsu_iron_man_addon:mark_52_d/main",
+            "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
             "ability": "flames_down_left",
             "property": "value",
             "min": 0,
@@ -114,7 +114,7 @@
           },
           "SHOW_DOWN_LEFT": {
             "type": "palladium:animation_timer_ability",
-            "power": "satsu_iron_man_addon:mark_52_d/main",
+            "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
             "ability": "flames_down_right",
             "property": "value",
             "min": 0,
@@ -145,7 +145,7 @@
           },
           "SHOW_DOWN": {
             "type": "palladium:animation_timer_ability",
-            "power": "satsu_iron_man_addon:mark_52_d/main",
+            "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
             "ability": "flames_down_boost",
             "property": "value",
             "min": 0,

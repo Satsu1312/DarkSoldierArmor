@@ -9,7 +9,7 @@
         "variables": {
           "RIGHT_ARM": {
             "type": "palladium:ability_integer_property",
-            "power": "satsu_iron_man_addon:mark_52_d/main",
+            "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
             "ability": "integrated_blades",
             "property": "value",
             "min": 0,
@@ -32,7 +32,7 @@
       "conditions": [
         {
           "type": "palladium:ability_integer_property",
-          "power": "satsu_iron_man_addon:mark_52_d/main",
+          "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
           "ability": "integrated_blades",
           "property": "value",
           "min": 1,
@@ -48,7 +48,7 @@
         "variables": {
           "RIGHT_ARM": {
             "type": "palladium:ability_integer_property",
-            "power": "satsu_iron_man_addon:mark_52_d/main",
+            "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
             "ability": "integrated_blades",
             "property": "value",
             "min": 0,
@@ -72,7 +72,7 @@
       "conditions": [
         {
           "type": "palladium:ability_integer_property",
-          "power": "satsu_iron_man_addon:mark_52_d/main",
+          "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
           "ability": "integrated_blades",
           "property": "value",
           "min": 1,

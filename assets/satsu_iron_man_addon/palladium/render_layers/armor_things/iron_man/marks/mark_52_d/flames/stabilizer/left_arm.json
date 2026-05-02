@@ -21,7 +21,7 @@
           },
           "SHOW_UP_right": {
             "type": "palladium:animation_timer_ability",
-            "power": "satsu_iron_man_addon:mark_52_d/main",
+            "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
             "ability": "nano_stabilizer_flames",
             "property": "value",
             "min": 0,
@@ -34,7 +34,7 @@
       "conditions": [
         {
           "type": "palladium:ability_integer_property",
-          "power": "satsu_iron_man_addon:mark_52_d/main",
+          "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
           "ability": "left_arm_animation",
           "property": "value",
           "min": 18,
@@ -42,7 +42,7 @@
         },
         {
           "type": "palladium:animation_timer_ability",
-          "power": "satsu_iron_man_addon:mark_52_d/main",
+          "power": "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
           "ability": "nano_stabilizer_flames",
           "property": "value",
           "min": 1,
