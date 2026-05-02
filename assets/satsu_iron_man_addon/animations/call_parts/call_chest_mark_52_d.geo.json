@@ -104,10 +104,22 @@
 				"Armorleftshoulderpad2": {
 					"position": {
 						"0.0": [0, 0, 0],
-						"0.5": [0, 0, -2]
+						"0.5": [0, 0, 0]
 					}
 				},
 				"Armorrightshoulderpads2": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, 0]
+					}
+				},
+				"ArmorrightshoulderpadM2": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, -2]
+					}
+				},
+				"armorleftshoulderpadM2": {
 					"position": {
 						"0.0": [0, 0, 0],
 						"0.5": [0, 0, -2]
@@ -121,11 +133,23 @@
 			"bones": {
 				"Armorleftshoulderpad2": {
 					"position": {
-						"0.0": [0, 0, -2],
+						"0.0": [0, 0, 0],
 						"0.5": [0, 0, 0]
 					}
 				},
 				"Armorrightshoulderpads2": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, 0]
+					}
+				},
+				"ArmorrightshoulderpadM2": {
+					"position": {
+						"0.0": [0, 0, -2],
+						"0.5": [0, 0, 0]
+					}
+				},
+				"armorleftshoulderpadM2": {
 					"position": {
 						"0.0": [0, 0, -2],
 						"0.5": [0, 0, 0]
