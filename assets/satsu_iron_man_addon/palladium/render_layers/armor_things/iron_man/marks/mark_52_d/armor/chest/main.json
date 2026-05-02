@@ -76,6 +76,14 @@
             "deploy": "thrusters_deploy",
             "fold": "thrusters_fold"
           }
+        },
+        {
+          "name": "shooulder_controler",
+          "transition_tick_time": 10,
+          "triggers": {
+            "deploy": "shoulderrocketsdeploy",
+            "fold": "shoulderrocketsfold"
+          }
         }
       ],
       "conditions": []
@@ -118,6 +126,14 @@
           "triggers": {
             "deploy": "thrusters_deploy",
             "fold": "thrusters_fold"
+          }
+        },
+        {
+          "name": "shooulder_controler",
+          "transition_tick_time": 10,
+          "triggers": {
+            "deploy": "shoulderrocketsdeploy",
+            "fold": "shoulderrocketsfold"
           }
         }
       ],

@@ -24,7 +24,7 @@
         },
         "output": "satsu_iron_man_addon:textures/models/iron_man/no_light_left_shoulder/mark_52_d_0_#LEFT_SHOULDER"
       },
-      "animation_file": "satsu_iron_man_addon:animations/call_right_arm.geo.json",
+      "animation_file": "satsu_iron_man_addon:animations/call_parts/call_shoulders.geo.json",
       "animation_controller": [
         {
           "name": "call.part.control",
@@ -59,7 +59,7 @@
         },
         "output": "satsu_iron_man_addon:textures/models/iron_man/light_left_shoulder/mark_52_d_0_#LEFT_SHOULDER"
       },
-      "animation_file": "satsu_iron_man_addon:animations/call_right_arm.geo.json",
+      "animation_file": "satsu_iron_man_addon:animations/call_parts/call_shoulders.geo.json",
       "animation_controller": [
         {
           "name": "call.part.control",

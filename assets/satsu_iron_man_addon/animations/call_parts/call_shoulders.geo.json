@@ -1,0 +1,33 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.minecraft:call.right.shoulder": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.3,
+			"bones": {
+				"call_right_shoulder": {
+					"position": {
+						"0.0": {
+							"vector": [-50, 9, 0]
+						},
+						"0.3": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.minecraft:call.left.shoulder": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.3,
+			"bones": {
+				"call_left_shoulder": {
+					"position": {
+						"0.0": [50, 9, 0],
+						"0.3": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

@@ -96,6 +96,42 @@
 					}
 				}
 			}
+		},
+		"shoulderrocketsdeploy": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.5,
+			"bones": {
+				"Armorleftshoulderpad2": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, -2]
+					}
+				},
+				"Armorrightshoulderpads2": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, -2]
+					}
+				}
+			}
+		},
+		"shoulderrocketsfold": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.5,
+			"bones": {
+				"Armorleftshoulderpad2": {
+					"position": {
+						"0.0": [0, 0, -2],
+						"0.5": [0, 0, 0]
+					}
+				},
+				"Armorrightshoulderpads2": {
+					"position": {
+						"0.0": [0, 0, -2],
+						"0.5": [0, 0, 0]
+					}
+				}
+			}
 		}
 	}
 }
