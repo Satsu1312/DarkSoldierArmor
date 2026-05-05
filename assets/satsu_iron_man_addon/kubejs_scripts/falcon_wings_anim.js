@@ -55,7 +55,7 @@ PalladiumEvents.registerAnimations((event) => {
   event.registerForPower(
     "satsu_iron_man_addon/fly_anim_boost",
     "satsu_iron_man_addon:falcon_wings",
-    10,
+    20,
     (builder) => {
       // Gets the current animation timer progress from the ability, returned value is a number from 0.0 to 1.0
       const progress = animationUtil.getAnimationTimerAbilityValue(

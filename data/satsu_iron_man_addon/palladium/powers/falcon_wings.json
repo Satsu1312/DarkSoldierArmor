@@ -7,7 +7,9 @@
     "dummy": {
       "type": "palladium:dummy",
       "icon": "satsu_iron_man_addon:textures/item/falcon_wings.png",
-      "title": { "translate": "ability.title.dark_soldier.active.falcon_wings" },
+      "title": {
+        "translate": "ability.title.dark_soldier.active.falcon_wings"
+      },
       "hidden": true,
       "hidden_in_bar": false,
       "list_index": 0,
@@ -124,7 +126,9 @@
     "shield": {
       "type": "palladium:animation_timer",
       "icon": "satsu_iron_man_addon:textures/item/falcon_wings.png",
-      "title": { "translate": "ability.title.dark_soldier.active.falcon_wings" },
+      "title": {
+        "translate": "ability.title.dark_soldier.active.falcon_wings"
+      },
       "hidden": true,
       "hidden_in_bar": false,
       "list_index": 1,
@@ -292,7 +296,9 @@
     "attack": {
       "type": "palladium:animation_timer",
       "icon": "satsu_iron_man_addon:textures/item/falcon_wings.png",
-      "title": { "translate": "ability.title.dark_soldier.active.falcon_wings" },
+      "title": {
+        "translate": "ability.title.dark_soldier.active.falcon_wings"
+      },
       "hidden": true,
       "hidden_in_bar": false,
       "list_index": 2,
@@ -394,6 +400,179 @@
           }
         ],
         "unlocking": []
+      }
+    },
+    "boost": {
+      "type": "palladium:animation_timer",
+      "icon": "satsu_iron_man_addon:textures/item/falcon_wings.png",
+      "title": {
+        "translate": "ability.title.dark_soldier.active.falcon_wings"
+      },
+      "hidden": true,
+      "hidden_in_bar": false,
+      "list_index": 3,
+      "start_value": 0,
+      "max_value": 3,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:activation",
+            "key_type": "key_bind",
+            "ticks": 50,
+            "cooldown": 80
+          }
+        ],
+        "unlocking": [
+          {
+            "type": "palladium:animation_timer_ability",
+            "power": "null",
+            "ability": "animation_timer",
+            "min": 2,
+            "max": 15
+          },
+          {
+            "type": "palladium:string_property",
+            "property": "satsu_iron_man_addon_dark_tech_falcon_wings",
+            "comparator": "equals",
+            "compare_to": "on"
+          }
+        ]
+      }
+    },
+    "boost.animation.on": {
+      "type": "geckolib:render_layer_animation",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "render_layer": "satsu_iron_man_addon:tech/falcon_wings",
+      "controller": "boost",
+      "animation_trigger": "boost_on",
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:animation_timer_ability",
+            "power": "null",
+            "ability": "boost",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "type": "palladium:ability_enabled",
+            "power": "null",
+            "ability": "boost"
+          }
+        ],
+        "unlocking": []
+      }
+    },
+    "boost.animation.off": {
+      "type": "geckolib:render_layer_animation",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "render_layer": "satsu_iron_man_addon:tech/falcon_wings",
+      "controller": "boost",
+      "animation_trigger": "boost_off",
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:animation_timer_ability",
+            "power": "null",
+            "ability": "boost",
+            "min": 1,
+            "max": 1
+          },
+          {
+            "type": "palladium:not",
+            "conditions": [
+              {
+                "type": "palladium:ability_enabled",
+                "power": "null",
+                "ability": "boost"
+              }
+            ]
+          }
+        ],
+        "unlocking": []
+      }
+    },
+    "boost.remove.energy": {
+      "type": "satsu_iron_man_addon:nbt_modifier",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "slot": "curios:body",
+      "nbtKey": "wings_energy",
+      "adjustment_type": "subtract",
+      "adjustment_amount": 5,
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_enabled",
+            "power": "null",
+            "ability": "boost"
+          }
+        ],
+        "unlocking": []
+      }
+    },
+    "multi_attribute_modifier.boost": {
+      "type": "satsu_iron_man_addon:multi_attribute_modifier",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "attributes": ["palladium:flight_flexibility", "palladium:flight_speed"],
+      "amounts": ["2", "0.75"],
+      "operations": ["addition", "addition"],
+      "uuids": [
+        "39b7f31e-a515-4e39-84b1-7e3299b0d72b",
+        "8a87564e-b9b8-4446-99cd-2402f41d7680"
+      ],
+      "dummy": "0",
+      "conditions": {
+        "enabling": [
+          {
+            "type": "palladium:ability_enabled",
+            "power": "null",
+            "ability": "boost"
+          }
+        ]
+      }
+    },
+    "fly_anim_boost": {
+      "type": "palladium:animation_timer",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "start_value": 0,
+      "max_value": 6,
+      "conditions": {
+        "enabling": [],
+        "unlocking": [
+          {
+            "type": "palladium:ability_enabled",
+            "power": "null",
+            "ability": "boost"
+          },
+          {
+            "type": "palladium:has_movement_input"
+          },
+          {
+            "type": "palladium:is_fast_flying"
+          },
+          {
+            "type": "palladium:string_property",
+            "property": "satsu_iron_man_addon_dark_tech_falcon_wings",
+            "comparator": "equals",
+            "compare_to": "on"
+          },
+          {
+            "type": "palladium:not",
+            "conditions": [
+              {
+                "type": "palladium:string_property",
+                "property": "satsu_iron_man_addon_armor_activated",
+                "comparator": "equals",
+                "compare_to": "on"
+              }
+            ]
+          }
+        ]
       }
     },
     "animation_timer": {
