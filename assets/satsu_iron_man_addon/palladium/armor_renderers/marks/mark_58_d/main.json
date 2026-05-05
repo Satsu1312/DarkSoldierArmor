@@ -4,6 +4,8 @@
   "render_layers": [
     "satsu_iron_man_addon:armor_things/iron_man/marks/mark_58_d/armor/main",
     "satsu_iron_man_addon:armor_things/iron_man/marks/mark_58_d/flames/main",
-    "satsu_iron_man_addon:armor_things/iron_man/marks/mark_58_d/mask/main"
+    "satsu_iron_man_addon:armor_things/iron_man/marks/mark_58_d/mask/main",
+    "satsu_iron_man_addon:armor_things/iron_man/marks/mark_58_d/nano_round_shield/main",
+    "satsu_iron_man_addon:armor_things/iron_man/marks/mark_58_d/nano_things/grab_cannnon"
   ]
 }
