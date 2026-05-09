@@ -5,7 +5,7 @@
       "type": "geckolib:default",
       "model": "satsu_iron_man_addon:geo/armor_models/iron_man/mark_52_d/nano_round_shield.geo.json",
       "texture": {
-        "base": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_round_shield/nano_shield_mark_52_d.png",
+        "base": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_round_shield/nano_shield_mark_58_d.png",
         "transformers": [
           {
             "type": "palladium:alpha_mask",
@@ -22,7 +22,7 @@
             "max": 14
           }
         },
-        "output": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_round_shield_no_light/nano_shield_mark_52_d_#shield"
+        "output": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_round_shield_no_light/nano_shield_mark_58_d_#shield"
       },
       "conditions": [
         {
@@ -39,7 +39,7 @@
       "type": "geckolib:default",
       "model": "satsu_iron_man_addon:geo/armor_models/iron_man/mark_52_d/nano_round_shield.geo.json",
       "texture": {
-        "base": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_round_shield/nano_shield_mark_52_d_light.png",
+        "base": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_round_shield/nano_shield_mark_58_d_light.png",
         "transformers": [
           {
             "type": "palladium:alpha_mask",
@@ -56,7 +56,7 @@
             "max": 14
           }
         },
-        "output": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_round_shield_light/nano_shield_mark_52_d_#shield"
+        "output": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_round_shield_light/nano_shield_mark_5_d_#shield"
       },
       "render_type": "glow",
       "conditions": [
