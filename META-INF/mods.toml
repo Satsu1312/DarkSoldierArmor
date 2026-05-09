@@ -16,6 +16,6 @@ This add-on adds a variety of content such as new Iron Man armor, weapons, craft
 [[dependencies.ds_expansion]]
 modId = "palladium"
 mandatory = true
-versionRange = "[4.4.1,)"
+versionRange = "[4.5.5,)"
 ordering = "NONE"
 side = "BOTH"
