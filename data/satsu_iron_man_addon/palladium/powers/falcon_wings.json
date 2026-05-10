@@ -50,7 +50,7 @@
             "slot": "curios:body",
             "nbtKey": "wings_energy",
             "min": -2147483647,
-            "max": 999,
+            "max": 49999,
             "mode": "range"
           },
           {
@@ -876,7 +876,7 @@
       "hidden_in_bar": true,
       "slot": "curios:body",
       "nbtKey": "wings_energy",
-      "nbtValue": "1000",
+      "nbtValue": "50000",
       "conditions": {
         "enabling": [
           {
