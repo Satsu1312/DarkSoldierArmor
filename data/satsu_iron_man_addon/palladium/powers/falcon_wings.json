@@ -42,7 +42,7 @@
       "slot": "curios:body",
       "nbtKey": "wings_energy",
       "adjustment_type": "add",
-      "adjustment_amount": 1,
+      "adjustment_amount": 6,
       "conditions": {
         "enabling": [
           {
