@@ -322,6 +322,75 @@
           ]
         }
       ]
+    },
+    {
+      "type": "geckolib:default",
+      "model": "satsu_iron_man_addon:geo/armor_models/iron_man/nano_armors/mark_58_d_mallet.geo.json",
+      "texture": {
+        "base": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_mallet/no_light/mark_58_d_0.png",
+        "transformers": [
+          {
+            "type": "palladium:alpha_mask",
+            "mask": "satsu_iron_man_addon:textures/models/alpha_masks/armors/nano_things/nano_mallet/transformation_#TIMER.png"
+          }
+        ],
+        "variables": {
+          "TIMER": {
+            "type": "palladium:ability_integer_property",
+            "power": "satsu_iron_man_addon:iron_man/marks/mark_58_d/main",
+            "ability": "nano_mallet",
+            "property": "value",
+            "min": 0,
+            "max": 8
+          }
+        },
+        "output": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_mallet/no_light/mark_58_d_0_#TIMER"
+      },
+      "conditions": [
+        {
+          "type": "palladium:ability_integer_property",
+          "power": "satsu_iron_man_addon:iron_man/marks/mark_58_d/main",
+          "ability": "nano_mallet",
+          "property": "value",
+          "min": 1,
+          "max": 8
+        }
+      ]
+    },
+    {
+      "type": "geckolib:default",
+      "model": "satsu_iron_man_addon:geo/armor_models/iron_man/nano_armors/mark_58_d_mallet.geo.json",
+      "texture": {
+        "base": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_mallet/light/mark_58_d_0.png",
+        "transformers": [
+          {
+            "type": "palladium:alpha_mask",
+            "mask": "satsu_iron_man_addon:textures/models/alpha_masks/armors/nano_things/nano_mallet/transformation_#TIMER.png"
+          }
+        ],
+        "variables": {
+          "TIMER": {
+            "type": "palladium:ability_integer_property",
+            "power": "satsu_iron_man_addon:iron_man/marks/mark_58_d/main",
+            "ability": "nano_mallet",
+            "property": "value",
+            "min": 0,
+            "max": 8
+          }
+        },
+        "output": "satsu_iron_man_addon:textures/models/iron_man/nano_stuff/nano_mallet/light/mark_58_d_0_#TIMER"
+      },
+      "render_type": "glow",
+      "conditions": [
+        {
+          "type": "palladium:ability_integer_property",
+          "power": "satsu_iron_man_addon:iron_man/marks/mark_58_d/main",
+          "ability": "nano_mallet",
+          "property": "value",
+          "min": 1,
+          "max": 8
+        }
+      ]
     }
   ]
 }
