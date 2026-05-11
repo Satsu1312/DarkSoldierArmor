@@ -150,7 +150,7 @@
       "type": "geckolib:default",
       "model": "satsu_iron_man_addon:geo/clothes/player_head_overshrinked.geo.json",
       "texture": {
-        "base": "satsu_iron_man_addon:textures/models/clothes/quantum_suit.png",
+        "base": "satsu_iron_man_addon:textures/models/tech/falcon_wings_helmet.png",
         "transformers": [
           {
             "type": "palladium:alpha_mask",
@@ -172,7 +172,7 @@
       "type": "geckolib:default",
       "model": "satsu_iron_man_addon:geo/clothes/player_head_overshrinked.geo.json",
       "texture": {
-        "base": "satsu_iron_man_addon:textures/models/clothes/quantum_suit_light.png",
+        "base": "satsu_iron_man_addon:textures/models/tech/falcon_wings_helmet_light.png",
         "transformers": [
           {
             "type": "palladium:alpha_mask",
