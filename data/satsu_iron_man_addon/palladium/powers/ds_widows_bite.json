@@ -1,7 +1,7 @@
 {
   "name": { "translate": "ability.title.watch_glove" },
   "allow_bar_shrinking": true,
-  "ability_bar_texture": "#satsu_iron_man_addon:armor_hud/ability_bar",
+  "ability_bar_texture": "#satsu_iron_man_addon:iron_man/armor_hud/ability_bar_dark_tech",
   "icon": "satsu_iron_man_addon:textures/item/ds_widows_bite.png",
   "abilities": {
     "dummy": {
