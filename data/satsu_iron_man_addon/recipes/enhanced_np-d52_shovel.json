@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "group": "iron_man",
+  "template": {
+    "item": "satsu_iron_man_addon:dark_tech_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "satsu_iron_man_addon:np-d52_shovel"
+  },
+  "addition": {
+    "item": "satsu_iron_man_addon:arc_core"
+  },
+  "result": {
+    "item": "satsu_iron_man_addon:enhanced_np-d52_shovel"
+  }
+}
