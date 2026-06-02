@@ -1,0 +1,30 @@
+{
+  "type": "palladium:armor",
+  "slot": "chest",
+  "tooltip": ["Mark 52 d"],
+  "armor_material": "satsu_iron_man_addon:iron_man/marks/mark_50/main",
+  "creative_mode_tab": "satsu_iron_man_addon:dark_soldier",
+  "render_layers": {
+    "curios:tecnology_armor": [
+    "satsu_iron_man_addon:armor_things/iron_man/marks/mark_52_d/armor/chest/main",
+    "satsu_iron_man_addon:armor_things/iron_man/marks/mark_52_d/armor/right_arm/main",
+    "satsu_iron_man_addon:armor_things/iron_man/marks/mark_52_d/armor/left_arm/main",
+    "satsu_iron_man_addon:armor_things/iron_man/marks/mark_52_d/armor/left_shoulder/main",
+    "satsu_iron_man_addon:armor_things/iron_man/marks/mark_52_d/armor/right_shoulder/main",
+    "satsu_iron_man_addon:armor_things/iron_man/marks/mark_52_d/armor/left_leg/main",
+    "satsu_iron_man_addon:armor_things/iron_man/marks/mark_52_d/armor/right_leg/main",
+    "satsu_iron_man_addon:armor_things/iron_man/marks/mark_52_d/mask/main",
+    "satsu_iron_man_addon:armor_things/iron_man/marks/mark_52_d/flames/main",
+    "satsu_iron_man_addon:armor_things/iron_man/marks/mark_52_d/nano_things/armored_arms",
+    "satsu_iron_man_addon:armor_things/iron_man/marks/mark_50/nano_things/sword",
+    "satsu_iron_man_addon:armor_things/iron_man/marks/mark_52_d/flames/stabilizer/chest",
+    "satsu_iron_man_addon:armor_things/iron_man/marks/mark_52_d/flames/stabilizer/left_arm",
+    "satsu_iron_man_addon:armor_things/iron_man/marks/mark_52_d/flames/stabilizer/left_leg",
+    "satsu_iron_man_addon:armor_things/iron_man/marks/mark_52_d/flames/stabilizer/right_arm",
+    "satsu_iron_man_addon:armor_things/iron_man/marks/mark_52_d/flames/stabilizer/right_leg",
+    "satsu_iron_man_addon:armor_things/iron_man/marks/mark_52_d/nano_things/armor_boost",
+    "satsu_iron_man_addon:armor_things/iron_man/marks/mark_52_d/integrated_blades/main",
+    "satsu_iron_man_addon:armor_things/iron_man/marks/mark_52_d/nano_round_shield/main"
+    ]
+  }
+}
