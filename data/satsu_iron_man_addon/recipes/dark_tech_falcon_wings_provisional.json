@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "iron_man",
+    "pattern": [
+        "pvp",
+        "ncn",
+        "mrm"
+    ],
+    "key": {
+        "v": {
+            "item": "palladium:vibranium_circuit"
+        },
+        "r": {
+            "item": "satsu_iron_man_addon:repulsor"
+        },
+        "p": {
+            "item": "satsu_iron_man_addon:nanopolymer_d_52"
+        },
+        "c": {
+            "item": "satsu_iron_man_addon:arc_core"
+        },
+        "m": {
+            "item": "satsu_iron_man_addon:carbon_mesh"
+        },
+        "n": {
+            "item": "satsu_iron_man_addon:nano_circuit"
+        }
+    },
+    "result": {
+        "item": "satsu_iron_man_addon:falcon_wings",
+        "count": 1
+    }
+  }
