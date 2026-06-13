@@ -3,7 +3,7 @@
   "velocity": 4,
   "damage": 7,
   "gravity": 0.04,
-  "returns_to_sender": false,
+  "returns_to_sender": true,
   "draw_speed": 6,
   "hide_command_output": true
 }
