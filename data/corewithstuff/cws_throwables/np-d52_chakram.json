@@ -1,0 +1,9 @@
+{
+  "item": "satsu_iron_man_addon:np-d52_chakram",
+  "velocity": 4,
+  "damage": 7,
+  "gravity": 0.04,
+  "returns_to_sender": false,
+  "draw_speed": 6,
+  "hide_command_output": true
+}
