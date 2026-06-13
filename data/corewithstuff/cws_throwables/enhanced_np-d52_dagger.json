@@ -1,0 +1,9 @@
+{
+  "item": "satsu_iron_man_addon:enhanced_np-d52_dagger",
+  "velocity": 3.5,
+  "damage": 6.5,
+  "gravity": 0.04,
+  "returns_to_sender": true,
+  "draw_speed": 8,
+  "hide_command_output": true
+}
