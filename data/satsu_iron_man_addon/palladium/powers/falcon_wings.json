@@ -97,7 +97,7 @@
     },
     "shield": {
       "type": "palladium:animation_timer",
-      "icon": "satsu_iron_man_addon:textures/item/falcon_wings.png",
+      "icon": "satsu_iron_man_addon:textures/gui/wings_icons/wingshield.png",
       "title": {
         "translate": "ability.title.dark_soldier.activate.wing_shield"
       },
@@ -248,7 +248,7 @@
     },
     "attack": {
       "type": "palladium:animation_timer",
-      "icon": "satsu_iron_man_addon:textures/item/falcon_wings.png",
+      "icon": "satsu_iron_man_addon:textures/gui/wings_icons/wingattack.png",
       "title": {
         "translate": "ability.title.dark_soldier.activate.wings_attack"
       },
@@ -338,7 +338,7 @@
     },
     "boost": {
       "type": "palladium:animation_timer",
-      "icon": "satsu_iron_man_addon:textures/item/falcon_wings.png",
+      "icon": "satsu_iron_man_addon:textures/gui/wings_icons/wingboost.png",
       "title": {
         "translate": "ability.title.dark_soldier.activate.boost_mode"
       },
