@@ -1,0 +1,89 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"boost_on": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.5,
+			"bones": {
+				"Right_wing": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 10.5, -20]
+					}
+				},
+				"alaR": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, -17.5]
+					}
+				},
+				"Left_wing": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, -10.5, 20]
+					}
+				},
+				"alaL": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, 17.5]
+					}
+				},
+				"punta_alaR": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [-2.5, 7.5, 0]
+					}
+				},
+				"punta_alaL": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [-2.5, -7.5, 0]
+					}
+				}
+			}
+		},
+		"boost_off": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.5,
+			"bones": {
+				"Right_wing": {
+					"rotation": {
+						"0.0": [0, 8, -20],
+						"0.5": [0, 0, 0]
+					}
+				},
+				"alaR": {
+					"rotation": {
+						"0.0": [0, 0, -17.5],
+						"0.5": [0, 0, 0]
+					}
+				},
+				"Left_wing": {
+					"rotation": {
+						"0.0": [0, -8, 20],
+						"0.5": [0, 0, 0]
+					}
+				},
+				"alaL": {
+					"rotation": {
+						"0.0": [0, 0, 17.5],
+						"0.5": [0, 0, 0]
+					}
+				},
+				"punta_alaR": {
+					"rotation": {
+						"0.0": [-2.5, 7.5, 0],
+						"0.5": [0, 0, 0]
+					}
+				},
+				"punta_alaL": {
+					"rotation": {
+						"0.0": [-2.5, -7.5, 0],
+						"0.5": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}
