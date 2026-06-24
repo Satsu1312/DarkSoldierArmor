@@ -25,8 +25,8 @@
     "mark_52_d": {
       "type": "palladium:command",
       "icon": "satsu_iron_man_addon:textures/gui/armors/armadura_completa/mark_head_icon_52_d.png",
-      "title": { "translate": "ability.title.satsu.mark.52_d" },
-      "description": { "translate": "description.iron.man.mark.52_d" },
+      "title": { "translate": "ability.title.satsu.mark_52_d" },
+      "description": { "translate": "description.iron.man.mark_52_d" },
       "hidden": false,
       "hidden_in_bar": true,
       "gui_position": [0, 1],
@@ -47,8 +47,8 @@
     "mark_58_d": {
       "type": "palladium:command",
       "icon": "satsu_iron_man_addon:textures/gui/armors/armadura_completa/mark_head_icon_58_d.png",
-      "title": { "translate": "ability.title.satsu.mark.58_d" },
-      "description": { "translate": "description.iron.man.mark.58_d" },
+      "title": { "translate": "ability.title.satsu.mark_58_d" },
+      "description": { "translate": "description.iron.man.mark_58_d" },
       "hidden": false,
       "hidden_in_bar": true,
       "gui_position": [1, 1],
@@ -69,8 +69,8 @@
         "mark_64_d": {
       "type": "palladium:command",
       "icon": "satsu_iron_man_addon:textures/gui/armors/armadura_completa/mark_head_icon_64_d.png",
-      "title": { "translate": "ability.title.satsu.mark.64_d" },
-      "description": { "translate": "description.iron.man.mark.64_d" },
+      "title": { "translate": "ability.title.satsu.mark_64_d" },
+      "description": { "translate": "description.iron.man.mark_64_d" },
       "hidden": false,
       "hidden_in_bar": true,
       "gui_position": [-1, 1],
