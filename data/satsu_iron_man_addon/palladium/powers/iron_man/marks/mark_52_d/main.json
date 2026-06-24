@@ -1,5 +1,5 @@
 {
-  "name": { "translate": "ability.title.satsu.mark_052_d" },
+  "name": { "translate": "ability.title.satsu.mark_52_d" },
   "allow_bar_shrinking": true,
   "ability_bar_texture": "#satsu_iron_man_addon:iron_man/armor_hud/ability_bar_dark_tech",
   "background": "satsu_iron_man_addon:textures/block/d52_crafting_table_top.png",
@@ -204,8 +204,8 @@
     "armor": {
       "type": "palladium:dummy",
       "icon": "#satsu_iron_man_addon:armor_icon_ability",
-      "title": { "translate": "ability.title.satsu.mark_052_d" },
-      "description": { "translate": "description.iron.man.mark_052_d" },
+      "title": { "translate": "ability.title.satsu.mark_52_d" },
+      "description": { "translate": "description.iron.man.mark_52_d" },
       "hidden": false,
       "hidden_in_bar": true,
       "gui_position": [0, 0],
@@ -6826,7 +6826,7 @@
       "description": { "translate": "description.satsu.shoulder_chest_beam" },
       "hidden": false,
       "hidden_in_bar": false,
-      "gui_position": [0, -3.6],
+      "gui_position": [-1, -4],
       "name": "satsu_armor_weapon",
       "number": 4,
       "conditions": {
