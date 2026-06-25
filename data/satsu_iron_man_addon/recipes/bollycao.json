@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "iron_man",
+    "pattern": [
+        " s ",
+        "cbc",
+        " P "
+    ],
+    "key": {
+        "b": {
+            "item": "minecraft:bread"
+        },
+        "s": {
+            "item": "minecraft:sugar"
+        },
+        "c": {
+            "item": "minecraft:cocoa_beans"
+        },
+        "P": {
+            "item": "minecraft:paper"
+        }
+    },
+    "result": {
+        "item": "satsu_iron_man_addon:bollycao",
+        "count": 2
+    }
+  }
