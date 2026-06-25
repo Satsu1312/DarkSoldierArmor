@@ -1,0 +1,15 @@
+{
+  "type": "palladium:armor",
+  "slot": "chest",
+  "tooltip": ["Mark 64 d"],
+  "armor_material": "satsu_iron_man_addon:iron_man/marks/mark_50/main",
+  "creative_mode_tab": "satsu_iron_man_addon:dark_soldier",
+  "render_layers": {
+    "curios:tecnology_armor": [
+    "satsu_iron_man_addon:armor_things/iron_man/marks/mark_64_d/armor/main",
+    "satsu_iron_man_addon:armor_things/iron_man/marks/mark_64_d/flames/main",
+    "satsu_iron_man_addon:armor_things/iron_man/marks/mark_64_d/mask/main",
+    "satsu_iron_man_addon:armor_things/iron_man/marks/mark_64_d/nano_round_shield/main"
+    ]
+  }
+}
