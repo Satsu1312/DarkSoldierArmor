@@ -18,7 +18,7 @@
     },
     {
       "ingredient": {
-        "item": "satsu_iron_man_addon:retro_reflective_panels"
+        "item": "satsu_iron_man_addon:reinforced_rt"
       },
       "count": 4
     },
@@ -38,7 +38,7 @@
       "ingredient": {
         "item": "satsu_iron_man_addon:medium_circuit"
       },
-      "count": 5
+      "count": 6
     },
     {
       "ingredient": {
