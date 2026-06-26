@@ -10319,7 +10319,7 @@
             "slot": "curios:tecnology_armor",
             "nbtKey": "Energy",
             "min": -2147483647,
-            "max": 80059
+            "max": 100001
           }
         ],
         "unlocking": []
@@ -10352,40 +10352,40 @@
             "slot": "curios:tecnology_armor",
             "nbtKey": "Energy",
             "min": -2147483647,
-            "max": 80059
+            "max": 100001
           }
         ],
         "unlocking": []
       }
     },
-    "set_energy_80058..": {
+    "set_energy_100000..": {
       "type": "satsu_iron_man_addon:nbt_modifier",
       "hidden": true,
       "hidden_in_bar": true,
       "slot": "curios:tecnology_armor",
       "nbtKey": "Energy",
       "adjustment_type": "set",
-      "adjustment_amount": 80058,
+      "adjustment_amount": 100000,
       "conditions": {
         "enabling": [
           {
             "type": "satsu_iron_man_addon:slot_nbt_range_check",
             "slot": "curios:tecnology_armor",
             "nbtKey": "Energy",
-            "min": 80059,
+            "min": 100001,
             "max": 2147483647
           }
         ],
         "unlocking": []
       }
     },
-    "set_energy_80058..max": {
+    "set_energy_100000..max": {
       "type": "satsu_iron_man_addon:palladium_property_modifier",
       "hidden": true,
       "hidden_in_bar": true,
       "property_name": "satsu_iron_man_iron_man_energy_max",
       "adjustment_type": "set",
-      "adjustment_amount": 80058,
+      "adjustment_amount": 100000,
       "conditions": {
         "enabling": [
           {
