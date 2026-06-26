@@ -3,6 +3,7 @@
   "item": "satsu_iron_man_addon:marks/mark_64_d/main",
   "power": [
     "satsu_iron_man_addon:kube_animations",
+    "satsu_iron_man_addon:iron_man/marks/mecano_calll",
     "satsu_iron_man_addon:iron_man/marks/mark_64_d/main",
     "satsu_iron_man_addon:iron_man/marks/mark_64_d/mask",
     "satsu_iron_man_addon:armor/gantry",
