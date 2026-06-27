@@ -15,7 +15,7 @@
         "variables": {
           "shield": {
             "type": "palladium:ability_integer_property",
-            "power": "satsu_iron_man_addon:iron_man/marks/mark_58_d/main",
+            "power": "satsu_iron_man_addon:iron_man/marks/mark_64_d/main",
             "ability": "round_shield",
             "property": "value",
             "min": 0,
@@ -27,7 +27,7 @@
       "conditions": [
         {
           "type": "palladium:ability_integer_property",
-          "power": "satsu_iron_man_addon:iron_man/marks/mark_58_d/main",
+          "power": "satsu_iron_man_addon:iron_man/marks/mark_64_d/main",
           "ability": "round_shield",
           "property": "value",
           "min": 1,
@@ -49,7 +49,7 @@
         "variables": {
           "shield": {
             "type": "palladium:ability_integer_property",
-            "power": "satsu_iron_man_addon:iron_man/marks/mark_58_d/main",
+            "power": "satsu_iron_man_addon:iron_man/marks/mark_64_d/main",
             "ability": "round_shield",
             "property": "value",
             "min": 0,
@@ -62,7 +62,7 @@
       "conditions": [
         {
           "type": "palladium:ability_integer_property",
-          "power": "satsu_iron_man_addon:iron_man/marks/mark_58_d/main",
+          "power": "satsu_iron_man_addon:iron_man/marks/mark_64_d/main",
           "ability": "round_shield",
           "property": "value",
           "min": 1,
