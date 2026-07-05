@@ -18,21 +18,21 @@
     },
     {
       "ingredient": {
-        "item": "satsu_iron_man_addon:retro_reflective_panels"
-      },
-      "count": 4
-    },
-    {
-      "ingredient": {
         "item": "satsu_iron_man_addon:prototype_suit_advanced/chest"
       },
       "count": 1
     },
     {
       "ingredient": {
-        "item": "satsu_iron_man_addon:nanoparticle"
+        "item": "satsu_iron_man_addon:prototype_suit_advanced/feet"
       },
-      "count": 32
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "palladium:vibranium_circuit"
+      },
+      "count": 1
     },
     {
       "ingredient": {
@@ -54,6 +54,12 @@
     },
     {
       "ingredient": {
+        "item": "satsu_iron_man_addon:nanoparticle"
+      },
+      "count": 32
+    },
+    {
+      "ingredient": {
         "item": "satsu_iron_man_addon:wires/copper"
       },
       "count": 8
@@ -66,15 +72,21 @@
     },
     {
       "ingredient": {
-        "item": "minecraft:gold_nugget"
+        "item": "minecraft:gold_ingot"
       },
-      "count": 8
+      "count": 10
     },
     {
       "ingredient": {
-        "item": "palladium:vibranium_circuit"
+        "item": "satsu_iron_man_addon:retro_reflective_panels"
       },
-      "count": 1
+      "count": 4
+    },
+    {
+      "ingredient": {
+        "item": "satsu_iron_man_addon:carbon_mesh"
+      },
+      "count": 4
     }
     
   
