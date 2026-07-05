@@ -3666,7 +3666,7 @@
       "gui_position": [0, -2.6],
       "abilities": [
         "nano_weapons_wheel.nano_mallet",
-        "nano_weapons_wheel.nano_katar",
+        "nano_weapons_wheel.nano_sword",
         "nano_weapons_wheel.force_field",
         "nano_weapons_wheel.maximum.pulse",
         "nano_weapons_wheel.nano_health_spray"
@@ -3794,11 +3794,11 @@
         "unlocking": []
       }
     },
-    "nano_weapons_wheel.nano_katar": {
+    "nano_weapons_wheel.nano_sword": {
       "type": "palladium:dummy",
-      "icon": "satsu_iron_man_addon:textures/gui/armors/marks_abilities/nano/nano_katar.png",
-      "title": { "translate": "ability.title.satsu.nano_katar" },
-      "description": { "translate": "description.satsu.nano_katar" },
+      "icon": "satsu_iron_man_addon:textures/gui/armors/marks_abilities/nano/energy_sword.png",
+      "title": { "translate": "ability.title.satsu.sword.enable" },
+      "description": { "translate": "description.Fireworks" },
       "hidden": true,
       "hidden_in_bar": false,
       "conditions": {
@@ -3816,7 +3816,7 @@
         ]
       }
     },
-    "nano_katar.set.0": {
+    "nano_sword.set.0": {
       "type": "satsu_iron_man_addon:set_property",
       "hidden": true,
       "hidden_in_bar": true,
@@ -3826,20 +3826,20 @@
         "enabling": [
           {
             "type": "palladium:ability_enabled",
-            "ability": "nano_weapons_wheel.nano_katar"
+            "ability": "nano_weapons_wheel.nano_sword"
           },
           {
             "type": "palladium:integer_property",
             "property": "satsu_nano_type_weapon",
-            "min": 2,
-            "max": 2
+            "min": 1,
+            "max": 1
           },
           {
             "type": "palladium:not",
             "conditions": [
               {
                 "type": "palladium:ability_enabled",
-                "ability": "nano_katar.set.1"
+                "ability": "nano_sword.set.1"
               }
             ]
           }
@@ -3847,17 +3847,17 @@
         "unlocking": []
       }
     },
-    "nano_katar.set.1": {
+    "nano_sword.set.1": {
       "type": "satsu_iron_man_addon:set_property",
       "hidden": true,
       "hidden_in_bar": true,
       "name": "satsu_nano_type_weapon",
-      "number": 2,
+      "number": 1,
       "conditions": {
         "enabling": [
           {
             "type": "palladium:ability_enabled",
-            "ability": "nano_weapons_wheel.nano_katar"
+            "ability": "nano_weapons_wheel.nano_sword"
           },
           {
             "type": "palladium:integer_property",
@@ -3870,13 +3870,13 @@
             "conditions": [
               {
                 "type": "palladium:ability_enabled",
-                "ability": "nano_katar.set.0"
+                "ability": "nano_sword.set.0"
               },
               {
                 "type": "palladium:integer_property",
                 "property": "satsu_nano_type_weapon",
-                "min": 2,
-                "max": 2
+                "min": 1,
+                "max": 1
               }
             ]
           }
@@ -3884,29 +3884,26 @@
         "unlocking": []
       }
     },
-    "nano_katar": {
+    "nano_sword": {
       "type": "palladium:animation_timer",
+      "icon": "satsu_iron_man_addon:textures/gui/armors/marks_abilities/nano/energy_sword.png",
+      "title": { "translate": "ability.title.satsu.sword.enable" },
       "hidden": true,
-      "hidden_in_bar": true,
+      "hidden_in_bar": false,
+      "gui_position": [-5, -0.5],
+      "list_index": 10,
       "start_value": 0,
-      "max_value": 10,
+      "max_value": 18,
       "conditions": {
         "enabling": [
           {
             "type": "palladium:integer_property",
             "property": "satsu_nano_type_weapon",
-            "min": 2,
-            "max": 2
+            "min": 1,
+            "max": 1
           }
         ],
         "unlocking": [
-          {
-            "type": "satsu_iron_man_addon:slot_nbt_range_check",
-            "slot": "curios:tecnology_armor",
-            "nbtKey": "Energy",
-            "min": 1,
-            "max": 2147483647
-          },
           {
             "type": "palladium:ability_unlocked",
             "ability": "armor"
@@ -3916,121 +3913,80 @@
             "ability": "nano_weapons_wheel"
           },
           {
-            "type": "palladium:ability_integer_property",
-            "ability": "armor_animation",
-            "property": "value",
-            "min": 15,
-            "max": 16
+            "type": "palladium:not",
+            "conditions": [
+              {
+                "type": "palladium:has_tag",
+                "tag": "alien"
+              }
+            ]
           }
         ]
       }
     },
-    "nano_katar.attack": {
-      "type": "palladium:animation_timer",
-      "icon": "satsu_iron_man_addon:textures/gui/armors/vribranuim_blades_attack.png",
-      "title": { "translate": "ability.title.satsu.throw.blades.attack" },
-      "description": { "translate": "description.satsu.throw.blades.attack" },
-      "hidden": true,
-      "hidden_in_bar": false,
-      "list_index": 11,
-      "gui_position": [16, 3.5],
-      "start_value": 0,
-      "max_value": 15,
-      "conditions": {
-        "enabling": [
-          {
-            "type": "palladium:activation",
-            "ticks": 17,
-            "cooldown": 0,
-            "key_type": "key_bind",
-            "needs_empty_hand": false,
-            "allow_scrolling_when_crouching": true
-          }
-        ],
-        "unlocking": [
-          {
-            "type": "palladium:ability_enabled",
-            "ability": "nano_katar"
-          }
-        ]
-      }
-    },
-    "nano_katar.attack_command": {
-      "type": "palladium:command",
+    "nano_sword.attribute": {
+      "type": "satsu_iron_man_addon:multi_attribute_modifier",
       "hidden": true,
       "hidden_in_bar": true,
-      "first_tick_commands": [
-        "execute as @s anchored eyes run particle minecraft:sweep_attack ^ ^ ^1 0.1 0.1 0.1 0 1 normal",
-        "playsound minecraft:entity.player.attack.crit master @p[distance=0..10] ~ ~ ~ 1 1"
+      "attributes": ["palladium:destroy_speed", "palladium:punch_damage"],
+      "amounts": ["20", "8"],
+      "operations": ["addition", "addition"],
+      "uuids": [
+        "312be4fb-af04-42f2-8948-e6ccdc0d99e1",
+        "123be4fb-af04-42f2-8948-e6ccdc0d99e1"
       ],
-      "commands": [""],
+      "dummy": "0",
       "conditions": {
         "enabling": [
           {
-            "type": "palladium:ability_integer_property",
-            "ability": "nano_katar.attack",
-            "property": "value",
-            "min": 15,
-            "max": 15
+            "type": "palladium:ability_enabled",
+            "power": "null",
+            "ability": "nano_sword"
           },
           {
-            "type": "palladium:ability_enabled",
-            "ability": "nano_katar.attack"
+            "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
+            "powers": [
+              "satsu_iron_man_addon:extremis/main",
+              "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
+            ],
+            "namespaces": [],
+            "ignore_powers": ["fsang:space_power", "fsang_hero:dampened"]
           }
-        ],
-        "unlocking": []
+        ]
       }
     },
-    "nano_katar.attack_damage": {
-      "type": "satsu_iron_man_addon:entity_damage",
+    "nano_sword.no.objects.in.main.hand": {
+      "type": "palladium:restrict_slots",
       "hidden": true,
       "hidden_in_bar": true,
-      "damage": 20,
-      "damage_type": "minecraft:player_attack",
-      "effect": "minecraft:weakness",
-      "fire_seconds": 0,
-      "potion_seconds": 10,
-      "potion_amplifier": 1,
-      "hide_particles": false,
-      "range": 18,
-      "at": "null",
-      "by": "@s",
-      "from": "@s",
-      "command_as_entity": "null",
-      "excluded_tag": "damage_excluded_tag",
+      "slots": ["mainhand"],
       "conditions": {
         "enabling": [
           {
-            "type": "palladium:ability_integer_property",
-            "ability": "nano_katar.attack",
-            "property": "value",
-            "min": 15,
-            "max": 15
+            "type": "palladium:or",
+            "conditions": [
+              {
+                "type": "palladium:ability_enabled",
+                "power": "null",
+                "ability": "nano_sword"
+              },
+              {
+                "type": "palladium:ability_enabled",
+                "power": "null",
+                "ability": "nano_hand_blade"
+              }
+            ]
           },
           {
-            "type": "palladium:ability_enabled",
-            "ability": "nano_katar.attack"
+            "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
+            "powers": [
+              "satsu_iron_man_addon:extremis/main",
+              "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
+            ],
+            "namespaces": [],
+            "ignore_powers": ["fsang:space_power", "fsang_hero:dampened"]
           }
-        ],
-        "unlocking": []
-      }
-    },
-    "nano_katar.attribute": {
-      "type": "palladium:attribute_modifier",
-      "hidden": true,
-      "hidden_in_bar": true,
-      "attribute": "minecraft:generic.attack_damage",
-      "uuid": "f690d74f-5bab-432d-b60d-0748e3208bd8",
-      "amount": 3.1,
-      "operation": 0,
-      "conditions": {
-        "enabling": [
-          {
-            "type": "palladium:ability_enabled",
-            "ability": "nano_katar"
-          }
-        ],
-        "unlocking": []
+        ]
       }
     },
     "energyblast.remove.ark.energy.normal": {
