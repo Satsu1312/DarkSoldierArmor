@@ -6,6 +6,13 @@
       "texture": {
         "base": "satsu_iron_man_addon:textures/models/iron_man/no_light/mark_64_d_brazelet.png"
       }
+    },
+    {
+      "type": "palladium:skin_overlay",
+      "texture": {
+        "base": "satsu_iron_man_addon:textures/models/iron_man/light/mark_64_d_brazelet.png"
+      },
+      "render_type": "glow"
     }
   ]
 }
