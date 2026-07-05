@@ -34,6 +34,119 @@
     }
   },
   "abilities": {
+    "center": {
+      "type": "palladium:dummy",
+      "hidden": true,
+      "hidden_in_bar": true,
+      "conditions": {
+        "unlocking": [
+          {
+            "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
+            "powers": [
+              "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
+            ],
+            "namespaces": [],
+            "ignore_powers": ["fsang:space_power", "fsang_hero:dampened"]
+          }
+        ]
+      }
+    },
+    "attributes": {
+      "type": "satsu_iron_man_addon:multi_attribute_modifier",
+      "icon": "minecraft:iron_chestplate",
+      "title": {
+        "translate": "ability.title.satsu.extremis_3.0.attributes"
+      },
+      "description": { "translate": "description.satsu.extremis_3_0.attributes" },
+      "bar_color": "light_gray",
+      "hidden": false,
+      "hidden_in_bar": false,
+      "list_index": -1,
+      "gui_position": [0.5, -0.6],
+      "attributes": [
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.movement_speed",
+        "minecraft:generic.attack_damage",
+        "minecraft:generic.attack_knockback",
+        "minecraft:generic.armor",
+        "palladium:jump_power"
+      ],
+      "amounts": ["4.5", "0.05", "3", "1.25", "15", "0.1"],
+      "operations": [
+        "addition",
+        "addition",
+        "addition",
+        "addition",
+        "addition",
+        "addition"
+      ],
+      "uuids": [
+        "9437da9b-0d94-4d47-b31d-de2a814d081a",
+        "2efc1df9-ba58-443a-b486-a3684b77304e",
+        "184f3982-247e-419b-b724-3ca055937adf",
+        "5b950d3c-73a2-4b0f-8f81-05062c5ca3a2",
+        "8c9ebf52-7b99-4eb6-aa6a-7de1e72b4126",
+        "281825d1-37be-48d8-a97e-ce9e829fa1d8"
+      ],
+      "dummy": "0",
+      "conditions": {
+        "unlocking": [
+          {
+            "type": "palladium:ability_unlocked",
+            "power": "null",
+            "ability": "center"
+          }
+        ]
+      }
+    },
+    "healing": {
+      "type": "palladium:healing",
+      "icon": "satsu_iron_man_addon:textures/gui/armors/heart.png",
+      "title": {
+        "translate": "ability.title.satsu.extremis_3.0.healing"
+      },
+      "description": { "translate": "description.satsu.extremis_3_0.healing" },
+      "bar_color": "light_gray",
+      "hidden": false,
+      "hidden_in_bar": false,
+      "list_index": -1,
+      "gui_position": [-0.5, -0.6],
+      "frequency": 25,
+      "amount": 0.8,
+      "conditions": {
+        "unlocking": [
+          {
+            "type": "palladium:ability_unlocked",
+            "power": "null",
+            "ability": "center"
+          }
+        ]
+      }
+    },
+    "effect_immunity": {
+      "type": "satsu_iron_man_addon:effect_immunity",
+      "icon": "minecraft:textures/mob_effect/blindness.png",
+      "title": {
+        "translate": "ability.title.satsu.extremis_3.0.blindness_inmmunity"
+      },
+      "description": { "translate": "description.satsu.extremis_3_0.blindness_inmmunity" },
+      "bar_color": "light_gray",
+      "hidden": false,
+      "hidden_in_bar": false,
+      "list_index": -1,
+      "gui_position": [0, -1],
+      "effect": "minecraft:blindness",
+      "command": "",
+      "conditions": {
+        "unlocking": [
+          {
+            "type": "palladium:ability_unlocked",
+            "power": "null",
+            "ability": "center"
+          }
+        ]
+      }
+    },
     "hud_armor": {
       "type": "palladium:gui_overlay",
       "texture": "#satsu_iron_man_addon:armor_hud/armor_hud",
@@ -210,7 +323,6 @@
           {
             "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
             "powers": [
-              "satsu_iron_man_addon:extremis/main",
               "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
             ],
             "namespaces": [],
@@ -274,7 +386,6 @@
           {
             "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
             "powers": [
-              "satsu_iron_man_addon:extremis/main",
               "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
             ],
             "namespaces": [],
@@ -340,7 +451,6 @@
           {
             "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
             "powers": [
-              "satsu_iron_man_addon:extremis/main",
               "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
             ],
             "namespaces": [],
@@ -603,7 +713,6 @@
           {
             "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
             "powers": [
-              "satsu_iron_man_addon:extremis/main",
               "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
             ],
             "namespaces": [],
@@ -671,7 +780,6 @@
           {
             "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
             "powers": [
-              "satsu_iron_man_addon:extremis/main",
               "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
             ],
             "namespaces": [],
@@ -1180,7 +1288,6 @@
           {
             "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
             "powers": [
-              "satsu_iron_man_addon:extremis/main",
               "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
             ],
             "namespaces": [],
@@ -1256,7 +1363,6 @@
           {
             "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
             "powers": [
-              "satsu_iron_man_addon:extremis/main",
               "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
             ],
             "namespaces": [],
@@ -1315,7 +1421,6 @@
           {
             "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
             "powers": [
-              "satsu_iron_man_addon:extremis/main",
               "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
             ],
             "namespaces": [],
@@ -1379,7 +1484,6 @@
           {
             "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
             "powers": [
-              "satsu_iron_man_addon:extremis/main",
               "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
             ],
             "namespaces": [],
@@ -1441,7 +1545,6 @@
           {
             "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
             "powers": [
-              "satsu_iron_man_addon:extremis/main",
               "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
             ],
             "namespaces": [],
@@ -1499,7 +1602,6 @@
           {
             "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
             "powers": [
-              "satsu_iron_man_addon:extremis/main",
               "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
             ],
             "namespaces": [],
@@ -1553,7 +1655,6 @@
           {
             "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
             "powers": [
-              "satsu_iron_man_addon:extremis/main",
               "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
             ],
             "namespaces": [],
@@ -1644,7 +1745,6 @@
           {
             "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
             "powers": [
-              "satsu_iron_man_addon:extremis/main",
               "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
             ],
             "namespaces": [],
@@ -1683,7 +1783,6 @@
           {
             "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
             "powers": [
-              "satsu_iron_man_addon:extremis/main",
               "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
             ],
             "namespaces": [],
@@ -1786,7 +1885,6 @@
           {
             "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
             "powers": [
-              "satsu_iron_man_addon:extremis/main",
               "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
             ],
             "namespaces": [],
@@ -1853,7 +1951,6 @@
           {
             "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
             "powers": [
-              "satsu_iron_man_addon:extremis/main",
               "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
             ],
             "namespaces": [],
@@ -6365,7 +6462,6 @@
           {
             "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
             "powers": [
-              "satsu_iron_man_addon:extremis/main",
               "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
             ],
             "namespaces": [],
@@ -6477,7 +6573,6 @@
           {
             "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
             "powers": [
-              "satsu_iron_man_addon:extremis/main",
               "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
             ],
             "namespaces": [],
@@ -6664,7 +6759,6 @@
           {
             "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
             "powers": [
-              "satsu_iron_man_addon:extremis/main",
               "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
             ],
             "namespaces": [],
@@ -6767,7 +6861,6 @@
           {
             "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
             "powers": [
-              "satsu_iron_man_addon:extremis/main",
               "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
             ],
             "namespaces": [],
@@ -6850,7 +6943,6 @@
           {
             "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
             "powers": [
-              "satsu_iron_man_addon:extremis/main",
               "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
             ],
             "namespaces": [],
@@ -7068,7 +7160,6 @@
           {
             "type": "satsu_iron_man_addon:disable_if_have_power_or_namespace",
             "powers": [
-              "satsu_iron_man_addon:extremis/main",
               "satsu_iron_man_addon:ia_stuff/block_sentinel_functions/main"
             ],
             "namespaces": [],
