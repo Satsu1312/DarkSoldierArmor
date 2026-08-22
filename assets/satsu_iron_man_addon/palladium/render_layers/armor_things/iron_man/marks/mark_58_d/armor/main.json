@@ -58,7 +58,7 @@
             "max": 16
           }
         },
-        "output": "satsu_iron_man_addon:textures/models/iron_man/no_light_suit_5_0_#TIMER"
+        "output": "satsu_iron_man_addon:textures/models/iron_man/no_light_suit_58_d_0_#TIMER"
       },
       "conditions": []
     },
@@ -83,7 +83,7 @@
             "max": 16
           }
         },
-        "output": "satsu_iron_man_addon:textures/models/iron_man/no_light_suit_lights_5_0_#TIMER"
+        "output": "satsu_iron_man_addon:textures/models/iron_man/no_light_suit_lights_58_d_0_#TIMER"
       },
       "render_type": "glow",
       "conditions": [

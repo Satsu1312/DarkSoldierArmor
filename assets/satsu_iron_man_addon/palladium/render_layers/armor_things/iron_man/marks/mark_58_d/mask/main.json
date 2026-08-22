@@ -58,7 +58,7 @@
             "max": 16
           }
         },
-        "output": "satsu_iron_man_addon:textures/models/iron_man/mask/light/mark_light_5_0_#TIMER"
+        "output": "satsu_iron_man_addon:textures/models/iron_man/mask/light/mark_light_58_d_0_#TIMER"
       },
       "render_type": "glow",
       "animation_file": "satsu_iron_man_addon:animations/new_mask_animation.geo.json",

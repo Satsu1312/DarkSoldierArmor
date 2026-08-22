@@ -1,1 +1,0 @@
-execute as @a[palladium.power=satsu_iron_man_addon:iron_man/marks/mark_52_d/main] run scoreboard players set @s hasGauntletItem 1
