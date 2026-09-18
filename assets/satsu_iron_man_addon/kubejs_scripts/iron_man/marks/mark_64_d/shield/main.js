@@ -1,12 +1,12 @@
 // Register custom animations
 PalladiumEvents.registerAnimations((event) => {
-  event.registerForPower("satsu_iron_man_addon/marks/mark_64/round_shield_animation", 
+  event.registerForPower("satsu_iron_man_addon/marks/mark_64/nano_group.round_shield_animation", 
       "satsu_iron_man_addon:iron_man/marks/mark_64_d/main",10, (builder) => {
     // Gets the current animation timer progress from the ability, returned value is a number from 0.0 to 1.0
     const progress = animationUtil.getAnimationTimerAbilityValue(
       builder.getPlayer(),
       "satsu_iron_man_addon:iron_man/marks/mark_64_d/main",
-      "round_shield_animation",
+      "nano_group.round_shield_animation",
       builder.getPartialTicks()
     );
 
