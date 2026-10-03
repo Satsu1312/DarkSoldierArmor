@@ -664,7 +664,7 @@
                   },
                   {
                     "type": "palladium:ability_enabled",
-                    "ability": "maximun.pulse.animation"
+                    "ability": "nano_group.maximun.pulse.animation"
                   }
                 ]
               }
@@ -3104,7 +3104,7 @@
               },
               {
                 "type": "palladium:ability_enabled",
-                "ability": "grab_cannon_anim_right"
+                "ability": "nano_group.grab_cannon_anim_right"
               },
               {
                 "type": "palladium:ability_enabled",
@@ -3112,7 +3112,7 @@
               },
               {
                 "type": "palladium:ability_enabled",
-                "ability": "grab_cannon_anim_left"
+                "ability": "nano_group.grab_cannon_anim_left"
               },
               {
                 "type": "palladium:ability_enabled",
@@ -3263,7 +3263,7 @@
                   },
                   {
                     "type": "palladium:ability_enabled",
-                    "ability": "grab_cannon_anim"
+                    "ability": "nano_group.grab_cannon_anim"
                   },
                   {
                     "type": "palladium:ability_enabled",
@@ -3393,7 +3393,7 @@
                   },
                   {
                     "type": "palladium:ability_enabled",
-                    "ability": "grab_cannon_anim"
+                    "ability": "nano_group.grab_cannon_anim"
                   },
                   {
                     "type": "palladium:ability_enabled",
@@ -4322,11 +4322,11 @@
               "conditions": [
                 {
                   "type": "palladium:ability_enabled",
-                  "ability": "maximun.pulse.break"
+                  "ability": "nano_group.maximun.pulse.break"
                 },
                 {
                   "type": "palladium:ability_enabled",
-                  "ability": "maximun.pulse.not.break"
+                  "ability": "nano_group.maximun.pulse.not.break"
                 }
               ]
             }
@@ -6855,7 +6855,7 @@
                   },
                   {
                     "type": "palladium:ability_enabled",
-                    "ability": "nano_sword"
+                    "ability": "nano_group.nano_sword"
                   }
                 ]
               }
@@ -6935,7 +6935,7 @@
                   },
                   {
                     "type": "palladium:ability_enabled",
-                    "ability": "nano_sword"
+                    "ability": "nano_group.nano_sword"
                   }
                 ]
               }
@@ -7866,7 +7866,7 @@
         "unlocking": [
           {
             "type": "palladium:ability_enabled",
-            "ability": "grab_cannon_anim"
+            "ability": "nano_group.grab_cannon_anim"
           },
           {
             "type": "satsu_iron_man_addon:slot_nbt_range_check",
@@ -7958,7 +7958,7 @@
         "unlocking": [
           {
             "type": "palladium:ability_enabled",
-            "ability": "grab_cannon_anim"
+            "ability": "nano_group.grab_cannon_anim"
           },
           {
             "type": "satsu_iron_man_addon:slot_nbt_range_check",
@@ -8050,7 +8050,7 @@
             "conditions": [
               {
                 "type": "palladium:animation_timer_ability",
-                "ability": "grab_cannon_anim_right",
+                "ability": "nano_group.grab_cannon_anim_right",
                 "min": 13,
                 "max": 13
               }
@@ -8072,7 +8072,7 @@
             "conditions": [
               {
                 "type": "palladium:animation_timer_ability",
-                "ability": "grab_cannon_anim_left",
+                "ability": "nano_group.grab_cannon_anim_left",
                 "min": 13,
                 "max": 13
               }
@@ -8096,7 +8096,7 @@
             "conditions": [
               {
                 "type": "palladium:animation_timer_ability",
-                "ability": "grab_cannon_anim_right",
+                "ability": "nano_group.grab_cannon_anim_right",
                 "min": 13,
                 "max": 13
               }
@@ -8120,7 +8120,7 @@
             "conditions": [
               {
                 "type": "palladium:animation_timer_ability",
-                "ability": "grab_cannon_anim_left",
+                "ability": "nano_group.grab_cannon_anim_left",
                 "min": 13,
                 "max": 13
               }
@@ -8150,13 +8150,13 @@
             "conditions": [
               {
                 "type": "palladium:animation_timer_ability",
-                "ability": "grab_cannon_anim_right",
+                "ability": "nano_group.grab_cannon_anim_right",
                 "min": 13,
                 "max": 13
               },
               {
                 "type": "palladium:animation_timer_ability",
-                "ability": "grab_cannon_anim_left",
+                "ability": "nano_group.grab_cannon_anim_left",
                 "min": 13,
                 "max": 13
               }
@@ -8186,13 +8186,13 @@
             "conditions": [
               {
                 "type": "palladium:animation_timer_ability",
-                "ability": "grab_cannon_anim_right",
+                "ability": "nano_group.grab_cannon_anim_right",
                 "min": 13,
                 "max": 13
               },
               {
                 "type": "palladium:animation_timer_ability",
-                "ability": "grab_cannon_anim_left",
+                "ability": "nano_group.grab_cannon_anim_left",
                 "min": 13,
                 "max": 13
               }
@@ -8429,7 +8429,7 @@
           },
           {
             "type": "palladium:animation_timer_ability",
-            "ability": "grab_cannon_anim_right",
+            "ability": "nano_group.grab_cannon_anim_right",
             "min": 13,
             "max": 13
           }
@@ -8476,7 +8476,7 @@
           },
           {
             "type": "palladium:animation_timer_ability",
-            "ability": "grab_cannon_anim_left",
+            "ability": "nano_group.grab_cannon_anim_left",
             "min": 13,
             "max": 13
           }
@@ -8523,7 +8523,7 @@
           },
           {
             "type": "palladium:animation_timer_ability",
-            "ability": "grab_cannon_anim_right",
+            "ability": "nano_group.grab_cannon_anim_right",
             "min": 13,
             "max": 13
           }
@@ -8570,7 +8570,7 @@
           },
           {
             "type": "palladium:animation_timer_ability",
-            "ability": "grab_cannon_anim_left",
+            "ability": "nano_group.grab_cannon_anim_left",
             "min": 13,
             "max": 13
           }
@@ -8630,11 +8630,11 @@
             "conditions": [
               {
                 "type": "palladium:ability_enabled",
-                "ability": "maximun.pulse.break"
+                "ability": "nano_group.maximun.pulse.break"
               },
               {
                 "type": "palladium:ability_enabled",
-                "ability": "maximun.pulse.not.break"
+                "ability": "nano_group.maximun.pulse.not.break"
               },
               {
                 "type": "palladium:ability_enabled",
@@ -9117,7 +9117,7 @@
           },
           {
             "type": "palladium:ability_integer_property",
-            "ability": "maximun.pulse.animation",
+            "ability": "nano_group.maximun.pulse.animation",
             "min": 50,
             "max": 50
           }
@@ -9162,7 +9162,7 @@
           },
           {
             "type": "palladium:ability_integer_property",
-            "ability": "maximun.pulse.animation",
+            "ability": "nano_group.maximun.pulse.animation",
             "min": 50,
             "max": 50
           }
@@ -9186,11 +9186,11 @@
             "conditions": [
               {
                 "type": "palladium:ability_enabled",
-                "ability": "maximun.pulse.break"
+                "ability": "nano_group.maximun.pulse.break"
               },
               {
                 "type": "palladium:ability_enabled",
-                "ability": "maximun.pulse.not.break"
+                "ability": "nano_group.maximun.pulse.not.break"
               }
             ]
           }
@@ -9230,11 +9230,11 @@
               },
               {
                 "type": "palladium:ability_enabled",
-                "ability": "grab_cannon_anim_left"
+                "ability": "nano_group.grab_cannon_anim_left"
               },
               {
                 "type": "palladium:ability_enabled",
-                "ability": "maximun.pulse.animation"
+                "ability": "nano_group.maximun.pulse.animation"
               },
               {
                 "type": "palladium:ability_enabled",
@@ -9284,11 +9284,11 @@
               },
               {
                 "type": "palladium:ability_enabled",
-                "ability": "grab_cannon_anim_right"
+                "ability": "nano_group.grab_cannon_anim_right"
               },
               {
                 "type": "palladium:ability_enabled",
-                "ability": "maximun.pulse.animation"
+                "ability": "nano_group.maximun.pulse.animation"
               },
               {
                 "type": "palladium:ability_enabled",
@@ -9300,7 +9300,7 @@
               },
               {
                 "type": "palladium:ability_enabled",
-                "ability": "nano_health_spray_other"
+                "ability": "nano_group.nano_health_spray_other"
               },
               {
                 "type": "palladium:ability_integer_property",
@@ -9346,11 +9346,11 @@
               },
               {
                 "type": "palladium:ability_enabled",
-                "ability": "grab_cannon_anim_left"
+                "ability": "nano_group.grab_cannon_anim_left"
               },
               {
                 "type": "palladium:ability_enabled",
-                "ability": "maximun.pulse.animation"
+                "ability": "nano_group.maximun.pulse.animation"
               },
               {
                 "type": "palladium:ability_enabled",
@@ -9443,7 +9443,7 @@
               },
               {
                 "type": "palladium:ability_enabled",
-                "ability": "grab_cannon_anim_left"
+                "ability": "nano_group.grab_cannon_anim_left"
               },
               {
                 "type": "palladium:ability_enabled",
@@ -9451,11 +9451,11 @@
               },
               {
                 "type": "palladium:ability_enabled",
-                "ability": "grab_cannon_anim_right"
+                "ability": "nano_group.grab_cannon_anim_right"
               },
               {
                 "type": "palladium:ability_enabled",
-                "ability": "maximun.pulse.animation"
+                "ability": "nano_group.maximun.pulse.animation"
               }
             ]
           }
@@ -9522,15 +9522,15 @@
                   },
                   {
                     "type": "palladium:ability_enabled",
-                    "ability": "grab_cannon_anim_right"
+                    "ability": "nano_group.grab_cannon_anim_right"
                   },
                   {
                     "type": "palladium:ability_enabled",
-                    "ability": "grab_cannon_anim_left"
+                    "ability": "nano_group.grab_cannon_anim_left"
                   },
                   {
                     "type": "palladium:ability_enabled",
-                    "ability": "maximun.pulse.animation"
+                    "ability": "nano_group.maximun.pulse.animation"
                   }
                 ]
               }
@@ -9843,11 +9843,11 @@
             "conditions": [
               {
                 "type": "palladium:ability_enabled",
-                "ability": "maximun.pulse.break"
+                "ability": "nano_group.maximun.pulse.break"
               },
               {
                 "type": "palladium:ability_enabled",
-                "ability": "maximun.pulse.not.break"
+                "ability": "nano_group.maximun.pulse.not.break"
               }
             ]
           }
