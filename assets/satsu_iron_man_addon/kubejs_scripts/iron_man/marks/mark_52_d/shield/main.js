@@ -6,7 +6,7 @@ PalladiumEvents.registerAnimations((event) => {
     const progress = animationUtil.getAnimationTimerAbilityValue(
       builder.getPlayer(),
       "satsu_iron_man_addon:iron_man/marks/mark_52_d/main",
-      "round_shield_animation",
+      "nano_group.round_shield_animation",
       builder.getPartialTicks()
     );
 
