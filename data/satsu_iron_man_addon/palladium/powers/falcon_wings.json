@@ -789,7 +789,7 @@
                 "conditions": [
                   {
                     "type": "palladium:ability_enabled",
-                    "ability": "nano_increase_decrease"
+                    "ability": "nano_group.nano_increase_decrease"
                   }
                 ]
               }

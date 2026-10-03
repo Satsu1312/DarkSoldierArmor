@@ -5,7 +5,7 @@ PalladiumEvents.registerAnimations((event) => {
     const progress = animationUtil.getAnimationTimerAbilityValue(
       builder.getPlayer(),
       "satsu_iron_man_addon:iron_man/marks/mark_58_d/main",
-      "nano_mallet.smash",
+      "nano_group.nano_mallet.smash",
       builder.getPartialTicks(),
       0,
       6
@@ -61,7 +61,7 @@ PalladiumEvents.registerAnimations((event) => {
     const progress = animationUtil.getAnimationTimerAbilityValue(
       builder.getPlayer(),
       "satsu_iron_man_addon:iron_man/marks/mark_58_d/main",
-      "nano_mallet.smash",
+      "nano_group.nano_mallet.smash",
       builder.getPartialTicks(),
       6,
       15

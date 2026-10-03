@@ -16,7 +16,7 @@
           "TIMER": {
             "type": "palladium:ability_integer_property",
             "power": "satsu_iron_man_addon:iron_man/marks/mark_85/main",
-            "ability": "rocket",
+            "ability": "nano_group.rocket",
             "property": "value",
             "min": 0,
             "max": 5
@@ -42,7 +42,7 @@
           "TIMER": {
             "type": "palladium:ability_integer_property",
             "power": "satsu_iron_man_addon:iron_man/marks/mark_85/main",
-            "ability": "rocket",
+            "ability": "nano_group.rocket",
             "property": "value",
             "min": 0,
             "max": 5
